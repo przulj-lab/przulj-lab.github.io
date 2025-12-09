@@ -1,0 +1,79 @@
+# site properties and page defaults
+title: PrzuljLab.bio
+subtitle: Integrative Computational Network Biology Lab @ MBZUAI
+socialtitle: Integrative Computational Network Biology Lab - Natasa Przulj
+description: The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.
+header: images/campus.webp
+footer: images/dorm.jpeg
+logo: images/przuljlab_logo.png
+show-title: false
+show-subtitle: true
+logo-text: true
+
+proofer: false
+url: https://przulj-lab.github.io
+baseurl:
+
+# site social media and other links
+links:
+  email: natasa.przulj@mbzuai.ac.ae
+  orcid: 0000-0002-1290-853X
+  google-scholar: https://scholar.google.com/citations?hl=en&user=mLIsLdAAAAAJ
+  github: przulj-lab
+  # bluesky: 
+  # twitter: 
+  # youtube: YourLabChannel
+
+### jekyll settings
+
+# front matter defaults
+defaults:
+  # all markdown files
+  - scope:
+      path: ""
+    values:
+      layout: default
+  # markdown files in /_members
+  - scope:
+      type: "members"
+    values:
+      layout: member
+  # markdown files in /_posts
+  - scope:
+      type: "posts"
+    values:
+      layout: post
+
+collections:
+  # generate page for each member
+  members:
+    output: true
+  # generate page for each post
+  posts:
+    output: true
+
+# jekyll plugins
+plugins:
+  - jekyll-spaceship
+  - jekyll-sitemap
+  - jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-last-modified-at
+
+# code block syntax highlighting
+highlighter: rouge
+
+# sass settings
+sass:
+  sass_dir: _styles
+
+# force jekyll to include certain files/folders
+include:
+  - _styles
+  - _scripts
+
+# force jekyll to exclude certain files/folders
+exclude:
+  - README.md
+  - LICENSE.md
+  - CITATION.cff

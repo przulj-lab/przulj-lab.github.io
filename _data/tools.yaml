@@ -1,0 +1,136 @@
+# Network Aligners
+- title: Ulign
+  subtitle: Unified network alignment tool for biological networks
+  group: featured
+  image: images/tools/ulign.png
+  link: https://github.com/przulj-lab/ulign
+  description: Advanced network alignment method for comparing protein-protein interaction networks
+  repo: przulj-lab/ulign
+  tags:
+    - network-aligners
+
+- title: Fuse
+  subtitle: Multiple network alignment via data fusion
+  group: featured
+  image: images/tools/fuse.png
+  link: https://github.com/przulj-lab/fuse
+  description: Data fusion approach for aligning multiple biological networks simultaneously
+  repo: przulj-lab/fuse
+  tags:
+    - network-aligners
+
+- title: L-GRAAL
+  subtitle: Lagrangian graphlet-based network aligner
+  group: featured
+  image: images/tools/l-graal.png
+  link: https://github.com/przulj-lab/L-GRAAL
+  description: Fast network alignment using graphlet degree similarity and Lagrangian optimization
+  repo: przulj-lab/L-GRAAL
+  tags:
+    - network-aligners
+
+- title: C-GRAAL
+  subtitle: Common-neighbors-based global graph alignment
+  image: images/tools/c-graal.png
+  link: https://github.com/przulj-lab/C-GRAAL
+  description: Global network alignment using common neighbor topology
+  repo: przulj-lab/C-GRAAL
+  tags:
+    - network-aligners
+
+- title: MI-GRAAL
+  subtitle: Multi-level integrative GRAAL network aligner
+  image: images/tools/mi-graal.png
+  link: https://github.com/przulj-lab/MI-GRAAL
+  description: Integrative approach combining multiple topological and biological information sources
+  repo: przulj-lab/MI-GRAAL
+  tags:
+    - network-aligners
+
+- title: GRAAL
+  subtitle: Graph aligner - the original graphlet-based network alignment method
+  image: images/tools/graal.png
+  link: https://github.com/przulj-lab/GRAAL
+  description: The foundational graphlet-based global network alignment algorithm
+  repo: przulj-lab/GRAAL
+  tags:
+    - network-aligners
+
+# Alignment-free Network Comparison
+- title: GCD, RGF & GDDA
+  subtitle: Alignment-free comparison of undirected networks
+  group: featured
+  image: images/tools/gcd.png
+  link: https://github.com/przulj-lab/network-comparison
+  description: Graphlet-based methods for comparing network topology without alignment
+  repo: przulj-lab/network-comparison
+  tags:
+    - alignment-free
+
+- title: DGCD, DRGF & DGDDA
+  subtitle: Alignment-free comparison of directed networks
+  image: images/tools/dgcd.png
+  link: https://github.com/przulj-lab/directed-network-comparison
+  description: Extended graphlet methods for comparing directed biological networks
+  repo: przulj-lab/directed-network-comparison
+  tags:
+    - alignment-free
+
+# Network Analysis
+- title: iCell
+  subtitle: Network-based integration of multi-omics data
+  group: featured
+  image: images/tools/icell.png
+  link: https://github.com/przulj-lab/iCell
+  description: Integrative framework for fusing multi-omics data through network topology
+  repo: przulj-lab/iCell
+  tags:
+    - network-analysis
+
+- title: Simplets
+  subtitle: Simple graphlets for biological network analysis
+  image: images/tools/simplets.png
+  link: https://github.com/przulj-lab/simplets
+  description: Efficient computation and analysis of small network motifs
+  repo: przulj-lab/simplets
+  tags:
+    - network-analysis
+
+- title: Hyper-graphlets
+  subtitle: Hypergraph analysis using graphlet-based methods
+  image: images/tools/hyper-graphlets.png
+  link: https://github.com/przulj-lab/hyper-graphlets
+  description: Extension of graphlets to hypergraphs for analyzing higher-order interactions
+  repo: przulj-lab/hyper-graphlets
+  tags:
+    - network-analysis
+
+- title: GraphCrunch 2
+  subtitle: Comprehensive network analysis and modeling platform
+  group: featured
+  image: images/tools/graphcrunch2.png
+  link: https://github.com/przulj-lab/GraphCrunch-2
+  description: Software tool for large-scale network modeling, alignment, and clustering
+  repo: przulj-lab/GraphCrunch-2
+  tags:
+    - network-analysis
+
+- title: GraphCrunch
+  subtitle: Original graphlet-based network analysis tool
+  image: images/tools/graphcrunch.png
+  link: https://github.com/przulj-lab/GraphCrunch
+  description: The original tool for analyzing biological networks using graphlets
+  repo: przulj-lab/GraphCrunch
+  tags:
+    - network-analysis
+
+# Protein Structure Comparison
+- title: GR-Align
+  subtitle: Graphlet-based alignment of protein 3D structures
+  group: featured
+  image: images/tools/gr-align.png
+  link: https://github.com/przulj-lab/GR-Align
+  description: Fast and flexible protein structure alignment using graphlet degree similarity
+  repo: przulj-lab/GR-Align
+  tags:
+    - protein-structure
