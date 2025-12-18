@@ -29,7 +29,7 @@ We develop versatile artificial intelligence frameworks for multi-omics data fus
 {%
   include feature.html
   image="images/Iconbi/8.png"
-  title="AI for Multi-Omics Data Fusion"
+  title="Multi-omics data fusion AI for precision medicine"
   flip=true
   style="bare"
   text=text
@@ -197,7 +197,6 @@ window.addEventListener('resize', function() {
 </script>
 
 <h2 style="text-align: center;">
-  {% include icon.html icon="fa-solid fa-newspaper" %}
   Lab latest news
 </h2>
 
