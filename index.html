@@ -682,11 +682,12 @@
 
   @media (max-width: 768px) {
     .carousel-container {
-      padding: 0 50px;
+      padding: 0;  /* Remove padding on mobile */
     }
     
     .carousel-member {
       min-width: 100%;
+      padding: 0 60px;  /* Add padding to member content instead */
     }
     
     .carousel-photo {
@@ -699,11 +700,11 @@
     }
 
     .carousel-arrow.left {
-      left: 5px;
+      left: 10px;
     }
 
     .carousel-arrow.right {
-      right: 5px;
+      right: 10px;
     }
   }
 </style>
@@ -736,9 +737,18 @@ function moveCarousel(direction) {
 }
 
 function updateCarousel() {
-  const memberWidth = window.innerWidth <= 768 ? carousel.offsetWidth : 300;
-  const offset = -currentIndex * memberWidth;
-  carousel.style.transform = `translateX(${offset}px)`;
+  const visibleMembers = getVisibleMembers();
+  
+  if (window.innerWidth <= 768) {
+    // Mobile: use container width
+    const containerWidth = document.querySelector('.carousel-container').offsetWidth;
+    const offset = -currentIndex * containerWidth;
+    carousel.style.transform = `translateX(${offset}px)`;
+  } else {
+    // Desktop: use fixed member width
+    const offset = -currentIndex * 300;
+    carousel.style.transform = `translateX(${offset}px)`;
+  }
 }
 
 let resizeTimer;
