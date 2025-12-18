@@ -12,7 +12,7 @@ aliases:
 links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=ywFtAtMAAAAJ
   orcid: 0000-0002-6339-9907
-  email: noel.malod@mbzuai.ac.ae
+  email_noel: noel.malod@mbzuai.ac.ae
   cv: /assets/CV_NMD_2025.pdf
 
 ---

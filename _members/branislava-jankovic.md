@@ -8,7 +8,7 @@ links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=j0ZsRaYAAAAJ
   orcid: 0009-0004-2147-6419
   github: Branislava98
-  email: branislava.jankovic@mbzuai.ac.ae
+  email_brana: branislava.jankovic@mbzuai.ac.ae
   cv: /assets/Branislava_Jankovic_CV.pdf
 
 ---

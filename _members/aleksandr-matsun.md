@@ -13,7 +13,7 @@ aliases:
 links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=w4n7nicAAAAJ
   github: SashaMatsun
-  email: aleksandr.matsun@mbzuai.ac.ae
+  email_aleks: aleksandr.matsun@mbzuai.ac.ae
   cv: /assets/matsun_cv.pdf
 ---
 

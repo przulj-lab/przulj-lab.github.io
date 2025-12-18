@@ -11,7 +11,7 @@ aliases:
   - S Milinkovic
 links:
   home-page: https://www.researchgate.net/profile/Stevan-Milinkovic-2
-  email: stevan.milinkovic@mbzuai.ac.ae
+  email_stevan: stevan.milinkovic@mbzuai.ac.ae
   cv: /assets/Stevan Milinkovic CV.pdf
 
 ---

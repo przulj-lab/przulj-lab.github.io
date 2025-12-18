@@ -11,10 +11,10 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% include section.html %}
 
-## Network Aligners
+## Network Analysis
 
 {% for tool in site.data.tools %}
-{% if tool.tags contains "network-aligners" %}
+{% if tool.tags contains "network-analysis" %}
 {% include card.html 
   title=tool.title
   subtitle=tool.subtitle
@@ -47,10 +47,10 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% include section.html %}
 
-## Network Analysis
+## Network Aligners
 
 {% for tool in site.data.tools %}
-{% if tool.tags contains "network-analysis" %}
+{% if tool.tags contains "network-aligners" %}
 {% include card.html 
   title=tool.title
   subtitle=tool.subtitle

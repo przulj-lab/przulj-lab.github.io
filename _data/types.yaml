@@ -69,7 +69,37 @@ cv:
 email:
   icon: fa-solid fa-envelope
   text: Email
-  tooltip: Email
+  tooltip: natasa.przulj@mbzuai.ac.ae
+  link: mailto:$VALUE
+
+email_noel:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: noel.malod@mbzuai.ac.ae
+  link: mailto:$VALUE
+
+email_stevan:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: stevan.milinkovic@mbzuai.ac.ae
+  link: mailto:$VALUE
+
+email_tarmo:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: tarmo.nurmi@mbzuai.ac.ae
+  link: mailto:$VALUE
+
+email_aleks:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: aleksandr.matsun@mbzuai.ac.ae
+  link: mailto:$VALUE
+
+email_brana:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: branislava.jankovic@mbzuai.ac.ae
   link: mailto:$VALUE
 
 phone:

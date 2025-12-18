@@ -13,7 +13,7 @@ aliases:
 links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=NBJqkgMAAAAJ
   orcid: 0000-0003-0258-7776
-  email: tarmo.nurmi@mbzuai.ac.ae
+  email_tarmo: tarmo.nurmi@mbzuai.ac.ae
   cv: /assets/CV_academic_TN_2025.pdf
 
 ---

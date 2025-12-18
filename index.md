@@ -1,6 +1,6 @@
 ---
 ---
-## **Integrative Computational Network Biology Lab** is a leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.
+## **Integrative Computational Network Biology Lab**, led by Prof. Przulj, is a leading research group in multi-omics data fusion and network science applied to precision medicine and precision therapeutics.
 
 {% include section.html %}
 
@@ -21,7 +21,7 @@ We develop novel network science methods and graphlet-based algorithms to analyz
 
 {% capture text %}
 
-We develop versatile artificial intelligence frameworks for multi-omics data fusion, based on graph-regularized non-negative matrix tri-factorization (NMTF) and machine learning techniques. Our methods enable dimensionality reduction, inference, and co-clustering of heterogeneous datasets to better stratify patients into risk groups, discover new biomarkers and therapeutic targets, and re-purpose existing or discover new drugs for personalized medical treatment.
+We develop versatile artificial intelligence frameworks for multi-omics data fusion, based on graph-regularized non-negative matrix tri-factorization (NMTF) and other machine learning techniques. Our methods enable dimensionality reduction, inference, and co-clustering of heterogeneous datasets to better stratify patients into risk groups, discover new biomarkers and therapeutic targets, and to re-purpose existing and discover new drugs for personalized medical treatment.
 
 
 {% endcapture %}
@@ -37,7 +37,7 @@ We develop versatile artificial intelligence frameworks for multi-omics data fus
 
 {% capture text %}
 
-We apply our computational frameworks to address key challenges in precision medicine across diverse diseases. From time-series and patient-derived single-cell data, we develop consumer-facing precision medicine solutions for cancer, infectious diseases (including Covid-19 and antibiotic resistance), neurodegenerative disorders (Parkinson's), and longevity research. Our goal is to translate multi-omics insights into actionable therapeutic discoveries, including novel antibiotics and drug repurposing strategies, that improve patient outcomes.
+We apply our computational frameworks to address key challenges in precision medicine across diverse diseases. From time-series and patient-derived single-cell data and all other multi-omic data, we develop consumer-facing precision medicine solutions for cancer, infectious diseases (including Covid-19 and antimicrobial resistance), neurodegenerative disorders (Parkinson’s), and longevity research. Our goal is to translate multi-omics insights into actionable therapeutic discoveries, including novel antibiotics, anti-cancer and anti-aging compounds, that improve patient outcomes.
 
 {% endcapture %}
 
@@ -59,6 +59,11 @@ We apply our computational frameworks to address key challenges in precision med
 
 <div class="team-carousel">
   <div class="carousel-container">
+    <!-- Left Arrow -->
+    <button class="carousel-arrow left" onclick="moveCarousel(-1)" aria-label="Previous">
+      <i class="fas fa-chevron-left"></i>
+    </button>
+    
     <div class="carousel-track" id="teamCarousel">
       <div class="carousel-member">
         <img src="{{ 'images/team/natasa-przulj.jpeg' | relative_url }}" class="carousel-photo" alt="Nataša Pržulj">
@@ -91,6 +96,11 @@ We apply our computational frameworks to address key challenges in precision med
         <p style="text-align: center">PhD Student</p>
       </div>
     </div>
+    
+    <!-- Right Arrow -->
+    <button class="carousel-arrow right" onclick="moveCarousel(1)" aria-label="Next">
+      <i class="fas fa-chevron-right"></i>
+    </button>
   </div>
   
   <div style="text-align: center; margin-top: 30px;">
@@ -116,6 +126,7 @@ We apply our computational frameworks to address key challenges in precision med
     position: relative;
     overflow: hidden;
     margin-top: 30px;
+    padding: 0 40px;
   }
 
   .carousel-track {
@@ -136,20 +147,50 @@ We apply our computational frameworks to address key challenges in precision med
     border-radius: 50%;
     object-fit: cover;
     margin: 0 auto 15px;
-    border: 1px solid var(--light-gray:); */
-    /* box-shadow: 0 4px 8px 0 var(--overlay); */
   }
 
   .carousel-member h4 {
     margin: 10px 0 5px;
+    color: var(--text);
   }
 
   .carousel-member p {
     margin: 0;
+    color: var(--text);
   }
 
-  /* Mobile Responsive */
+  /* Simple Arrow Styles */
+  .carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: var(--text);
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10;
+    transition: opacity 0.3s ease;
+    opacity: 0.6;
+  }
+
+  .carousel-arrow:hover {
+    opacity: 1;
+  }
+
+  .carousel-arrow.left {
+    left: 10px;
+  }
+
+  .carousel-arrow.right {
+    right: 10px;
+  }
+
   @media (max-width: 768px) {
+    .carousel-container {
+      padding: 0 50px;
+    }
+    
     .carousel-member {
       min-width: 100%;
     }
@@ -157,6 +198,18 @@ We apply our computational frameworks to address key challenges in precision med
     .carousel-photo {
       width: 140px;
       height: 140px;
+    }
+
+    .carousel-arrow {
+      font-size: 24px;
+    }
+
+    .carousel-arrow.left {
+      left: 5px;
+    }
+
+    .carousel-arrow.right {
+      right: 5px;
     }
   }
 </style>
@@ -168,30 +221,38 @@ const members = carousel.children.length;
 
 function getVisibleMembers() {
   if (window.innerWidth <= 768) {
-    return 1;  // 1 member on mobile
+    return 1;
   }
-  return 3;  // 3 members on desktop
+  return 3;
 }
 
-function rotateCarousel() {
+function moveCarousel(direction) {
   const visibleMembers = getVisibleMembers();
-  currentIndex = (currentIndex + 1) % (members - visibleMembers + 1);
+  const maxIndex = members - visibleMembers;
   
+  currentIndex += direction;
+  
+  if (currentIndex < 0) {
+    currentIndex = maxIndex;
+  } else if (currentIndex > maxIndex) {
+    currentIndex = 0;
+  }
+  
+  updateCarousel();
+}
+
+function updateCarousel() {
   const memberWidth = window.innerWidth <= 768 ? carousel.offsetWidth : 300;
   const offset = -currentIndex * memberWidth;
   carousel.style.transform = `translateX(${offset}px)`;
 }
 
-// Auto-rotate every 3 seconds
-setInterval(rotateCarousel, 3000);
-
-// Recalculate on window resize
 let resizeTimer;
 window.addEventListener('resize', function() {
   clearTimeout(resizeTimer);
   resizeTimer = setTimeout(function() {
     currentIndex = 0;
-    carousel.style.transform = 'translateX(0)';
+    updateCarousel();
   }, 250);
 });
 </script>
