@@ -12,6 +12,8 @@ aliases:
 links:
   home-page: https://www.researchgate.net/profile/Stevan-Milinkovic-2
   email: stevan.milinkovic@mbzuai.ac.ae
+  cv: /assets/Stevan Milinkovic CV.pdf
+
 ---
 
 Stevan Milinkovic is a Research Scientist in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/) and Professor Emeritus at [Union University – School of Computing](https://www.raf.edu.rs/) in Belgrade, Serbia. He is an expert in artificial intelligence methods for uncovering molecular organization of life, embedded AI systems, and distributed artificial intelligence.

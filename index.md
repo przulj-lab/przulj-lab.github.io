@@ -4,16 +4,16 @@
 
 {% include section.html %}
 
-<h2 style="text-align: center;">Our vision and mission</h2>
+<h2 style="text-align: center;">Our research pillars</h2>
 
 {% capture text %}
 
-Our mission is to transform healthcare through cutting-edge computational network science that integrates multi-omics data for precision medicine. We develop AI-driven tools to decode disease mechanisms, predict drug responses, and discover therapeutic targets, bridging computational innovation with clinical application to improve human health globally.
+We develop novel network science methods and graphlet-based algorithms to analyze multi-omics networks at multiple scales. By utilizing local network topology, we correct for information missed by traditional random walks and enable embedding of multi-omics data into more linearly separable spaces. This allows for explainable and sustainable mining of complex biological networks to understand the molecular organization of life and disease.
 
 {%
   include button.html
   link="publications"
-  text="Explore our latest research"
+  text="Explore our network methods"
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
@@ -22,21 +22,20 @@ Our mission is to transform healthcare through cutting-edge computational networ
 
 {%
   include feature.html
-  image="images/home/mbzuai_2.jpg"
+  image="images/Iconbi/3.png"
   link="publications"
-  title="Advancing Precision Medicine, Transforming Healthcare"
+  title="Multi-Omics Network Analysis"
   text=text
 %}
 
-
 {% capture text %}
 
-We strongly believe in global access to open and reproducible science. Our tools, software, and resources are openly licensed and freely available for all to use and build upon. By fostering a culture of collaboration and transparency, we aim to accelerate scientific discovery and innovation that benefit all.
+We develop versatile artificial intelligence frameworks for multi-omics data fusion, based on graph-regularized non-negative matrix tri-factorization (NMTF) and machine learning techniques. Our methods enable dimensionality reduction, inference, and co-clustering of heterogeneous datasets to better stratify patients into risk groups, discover new biomarkers and therapeutic targets, and re-purpose existing or discover new drugs for personalized medical treatment.
 
 {%
   include button.html
   link="tools"
-  text="Access our open-source tools"
+  text="Access our AI tools"
   icon="fa-solid fa-arrow-right"
   flip=true
 %}
@@ -45,52 +44,35 @@ We strongly believe in global access to open and reproducible science. Our tools
 
 {%
   include feature.html
-  image="images/home/open-infrastructure.jpeg"
+  image="images/Iconbi/4.png"
   link="tools"
-  title="Open science and reproducibility is our foundation"
+  title="AI for Multi-Omics Data Fusion"
   flip=true
   style="bare"
   text=text
 %}
 
-<style>
-  /* Hide second and third feature images */
-  .feature:nth-of-type(2) .feature-image,
-  .feature:nth-of-type(1) .feature-image {
-    display: none;
-  }
-  
-  .feature:nth-of-type(2) .feature-text,
-  .feature:nth-of-type(1) .feature-text {
-    grid-column: 1 / -1;
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-  }
-</style>
+{% capture text %}
 
-{% include section.html 
-  background="images/ug-banner-img.jpg"
-  dark=true
+We apply our computational frameworks to address key challenges in precision medicine across diverse diseases. From time-series and patient-derived single-cell data, we develop consumer-facing precision medicine solutions for cancer, infectious diseases (including Covid-19 and antibiotic resistance), neurodegenerative disorders (Parkinson's), and longevity research. Our goal is to translate multi-omics insights into actionable therapeutic discoveries, including novel antibiotics and drug repurposing strategies, that improve patient outcomes.
+
+{%
+  include button.html
+  link="publications"
+  text="View our applications"
+  icon="fa-solid fa-arrow-right"
+  flip=true
 %}
 
-<div style="max-width: 800px; margin: 0 auto; text-align: center; padding: 80px 20px;">
-  <h2 style="color: white; font-size: 2.5em; margin-bottom: 20px; text-align: center;">
-    Training the next generation of scientists
-  </h2>
-  
-  <p style="color: white; font-size: 1.2em; line-height: 1.8; margin-bottom: 30px;">
-    We are training and building a collaborative team of responsible researchers united by a shared vision. We are committed to create an inclusive environment and recognize that diversity — in people, ideas, and data — is essential for scientific creativity and discovery.
-  </p>
-  
-  {%
-    include button.html
-    link="join"
-    text="Be part of the team"
-    icon="fa-solid fa-arrow-right"
-    flip=true
-  %}
-</div>
+{% endcapture %}
+
+{%
+  include feature.html
+  image="images/Iconbi/5.png"
+  link="publications"
+  title="Precision Therapeutics Discovery"
+  text=text
+%}
 
 {% include section.html %}
 
@@ -136,8 +118,8 @@ We strongly believe in global access to open and reproducible science. Our tools
   <div style="text-align: center; margin-top: 30px;">
     {%
       include button.html
-      link="team"
-      text="View Full Team"
+      link="join"
+      text="Join our Team"
       icon="fa-solid fa-arrow-right"
       flip=true
     %}

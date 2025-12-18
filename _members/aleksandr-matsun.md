@@ -14,6 +14,7 @@ links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=w4n7nicAAAAJ
   github: SashaMatsun
   email: aleksandr.matsun@mbzuai.ac.ae
+  cv: /assets/matsun_cv.pdf
 ---
 
 Aleksandr Matsun is a Research Engineer in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.

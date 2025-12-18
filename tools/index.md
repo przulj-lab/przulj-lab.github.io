@@ -11,23 +11,6 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% include section.html %}
 
-## Featured Tools
-
-{% assign featured = site.data.tools | where: "group", "featured" %}
-{% for tool in featured %}
-{% include card.html 
-  title=tool.title
-  subtitle=tool.subtitle
-  image="images/fallback2.svg"
-  link=tool.link
-  description=tool.description
-  tags=tool.tags
-  repo=tool.repo
-%}
-{% endfor %}
-
-{% include section.html %}
-
 ## Network Aligners
 
 {% for tool in site.data.tools %}

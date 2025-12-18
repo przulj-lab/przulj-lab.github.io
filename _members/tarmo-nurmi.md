@@ -14,6 +14,8 @@ links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=NBJqkgMAAAAJ
   orcid: 0000-0003-0258-7776
   email: tarmo.nurmi@mbzuai.ac.ae
+  cv: /assets/CV_academic_TN_2025.pdf
+
 ---
 
 Tarmo Nurmi is a Postdoctoral Researcher in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io//) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is an expert in multilayer network analysis, network science, and computational neuroscience, specializing in developing novel methods for analyzing complex network structures.

@@ -13,6 +13,8 @@ links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=ywFtAtMAAAAJ
   orcid: 0000-0002-6339-9907
   email: noel.malod@mbzuai.ac.ae
+  cv: /assets/CV_NMD_2025.pdf
+
 ---
 
 Noel Malod-Dognin is a Research Scientist in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is a leading expert in network biology, specializing in the modeling, integration, and analysis of large medical and biological networks using explainable AI for precision medicine.

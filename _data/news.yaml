@@ -9,15 +9,41 @@
 # Otherwise, leave `link` blank.
 # Please add the new entries on the top although these are sorted by date.
 
+# Add the latest news updates here, such as:
+# - New team members joining
+# - Preprints or publications
+# - Grants and funding announcements
+# - Awards, invited talks and achievements
+# - Major lab accomplishments
+#
+# If there is an external link (e.g., to a journal or news article), add it in the `link` field.
+# Otherwise, leave `link` blank.
+# Please add the new entries on the top although these are sorted by date.
+
+- title: Invited Talk at MBZUAI Workshop
+  date: 2025-11-10
+  description: Prof. Natasa delivered an invited talk on "Predictive Patient Analytics and Precision Therapeutics from Multi-Omics Data" at the MBZUAI Workshop on Data, Learning and Biological Problems, MBZUAI, Abu Dhabi, UAE.
+  url:
+
 - title: AI Innovation Day at MBZUAI
   date: 2025-11-13
   description: Prof. Natasa delivered a talk at MBZUAI's AI Innovation Day during the Longevity session, discussing how AI is being used to understand aging, identify biomarkers for healthy lifespan, and personalize interventions.
   url: https://mbzuai.ac.ae/news/ai-innovation-day-at-mbzuai-unites-uae-leaders-to-shape-the-future-of-ai-in-healthcare/
 
+- title: Invited Talk at MBZUAI AI Innovation Day CCAD
+  date: 2025-10-08
+  description: Prof. Natasa gave an invited talk on "Predictive Patient Analytics and Precision Therapeutics from Multi-Omics Data" at MBZUAI AI Innovation Day CCAD, Abu Dhabi, UAE.
+  url:
+
 - title: New member
   date: 2025-10-10
   description: We are delighted to welcome Dr. Tarmo Nurmi to the lab as a Postdoctoral Associate!  
   url: https://przulj-lab.github.io/members/tarmo-nurmi.html
+
+- title: Invited Talk at CIBB 2025
+  date: 2025-09-10
+  description: Prof. Natasa delivered an invited talk on "AI for Mining Multi-Omic Data in Precision Medicine and Pharmacology" at the 20th conference on Computational Intelligence methods for Bioinformatics and Biostatistics (CIBB), Milano, Italy.
+  url:
 
 - title: New member
   date: 2025-08-30
@@ -29,10 +55,50 @@
   description: Natasa was invited to speak on Serbian National TV about the future impact of AI on the workforce and which professions may be transformed by artificial intelligence.  
   url: https://youtu.be/FNOsY9pEVB4?si=06dex5JiciiZCdIK
 
+- title: Invited Talk at BioNetworks Workshop
+  date: 2025-07-08
+  description: Prof. Natasa gave an invited talk on "AI for Embedding Multi-Omic Networks to Simplify Precision Medicine" at the BioNetworks - Modeling, Algorithms, and Statistics Workshop, COST action CA21169 (DYNALIFE), Cetinje, Montenegro.
+  url:
+
+- title: Invited Talk at UAE Drug Discovery and Biotech Network
+  date: 2025-06-04
+  description: Prof. Natasa delivered an invited talk on "Explainable AI for Sustainable Exploitation of Multi-Omic Data in Precision Medicine and Pharmacology" at the UAE Drug Discovery and Biotech Network Inaugural Meeting, Abu Dhabi, UAE.
+  url:
+
 - title: New preprint
   date: 2025-06-08
   description: We develop a new data integration method, named iTissue, based on Graph Non-negative Matrix Tri-Factorization that integrates spatial and single-cell transcriptomics with molecular interaction networks, producing low-dimensional space.
   url: https://doi.org/10.1101/2025.06.04.657816
+
+- title: Keynote Talk at NetBioMed Conference
+  date: 2025-06-02
+  description: Prof. Natasa delivered a keynote talk on "AI for Embedding Multi-Omic Networks to Simplify Precision Medicine" at the NetBioMed Satellite Conference of NetSci Conference, Maastricht University, The Netherlands.
+  url:
+
+- title: Invited Talk at SANU
+  date: 2025-05-28
+  description: Prof. Natasa gave an invited talk on "New AI Methods for Simplifying Multi-Omics Data Analyses in Precision Medicine" at the International Conference NONLINEARITY, NONLOCALITY and ULTRAMETRICITY, Serbian Academy of Sciences and Arts (SANU), Belgrade, Serbia.
+  url:
+
+- title: Plenary Talk at ASTROAIMED
+  date: 2025-05-22
+  description: Prof. Natasa delivered a plenary talk on "New AI for Multi-Omics Data Fusion to Personalize Medicine" at ASTROAIMED Dubai Health, Mohammed Bin Rashid University of Medicine and Health Sciences, Dubai Healthcare City, Dubai, UAE.
+  url:
+
+- title: Invited Talk at Hellenic Bioinformatics Conference
+  date: 2025-05-17
+  description: Prof. Natasa gave an invited talk on "AI for Multi-Omics Data Fusion to Personalize Medicine" at the 2025 Hellenic Bioinformatics Conference, Thessaloniki, Greece.
+  url:
+
+- title: BIZLife Interview
+  date: 2025-04-27
+  description: Prof. Natasa was interviewed by BIZLife Business News on the topic "What is the actual position of women in IT and technology industry."
+  url: https://bizlife.rs/kakav-je-zapravo-polozaj-zena-u-it-i-tehnoloskoj-industriji/
+
+- title: Invited Talk in China
+  date: 2025-04-19
+  description: Prof. Natasa delivered an invited talk on "AI for Multi-Omics Data Fusion to Personalize Medicine" at the 2025 China-West Asia-East Europe Bioinformatics Workshop, Zhejiang University, China.
+  url:
 
 - title: New publication
   date: 2025-04-04
@@ -44,6 +110,21 @@
   description: We are delighted to welcome Aleksandr Matsun to the lab as a Research Engineer!  
   url: https://przulj-lab.github.io/members/aleksandr-matsun.html
 
+- title: RTS-1 Interview from Kopaonik Business Forum
+  date: 2025-03-05
+  description: Prof. Natasa gave a live interview for The Morning Program of Radio Television Serbia 1 (RTS-1) from Kopaonik Business Forum.
+  url: https://www.youtube.com/watch?v=jtJumlveO1g
+
+- title: Panel Discussion at Kopaonik Business Forum
+  date: 2025-03-03
+  description: Prof. Natasa served as a panelist at the panel discussion "The role of artificial intelligence in business (Uloga veštačke inteligencije u biznisu)" at Kopaonik Business Forum (KBF), Kopaonik, Serbia.
+  url:
+
+- title: Euro News Serbia Interview
+  date: 2025-03-03
+  description: Prof. Natasa was interviewed by Euro News Serbia on the topic "Today's AI will not exist in 5 years."
+  url: https://www.euronews.rs/biznis/biznis-vesti/159672/natasa-przulj-ai-ce-postati-superiorniji-u-buducnosti/vest
+
 - title: New publication
   date: 2025-02-06
   description: In this perspective paper, we survey the literature and argue for the development of a comprehensive, general framework for embedding of multi-scale molecular network data that would enable their explainable exploitation in precision medicine in linear time.
@@ -51,5 +132,10 @@
 
 - title: New Lab, new Continent, and new beginnings
   date: 2025-02-01
-  description: Excited to start the Itegrative Computational Network Biology lab at the MBZUAI, Computational Biology department. <a href="/join">Join us</a>!
+  description: Excited to start the Integrative Computational Network Biology lab at the MBZUAI, Computational Biology department. <a href="/join">Join us</a>!
+  url:
+
+- title: Panel Discussion at Arab Health 2025
+  date: 2025-01-28
+  description: Prof. Natasa served as a panelist at the panel discussion "Innovation through Translational Research" organized by The Department of Health Abu Dhabi, Arab Health 2025, Dubai, UAE.
   url:
