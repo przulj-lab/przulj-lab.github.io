@@ -1,0 +1,1779 @@
+# DO NOT EDIT, GENERATED AUTOMATICALLY
+
+- id: doi:10.3390/plants14071017
+  title: Yield Determination in Major Small Grain Crops in Response to Nitrogen Fertilization
+  authors:
+  - "Milan Mirosavljevi\u0107"
+  - "Vojislava Mom\u010Dilovi\u0107"
+  - "Vladimir A\u0107in"
+  - "Bojan Jockovi\u0107"
+  - "Novo Pr\u017Eulj"
+  - "Goran Ja\u0107imovi\u0107"
+  publisher: Plants
+  date: '2025-03-24'
+  link: https://doi.org/hbdw85
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/bioinformatics/btaf122
+  title: 'Clustering individuals using INMTD: a novel versatile multi-view embedding
+    framework integrating omics and imaging data'
+  authors:
+  - Zuqi Li
+  - Sam F L Windels
+  - "No\xEBl Malod-Dognin"
+  - Seth M Weinberg
+  - Mary L Marazita
+  - Susan Walsh
+  - Mark D Shriver
+  - David W Fardo
+  - Peter Claes
+  - "Nata\u0161a Pr\u017Eulj"
+  - Kristel Van Steen
+  publisher: Bioinformatics
+  date: '2025-03-22'
+  link: https://doi.org/hbdw89
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:40177265
+  title: Biological databases in the age of generative artificial intelligence.
+  authors:
+  - Mihai Pop
+  - Teresa K Attwood
+  - Judith A Blake
+  - Philip E Bourne
+  - Ana Conesa
+  - Terry Gaasterland
+  - Lawrence Hunter
+  - Carl Kingsford
+  - Oliver Kohlbacher
+  - Thomas Lengauer
+  - Scott Markel
+  - Yves Moreau
+  - William S Noble
+  - Christine Orengo
+  - B F Francis Ouellette
+  - Laxmi Parida
+  - Natasa Przulj
+  - Teresa M Przytycka
+  - Shoba Ranganathan
+  - Russell Schwartz
+  - Alfonso Valencia
+  - Tandy Warnow
+  publisher: Bioinformatics advances
+  date: '2025-03-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/40177265
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/bioadv/vbae164
+  title: Simplicity within biological complexity
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  - "No\xEBl Malod-Dognin"
+  publisher: Bioinformatics Advances
+  date: '2024-12-26'
+  link: https://doi.org/hbdw8w
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/bioinformatics/btae650
+  title: Graphlet-based hyperbolic embeddings capture evolutionary dynamics in genetic
+    networks
+  authors:
+  - Sam F L Windels
+  - Daniel Tello Velasco
+  - Mikhail Rotkevich
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics
+  date: '2024-11-01'
+  link: https://doi.org/hbdw6t
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/narmme/ugae012
+  title: "MONFIT: multi-omics factorization-based integration of time-series data\
+    \ sheds light on Parkinson\u2019s disease"
+  authors:
+  - "Katarina Mihajlovi\u0107"
+  - "No\xEBl Malod-Dognin"
+  - Corrado Ameli
+  - Alexander Skupin
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: NAR Molecular Medicine
+  date: '2024-09-24'
+  link: https://doi.org/hbdw6v
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC11321866
+  title: Current and future directions in network biology
+  authors:
+  - Marinka Zitnik
+  - Michelle M Li
+  - Aydin Wells
+  - Kimberly Glass
+  - Deisy Morselli Gysi
+  - Arjun Krishnan
+  - T M Murali
+  - Predrag Radivojac
+  - Sushmita Roy
+  - "Ana\xEFs Baudot"
+  - Serdar Bozdag
+  - Danny Z Chen
+  - Lenore Cowen
+  - Kapil Devkota
+  - Anthony Gitter
+  - Sara J C Gosline
+  - Pengfei Gu
+  - Pietro H Guzzi
+  - Heng Huang
+  - Meng Jiang
+  - Ziynet Nesibe Kesimoglu
+  - Mehmet Koyuturk
+  - Jian Ma
+  - Alexander R Pico
+  - "Nata\u0161a Pr\u017Eulj"
+  - Teresa M Przytycka
+  - Benjamin J Raphael
+  - Anna Ritz
+  - Roded Sharan
+  - Yang Shen
+  - Mona Singh
+  - Donna K Slonim
+  - Hanghang Tong
+  - Xinan Holly Yang
+  - Byung-Jun Yoon
+  - Haiyuan Yu
+  - "Tijana Milenkovi\u0107"
+  publisher: Bioinformatics advances
+  date: '2024-08-14'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11321866/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC11223884
+  title: "Drugst.One\_-\_a plug-and-play solution for online systems medicine and\
+    \ network-based drug repurposing"
+  authors:
+  - Andreas Maier
+  - Michael Hartung
+  - Mark Abovsky
+  - Klaudia Adamowicz
+  - Gary D Bader
+  - Sylvie Baier
+  - David B Blumenthal
+  - Jing Chen
+  - Maria L Elkjaer
+  - Carlos Garcia-Hernandez
+  - Mohamed Helmy
+  - Markus Hoffmann
+  - Igor Jurisica
+  - Max Kotlyar
+  - Olga Lazareva
+  - Hagai Levi
+  - Markus List
+  - Sebastian Lobentanzer
+  - Joseph Loscalzo
+  - Noel Malod-Dognin
+  - Quirin Manz
+  - Julian Matschinske
+  - Miles Mee
+  - Mhaned Oubounyt
+  - Chiara Pastrello
+  - Alexander R Pico
+  - Rudolf T Pillich
+  - Julian M Poschenrieder
+  - Dexter Pratt
+  - "Nata\u0161a Pr\u017Eulj"
+  - Sepideh Sadegh
+  - Julio Saez-Rodriguez
+  - Suryadipto Sarkar
+  - Gideon Shaked
+  - Ron Shamir
+  - Nico Trummer
+  - Ugur Turhan
+  - Rui-Sheng Wang
+  - Olga Zolotareva
+  - Jan Baumbach
+  publisher: Nucleic acids research
+  date: '2024-07-05'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11223884/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1101/2025.06.04.657816
+  title: iTissue
+  authors:
+  - [Carme Zambrana, Noël Malod-Dognin, Nataša Pržulj]
+  publisher: Cold Spring Harbor Laboratory
+  date: '2025-06-08'
+  link: https://doi.org/10.1101/2025.06.04.657816
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:38744869
+  title: Multi-omics integration of scRNA-seq time series data predicts new intervention
+    points for Parkinson's disease.
+  authors:
+  - "Katarina Mihajlovi\u0107"
+  - Gaia Ceddia
+  - "No\xEBl Malod-Dognin"
+  - Gabriela Novak
+  - Dimitrios Kyriakis
+  - Alexander Skupin
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2024-05-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/38744869
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC11142626
+  title: 'The axes of biology: a novel axes-based network embedding paradigm to decipher
+    the functional mechanisms of the cell'
+  authors:
+  - Sergio Doria-Belenguer
+  - Alexandros Xenos
+  - Gaia Ceddia
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics advances
+  date: '2024-05-23'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11142626/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1007/s10681-023-03262-6
+  title: Genetic progress in grain yield and associated changes in spikelet and grain
+    traits in historical set of Pannonian wheat cultivars
+  authors:
+  - "Milan Mirosavljevi\u0107"
+  - "Vojislava Mom\u010Dilovi\u0107"
+  - "Tanja Dra\u017Ei\u0107"
+  - "Vladimir A\u0107in"
+  - "Bojan Jockovi\u0107"
+  - "Sanja Miki\u0107"
+  - "Ljiljana Brbakli\u0107"
+  - "Dragan \u017Divan\u010Dev"
+  - "Miroslav Zori\u0107"
+  - "Novo Pr\u017Eulj"
+  publisher: Euphytica
+  date: '2023-12-16'
+  link: https://doi.org/hbdw8x
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:37420093
+  title: A multi-omics integrative approach unravels novel genes and pathways associated
+    with senescence escape after targeted therapy in NRAS mutant melanoma.
+  authors:
+  - Vincent Gureghian
+  - Hailee Herbst
+  - Ines Kozar
+  - Katarina Mihajlovic
+  - "No\xEBl Malod-Dognin"
+  - Gaia Ceddia
+  - Cristian Angeli
+  - Christiane Margue
+  - Tijana Randic
+  - Demetra Philippidou
+  - "Mil\xE8ne Tetsi Nomigni"
+  - Ahmed Hemedan
+  - Leon-Charles Tranchevent
+  - Joseph Longworth
+  - Mark Bauer
+  - Apurva Badkas
+  - Anthoula Gaigneaux
+  - Arnaud Muller
+  - Marek Ostaszewski
+  - Fabrice Tolle
+  - "Nata\u0161a Pr\u017Eulj"
+  - Stephanie Kreis
+  publisher: Cancer gene therapy
+  date: '2023-07-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37420093
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/bioinformatics/btad281
+  title: A functional analysis of omic network embedding spaces reveals key altered
+    functions in cancer
+  authors:
+  - Sergio Doria-Belenguer
+  - Alexandros Xenos
+  - Gaia Ceddia
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics
+  date: '2023-04-21'
+  link: https://doi.org/g8f4dn
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.3390/ijms24021431
+  title: Integrated Data Analysis Uncovers New COVID-19 Related Genes and Potential
+    Drug Re-Purposing Candidates
+  authors:
+  - Alexandros Xenos
+  - "No\xEBl Malod-Dognin"
+  - Carme Zambrana
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: International Journal of Molecular Sciences
+  date: '2023-01-11'
+  link: https://doi.org/hbdw8z
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:37098010
+  title: A phenotype driven integrative framework uncovers molecular mechanisms of
+    a rare hereditary thrombophilia.
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - Gaia Ceddia
+  - Maja Gvozdenov
+  - "Branko Tomi\u0107"
+  - "Sofija Dunji\u0107 Manevski"
+  - "Valentina Djordjevi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: PloS one
+  date: '2023-04-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/37098010
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC9477533
+  title: Identifying cellular cancer mechanisms through pathway-driven data integration
+  authors:
+  - Sam F L Windels
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2022-09-15'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9477533/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC9331749
+  title: Big Data to Knowledge Analytics Reveals the Zika Virus Epidemic as Only One
+    of Multiple Factors Contributing to a Year-Over-Year 28-Fold Increase in Microcephaly
+    Incidence
+  authors:
+  - Myriam Patricia Cifuentes
+  - Clara Mercedes Suarez
+  - Ricardo Cifuentes
+  - Noel Malod-Dognin
+  - Sam Windels
+  - Jose Fernando Valderrama
+  - Paul D Juarez
+  - R Burciaga Valdez
+  - Cynthia Colen
+  - Charles Phillips
+  - Aramandla Ramesh
+  - Wansoo Im
+  - Maureen Lichtveld
+  - Charles Mouton
+  - "Nata\u0161a Pr\u017Eulj"
+  - Darryl B Hood
+  publisher: International journal of environmental research and public health
+  date: '2022-07-25'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9331749/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:35077468
+  title: Graphlet eigencentralities capture novel central roles of genes in pathways.
+  authors:
+  - Sam F L Windels
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: PloS one
+  date: '2022-01-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/35077468
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:34375392
+  title: Multi-project and Multi-profile joint Non-negative Matrix Factorization for
+    cancer omic datasets.
+  authors:
+  - D A Salazar
+  - "N Pr\u017Eulj"
+  - C F Valencia
+  publisher: Bioinformatics (Oxford, England)
+  date: '2021-12-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34375392
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC8570782
+  title: Linear functional organization of the omic embedding space
+  authors:
+  - A Xenos
+  - N Malod-Dognin
+  - "S Milinkovi\u0107"
+  - "N Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2021-11-05'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8570782/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:34556735
+  title: Network neighbors of viral targets and differentially expressed genes in
+    COVID-19 are drug target candidates.
+  authors:
+  - Carme Zambrana
+  - Alexandros Xenos
+  - "Ren\xE9 B\xF6ttcher"
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2021-09-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/34556735
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:32886115
+  title: Classification in biological networks with hypergraphlet kernels.
+  authors:
+  - Jose Lugo-Martinez
+  - Daniel Zeiberg
+  - Thomas Gaudelet
+  - "No\xEBl Malod-Dognin"
+  - Natasa Przulj
+  - Predrag Radivojac
+  publisher: Bioinformatics (Oxford, England)
+  date: '2021-05-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32886115
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:33381834
+  title: Probabilistic graphlets capture biological function in probabilistic molecular
+    networks.
+  authors:
+  - Sergio Doria-Belenguer
+  - Markus K Youssef
+  - "Ren\xE9 B\xF6ttcher"
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2020-12-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/33381834
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:32657405
+  title: Chromatin network markers of leukemia.
+  authors:
+  - N Malod-Dognin
+  - V Pancaldi
+  - A Valencia
+  - "N Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2020-07-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32657405
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:32251458
+  title: Unveiling new disease, pathway, and gene associations via multi-scale neural
+    network.
+  authors:
+  - Thomas Gaudelet
+  - "No\xEBl Malod-Dognin"
+  - "Jon S\xE1nchez-Valle"
+  - Vera Pancaldi
+  - Alfonso Valencia
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: PloS one
+  date: '2020-04-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/32251458
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:31734024
+  title: Antiproliferative activity and mode of action analysis of novel amino and
+    amido substituted phenantrene and naphtho[2,1-b]thiophene derivatives.
+  authors:
+  - "Nata\u0161a Perin"
+  - Valentina Rep
+  - "Irena Sovi\u0107"
+  - "\u0160tefica Juri\u010Di\u0107"
+  - Danijel Selgrad
+  - "Marko Klobu\u010Dar"
+  - "Nata\u0161a Pr\u017Eulj"
+  - Chhedi Lal Gupta
+  - "No\xEBl Malod-Dognin"
+  - "Sandra Kraljevi\u0107 Paveli\u0107"
+  - Marijana Hranjec
+  publisher: European journal of medicinal chemistry
+  date: '2019-11-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31734024
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:31192358
+  title: Graphlet Laplacians for topology-function and topology-disease relationships.
+  authors:
+  - Sam F L Windels
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2019-12-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31192358
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:30821317
+  title: Functional geometry of protein interactomes.
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2019-10-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30821317
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:31113941
+  title: 'Author Correction: Towards a data-integrated cell.'
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - Julia Petschnigg
+  - Sam F L Windels
+  - Janez Povh
+  - Harry Hemingway
+  - Robin Ketteler
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Nature communications
+  date: '2019-05-21'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/31113941
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1017/9781108377706
+  title: Analyzing Network Data in Biology and Medicine
+  authors: []
+  publisher: Cambridge University Press
+  date: '2019-03-18'
+  link: https://doi.org/hbd24n
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmc:PMC6379402
+  title: Towards a data-integrated cell
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - Julia Petschnigg
+  - Sam F L Windels
+  - Janez Povh
+  - Harry Hemingway
+  - Robin Ketteler
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Nature communications
+  date: '2019-02-18'
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6379402/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:30538633
+  title: Critical Review on Zeolite Clinoptilolite Safety and Medical Applications
+  authors:
+  - "Sandra Kraljevi\u0107 Paveli\u0107"
+  - "Jasmina Simovi\u0107 Medica"
+  - "Darko Gumbarevi\u0107"
+  - "Ana Filo\u0161evi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  - "Kre\u0161imir Paveli\u0107"
+  publisher: Frontiers in pharmacology
+  date: '2018-11-27'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30538633
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:30423061
+  title: Higher-order molecular organization as a source of biological function.
+  authors:
+  - Thomas Gaudelet
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2018-09-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/30423061
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1016/j.coisb.2017.10.003
+  title: "Precision medicine \u2015 A promising, yet challenging road lies ahead"
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - Julia Petschnigg
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Current Opinion in Systems Biology
+  date: '2018-02-01'
+  link: https://doi.org/hbd24p
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:28600905
+  title: Omics Data Complementarity Underlines Functional Cross-Communication in Yeast.
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Journal of integrative bioinformatics
+  date: '2017-06-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28600905
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:28073757
+  title: 'Rebuttal to the Letter to the Editor in response to the paper: proper evaluation
+    of alignment-free network comparison methods.'
+  authors:
+  - "\xD6mer Nebil Yaveroglu"
+  - "No\xEBl Malod-Dognin"
+  - Tijana Milenkovic
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2017-04-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28073757
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:28424527
+  title: Unified Alignment of Protein-Protein Interaction Networks.
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - Kristina Ban
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2017-04-19'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28424527
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:28298427
+  title: Systematic protein-protein interaction mapping for clinically relevant human
+    GPCRs.
+  authors:
+  - Kate Sokolina
+  - Saranya Kittanakom
+  - Jamie Snider
+  - Max Kotlyar
+  - Pascal Maurice
+  - "Jorge Gand\xEDa"
+  - Abla Benleulmi-Chaachoua
+  - Kenjiro Tadagaki
+  - Atsuro Oishi
+  - Victoria Wong
+  - Ramy H Malty
+  - Viktor Deineko
+  - Hiroyuki Aoki
+  - Shahreen Amin
+  - Zhong Yao
+  - "Xavier Morat\xF3"
+  - David Otasek
+  - Hiroyuki Kobayashi
+  - Javier Menendez
+  - Daniel Auerbach
+  - Stephane Angers
+  - "Natasa Pr\u017Eulj"
+  - Michel Bouvier
+  - Mohan Babu
+  - Francisco Ciruela
+  - Ralf Jockers
+  - Igor Jurisica
+  - Igor Stagljar
+  publisher: Molecular systems biology
+  date: '2017-03-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/28298427
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1007/978-3-319-39349-0_8
+  title: Computational Methods for Integration of Biological Data
+  authors:
+  - "Vladimir Gligorijevi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Europeanization and Globalization
+  date: '2016-01-01'
+  link: https://doi.org/hbd24q
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:27734973
+  title: Graphlet-based Characterization of Directed Networks.
+  authors:
+  - "Anida Sarajli\u0107"
+  - "No\xEBl Malod-Dognin"
+  - "\xD6mer Nebil Yavero\u011Flu"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2016-10-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27734973
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:27708008
+  title: A global genetic interaction network maps a wiring diagram of cellular function.
+  authors:
+  - Michael Costanzo
+  - Benjamin VanderSluis
+  - Elizabeth N Koch
+  - Anastasia Baryshnikova
+  - Carles Pons
+  - Guihong Tan
+  - Wen Wang
+  - Matej Usaj
+  - Julia Hanchard
+  - Susan D Lee
+  - Vicent Pelechano
+  - Erin B Styles
+  - Maximilian Billmann
+  - Jolanda van Leeuwen
+  - Nydia van Dyk
+  - Zhen-Yuan Lin
+  - Elena Kuzmin
+  - Justin Nelson
+  - Jeff S Piotrowski
+  - Tharan Srikumar
+  - Sondra Bahr
+  - Yiqun Chen
+  - Raamesh Deshpande
+  - Christoph F Kurat
+  - Sheena C Li
+  - Zhijian Li
+  - Mojca Mattiazzi Usaj
+  - Hiroki Okada
+  - Natasha Pascoe
+  - Bryan-Joseph San Luis
+  - Sara Sharifpoor
+  - Emira Shuteriqi
+  - Scott W Simpkins
+  - Jamie Snider
+  - Harsha Garadi Suresh
+  - Yizhao Tan
+  - Hongwei Zhu
+  - Noel Malod-Dognin
+  - Vuk Janjic
+  - Natasa Przulj
+  - Olga G Troyanskaya
+  - Igor Stagljar
+  - Tian Xia
+  - Yoshikazu Ohya
+  - Anne-Claude Gingras
+  - Brian Raught
+  - Michael Boutros
+  - Lars M Steinmetz
+  - Claire L Moore
+  - Adam P Rosebrock
+  - Amy A Caudy
+  - Chad L Myers
+  - Brenda Andrews
+  - Charles Boone
+  publisher: Science (New York, N.Y.)
+  date: '2016-09-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27708008
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:27387938
+  title: NETWORK ANALYSIS. Network analytics in the age of big data.
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  - "No\xEBl Malod-Dognin"
+  publisher: Science (New York, N.Y.)
+  date: '2016-07-08'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/27387938
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:26668003
+  title: 'Fuse: multiple network alignment via data fusion.'
+  authors:
+  - "Vladimir Gligorijevi\u0107"
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2015-12-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26668003
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:26677817
+  title: Integrative methods for analyzing big data in precision medicine.
+  authors:
+  - "Vladimir Gligorijevi\u0107"
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Proteomics
+  date: '2016-03-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26677817
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:26776197
+  title: PATIENT-SPECIFIC DATA FUSION FOR CANCER STRATIFICATION AND PERSONALISED TREATMENT.
+  authors:
+  - "Vladimir Gligorijevi\u0107"
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing
+  date: '2016-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26776197
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:26490630
+  title: 'Methods for biological data integration: perspectives and challenges.'
+  authors:
+  - "Vladimir Gligorijevi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Journal of the Royal Society, Interface
+  date: '2015-11-06'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/26490630
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25810431
+  title: Proper evaluation of alignment-free network comparison methods.
+  authors:
+  - "\xD6mer Nebil Yavero\u011Flu"
+  - "Tijana Milenkovi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2015-03-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25810431
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25725498
+  title: 'L-GRAAL: Lagrangian graphlet-based network aligner.'
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2015-02-28'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25725498
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.18637/jss.v065.i12
+  title: '<b>ergm.graphlets</b>: A Package for ERG Modeling Based on Graphlet Statistics'
+  authors:
+  - "\xD6mer Nebil Yaveroglu"
+  - Sean M. Fitzhugh
+  - Maciej Kurant
+  - Athina Markopoulou
+  - Carter T. Butts
+  - Natasa Przulj
+  publisher: Journal of Statistical Software
+  date: '2015-01-01'
+  link: https://doi.org/hbd24s
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25609797
+  title: Topology-function conservation in protein-protein interaction networks.
+  authors:
+  - Darren Davis
+  - "\xD6mer Nebil Yavero\u011Flu"
+  - "No\xEBl Malod-Dognin"
+  - Aleksandar Stojmirovic
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2015-01-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25609797
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25248409
+  title: Anti-nicastrin monoclonal antibodies elicit pleiotropic anti-tumour pharmacological
+    effects in invasive breast cancer cells.
+  authors:
+  - "Aleksandra Filipovi\u0107"
+  - Ylenia Lombardo
+  - Monica Faronato
+  - Joel Abrahams
+  - Eric Aboagye
+  - Quang-De Nguyen
+  - Barbara Borda d'Aqua
+  - Anne Ridley
+  - Andrew Green
+  - Emad Rahka
+  - Ian Ellis
+  - Chiara Recchi
+  - Natasa Przulj
+  - "Anida Sarajli\u0107"
+  - Jean-Rene Alattia
+  - Patrick Fraering
+  - Mahendra Deonarain
+  - R Charles Coombes
+  publisher: Breast cancer research and treatment
+  date: '2014-09-24'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25248409
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25098752
+  title: Network wiring of pleiotropic kinases yields insight into protective role
+    of diabetes on aneurysm.
+  authors:
+  - "Anida Sarajli\u0107"
+  - "Vladimir Gligorijevi\u0107"
+  - Djordje Radak
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: 'Integrative biology : quantitative biosciences from nano to macro'
+  date: '2014-11-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25098752
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25133803
+  title: The integrated disease network.
+  authors:
+  - Kai Sun
+  - Natalie Buchan
+  - Chris Larminie
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: 'Integrative biology : quantitative biosciences from nano to macro'
+  date: '2014-11-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25133803
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24728588
+  title: Bridging the gaps in systems biology.
+  authors:
+  - Marija Cvijovic
+  - Joachim Almquist
+  - Jonas Hagmar
+  - Stefan Hohmann
+  - Hans-Michael Kaltenbach
+  - Edda Klipp
+  - Marcus Krantz
+  - Pedro Mendes
+  - Sven Nelander
+  - Jens Nielsen
+  - Andrea Pagnani
+  - Natasa Przulj
+  - Andreas Raue
+  - "J\xF6rg Stelling"
+  - Szymon Stoma
+  - Frank Tobin
+  - Judith A H Wodke
+  - Riccardo Zecchina
+  - Mats Jirstrand
+  publisher: 'Molecular genetics and genomics : MGG'
+  date: '2014-04-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24728588
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25161252
+  title: Integration of molecular network data reconstructs Gene Ontology.
+  authors:
+  - "Vladimir Gligorijevi\u0107"
+  - "Vuk Janji\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2014-09-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25161252
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24443377
+  title: 'GR-Align: fast and flexible alignment of protein 3D structures using graphlet
+    degree similarity.'
+  authors:
+  - "No\xEBl Malod-Dognin"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2014-01-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24443377
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24686408
+  title: Revealing the hidden language of complex networks.
+  authors:
+  - "\xD6mer Nebil Yavero\u011Flu"
+  - "No\xEBl Malod-Dognin"
+  - Darren Davis
+  - Zoran Levnajic
+  - Vuk Janjic
+  - Rasa Karapandza
+  - Aleksandar Stojmirovic
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2014-04-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24686408
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24337538
+  title: The role of genes co-amplified with nicastrin in breast invasive carcinoma.
+  authors:
+  - "A Sarajli\u0107"
+  - "A Filipovi\u0107"
+  - "V Janji\u0107"
+  - R C Coombes
+  - "N Pr\u017Eulj"
+  publisher: Breast cancer research and treatment
+  date: '2013-12-13'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24337538
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24589662
+  title: Modelling the yeast interactome.
+  authors:
+  - "Vuk Janji\u0107"
+  - Roded Sharan
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2014-03-04'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24589662
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:25228247
+  title: Predicting disease associations via biological network analysis.
+  authors:
+  - Kai Sun
+  - "Joana P Gon\xE7alves"
+  - Chris Larminie
+  - "Nata\u0161a Przulj"
+  publisher: BMC bioinformatics
+  date: '2014-09-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/25228247
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24772427
+  title: Survey of network-based approaches to research of cardiovascular diseases.
+  authors:
+  - "Anida Sarajli\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: BioMed research international
+  date: '2014-03-20'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24772427
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24953453
+  title: The topology of the growing human interactome data.
+  authors:
+  - "Vuk Janji\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Journal of integrative bioinformatics
+  date: '2014-06-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24953453
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:24232732
+  title: Discovering disease-disease associations by fusing systems-level molecular
+    data.
+  authors:
+  - "Marinka \u017Ditnik"
+  - "Vuk Janji\u0107"
+  - Chris Larminie
+  - "Bla\u017E Zupan"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Scientific reports
+  date: '2013-11-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/24232732
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:23349212
+  title: Graphlet-based measures are suitable for biological network comparison.
+  authors:
+  - Wayne Hayes
+  - Kai Sun
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics (Oxford, England)
+  date: '2013-01-23'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/23349212
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:23977067
+  title: Network topology reveals key cardiovascular disease genes.
+  authors:
+  - "Anida Sarajli\u0107"
+  - "Vuk Janji\u0107"
+  - "Neda Stojkovi\u0107"
+  - Djordje Radak
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: PloS one
+  date: '2013-08-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/23977067
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:22962330
+  title: 'Biological function through network topology: a survey of the human diseasome.'
+  authors:
+  - "Vuk Janji\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Briefings in functional genomics
+  date: '2012-09-08'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22962330
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:22820726
+  title: The Core Diseasome.
+  authors:
+  - "Vuk Janji\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Molecular bioSystems
+  date: '2012-10-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22820726
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:22234340
+  title: 'C-GRAAL: common-neighbors-based global GRAph ALignment of biological networks.'
+  authors:
+  - "Vesna Memi\u0161evi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: 'Integrative biology : quantitative biosciences from nano to macro'
+  date: '2012-01-10'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22234340
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:22144160
+  title: Protein complex prediction with RNSC.
+  authors:
+  - Andrew D King
+  - "Nata\u0161a Pr\u017Eulj"
+  - Igor Jurisica
+  publisher: Methods in molecular biology (Clifton, N.J.)
+  date: '2012-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/22144160
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1007/978-1-4614-0320-3_2
+  title: Topological Characteristics of Molecular Networks
+  authors:
+  - "Tijana Milenkovi\u0107"
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Functional Coherence of Molecular Networks in Bioinformatics
+  date: '2011-08-24'
+  link: https://doi.org/d2zxmb
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:21798944
+  title: Evidence for network evolution in an Arabidopsis interactome map.
+  authors: []
+  publisher: Science (New York, N.Y.)
+  date: '2011-07-29'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21798944
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:21414992
+  title: Integrative network alignment reveals large regions of global network similarity
+    in yeast and human.
+  authors:
+  - Oleksii Kuchaiev
+  - Natasa Przulj
+  publisher: Bioinformatics (Oxford, England)
+  date: '2011-03-16'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21414992
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:21188720
+  title: 'Protein-protein interactions: making sense of networks via graph-theoretic
+    modeling.'
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: 'BioEssays : news and reviews in molecular, cellular and developmental
+    biology'
+  date: '2011-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21188720
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1109/FPT.2011.6132667
+  title: 'A framework for FPGA acceleration of large graph problems: Graphlet counting
+    case study'
+  authors:
+  - Brahim Betkaoui
+  - David B. Thomas
+  - Wayne Luk
+  - Natasa Przulj
+  publisher: 2011 International Conference on Field-Programmable Technology
+  date: '2011-12-01'
+  link: https://doi.org/fx3b7p
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:21887225
+  title: Dominating biological networks.
+  authors:
+  - "Tijana Milenkovi\u0107"
+  - "Vesna Memi\u0161evi\u0107"
+  - Anthony Bonato
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: PloS one
+  date: '2011-08-26'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21887225
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:21244715
+  title: 'GraphCrunch 2: Software tool for network modeling, alignment and clustering.'
+  authors:
+  - Oleksii Kuchaiev
+  - "Aleksandar Stevanovi\u0107"
+  - Wayne Hayes
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: BMC bioinformatics
+  date: '2011-01-19'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/21244715
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1080/15427951.2011.621769
+  title: Introduction to the Special Issue on Biological Networks
+  authors:
+  - Natasa Przulj
+  publisher: Internet Mathematics
+  date: '2011-11-28'
+  link: https://doi.org/fqjmzn
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1002/9781119970606.ch14
+  title: "Random Graph Models and Their Application to Protein\u2013Protein Interaction\
+    \ Networks"
+  authors:
+  - Desmond J. Higham
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Handbook of Statistical Systems Biology
+  date: '2011-09-12'
+  link: https://doi.org/cv4ww6
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:20236959
+  title: Topological network alignment uncovers biological function and phylogeny.
+  authors:
+  - Oleksii Kuchaiev
+  - Tijana Milenkovic
+  - Vesna Memisevic
+  - Wayne Hayes
+  - Natasa Przulj
+  publisher: Journal of the Royal Society, Interface
+  date: '2010-03-17'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20236959
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:20628593
+  title: Optimal network alignment with graphlet degree vectors.
+  authors:
+  - "Tijana Milenkovi\u0107"
+  - Weng Leong Ng
+  - Wayne Hayes
+  - Natasa Przulj
+  publisher: Cancer informatics
+  date: '2010-06-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20628593
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:20550706
+  title: Protein interaction network topology uncovers melanogenesis regulatory network
+    components within functional genomics datasets.
+  authors:
+  - Hsiang Ho
+  - "Tijana Milenkovi\u0107"
+  - "Vesna Memisevi\u0107"
+  - Jayavani Aruri
+  - Natasa Przulj
+  - Anand K Ganesan
+  publisher: BMC systems biology
+  date: '2010-06-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20550706
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:20170199
+  title: Characterization of cell cycle specific protein interaction networks of the
+    yeast 26S proteasome complex by the QTAX strategy.
+  authors:
+  - Robyn M Kaake
+  - "Tijana Milenkovi\u0107"
+  - Natasa Przulj
+  - Peter Kaiser
+  - Lan Huang
+  publisher: Journal of proteome research
+  date: '2010-04-05'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20170199
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19625303
+  title: Systems-level cancer gene identification from protein interaction network
+    topology applied to melanogenesis-related functional genomics data.
+  authors:
+  - Tijana Milenkovic
+  - Vesna Memisevic
+  - Anand K Ganesan
+  - Natasa Przulj
+  publisher: Journal of the Royal Society, Interface
+  date: '2009-07-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19625303
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:20375453
+  title: An integrative approach to modeling biological networks.
+  authors:
+  - Vesna Memisevic
+  - Tijana Milenkovic
+  - Natasa Przulj
+  publisher: Journal of integrative bioinformatics
+  date: '2010-03-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20375453
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:20375452
+  title: Complementarity of network and sequence information in homologous proteins.
+  authors:
+  - Vesna Memisevic
+  - Tijana Milenkovic
+  - Natasa Przulj
+  publisher: Journal of integrative bioinformatics
+  date: '2010-03-25'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/20375452
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/bioinformatics/btq091
+  title: Biological network comparison using graphlet degree distribution
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Bioinformatics
+  date: '2010-03-03'
+  link: https://doi.org/cr4253
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1007/978-1-84996-396-1_3
+  title: "From Topology to Phenotype in Protein\u2013Protein Interaction Networks"
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Network Science
+  date: '2010-01-01'
+  link: https://doi.org/b5xdbh
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19908370
+  title: Geometric evolutionary dynamics of protein interaction networks.
+  authors:
+  - Natasa Przulj
+  - Oleksii Kuchaiev
+  - "Aleksandar Stevanovi\u0107"
+  - Wayne Hayes
+  publisher: Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing
+  date: '2010-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19908370
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19662157
+  title: Geometric de-noising of protein-protein interaction networks.
+  authors:
+  - Oleksii Kuchaiev
+  - Marija Rasajski
+  - Desmond J Higham
+  - Natasa Przulj
+  publisher: PLoS computational biology
+  date: '2009-08-07'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19662157
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19209694
+  title: Learning the structure of protein-protein interaction networks.
+  authors:
+  - Oleksii Kuchaiev
+  - Natasa Przulj
+  publisher: Pacific Symposium on Biocomputing. Pacific Symposium on Biocomputing
+  date: '2009-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19209694
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19557139
+  title: Optimized null model for protein structure networks.
+  authors:
+  - "Tijana Milenkovi\u0107"
+  - Ioannis Filippis
+  - Michael Lappe
+  - Natasa Przulj
+  publisher: PloS one
+  date: '2009-06-26'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19557139
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19964621
+  title: Structure of brain functional networks.
+  authors:
+  - Oleksii Kuchaiev
+  - Po T Wang
+  - Zoran Nenadic
+  - Natasa Przulj
+  publisher: Annual International Conference of the IEEE Engineering in Medicine and
+    Biology Society. IEEE Engineering in Medicine and Biology Society. Annual International
+    Conference
+  date: '2009-01-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19964621
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:18757749
+  title: Characterization of the proteasome interaction network using a QTAX-based
+    tag-team strategy and protein interaction network analysis.
+  authors:
+  - Cortnie Guerrero
+  - Tijana Milenkovic
+  - Natasa Przulj
+  - Peter Kaiser
+  - Lan Huang
+  publisher: Proceedings of the National Academy of Sciences of the United States
+    of America
+  date: '2008-08-29'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/18757749
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:18344248
+  title: Fitting a geometric graph to a protein-protein interaction network.
+  authors:
+  - Desmond J Higham
+  - Marija Rasajski
+  - Natasa Przulj
+  publisher: Bioinformatics (Oxford, England)
+  date: '2008-03-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/18344248
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:18230190
+  title: 'GraphCrunch: a tool for large network analyses.'
+  authors:
+  - "Tijana Milenkovi\u0107"
+  - Jason Lai
+  - Natasa Przulj
+  publisher: BMC bioinformatics
+  date: '2008-01-30'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/18230190
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:19259413
+  title: Uncovering biological network function via graphlet degree signatures.
+  authors:
+  - "Tijana Milenkovi\u0107"
+  - Natasa Przulj
+  publisher: Cancer informatics
+  date: '2008-04-14'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/19259413
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:17616981
+  title: 'Not all scale-free networks are born equal: the role of the seed graph in
+    PPI network evolution.'
+  authors:
+  - Fereydoun Hormozdiari
+  - Petra Berenbrink
+  - Natasa Przulj
+  - S Cenk Sahinalp
+  publisher: PLoS computational biology
+  date: '2007-07-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/17616981
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1007/978-3-540-73060-6_1
+  title: 'Not All Scale Free Networks Are Born Equal: The Role of the Seed Graph in
+    PPI Network Emulation'
+  authors:
+  - Fereydoun Hormozdiari
+  - Petra Berenbrink
+  - "Nata\u0161a Pr\u017Eulj"
+  - Cenk Sahinalp
+  publisher: Lecture Notes in Computer Science
+  date: ''
+  link: https://doi.org/bgcnjw
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:17237089
+  title: Biological network comparison using graphlet degree distribution.
+  authors:
+  - Natasa Przulj
+  publisher: Bioinformatics (Oxford, England)
+  date: '2007-01-15'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/17237089
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1109/ITW.2007.4313108
+  title: Geometric Local Structure in Biological Networks
+  authors:
+  - Natasa Przulj
+  publisher: 2007 IEEE Information Theory Workshop
+  date: '2007-09-01'
+  link: https://doi.org/dkh5pd
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:16971339
+  title: Modelling protein-protein interaction networks via a stickiness index.
+  authors:
+  - Natasa Przulj
+  - Desmond J Higham
+  publisher: Journal of the Royal Society, Interface
+  date: '2006-10-22'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/16971339
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:16452112
+  title: Efficient estimation of graphlet frequency distributions in protein-protein
+    interaction networks.
+  authors:
+  - N Przulj
+  - D G Corneil
+  - I Jurisica
+  publisher: Bioinformatics (Oxford, England)
+  date: '2006-02-01'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/16452112
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:15761153
+  title: High-throughput mapping of a dynamic signaling network in mammalian cells.
+  authors:
+  - Miriam Barrios-Rodiles
+  - Kevin R Brown
+  - Barish Ozdamar
+  - Rohit Bose
+  - Zhong Liu
+  - Robert S Donovan
+  - Fukiko Shinjo
+  - Yongmei Liu
+  - Joanna Dembowy
+  - Ian W Taylor
+  - Valbona Luga
+  - Natasa Przulj
+  - Mark Robinson
+  - Harukazu Suzuki
+  - Yoshihide Hayashizaki
+  - Igor Jurisica
+  - Jeffrey L Wrana
+  publisher: Science (New York, N.Y.)
+  date: '2005-03-11'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/15761153
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1016/j.dam.2004.06.015
+  title: 2-Tree probe interval graphs have a large obstruction set
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  - Derek G. Corneil
+  publisher: Discrete Applied Mathematics
+  date: '2005-09-01'
+  link: https://doi.org/b3f9bd
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:15284103
+  title: 'Modeling interactome: scale-free or geometric?'
+  authors:
+  - N Przulj
+  - D G Corneil
+  - I Jurisica
+  publisher: Bioinformatics (Oxford, England)
+  date: '2004-07-29'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/15284103
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:15180928
+  title: Protein complex prediction via cost-based clustering.
+  authors:
+  - A D King
+  - N Przulj
+  - I Jurisica
+  publisher: Bioinformatics (Oxford, England)
+  date: '2004-06-04'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/15180928
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pmid:14960460
+  title: Functional topology in a network of protein interactions.
+  authors:
+  - N Przulj
+  - D A Wigle
+  - I Jurisica
+  publisher: Bioinformatics (Oxford, England)
+  date: '2004-02-12'
+  link: https://www.ncbi.nlm.nih.gov/pubmed/14960460
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1016/S0166-218X(03)00304-4
+  title: Hereditary dominating pair graphs
+  authors:
+  - "Nata\u0161a Pr\u017Eulj"
+  - Derek G. Corneil
+  - "Ekkehard K\xF6hler"
+  publisher: Discrete Applied Mathematics
+  date: '2004-01-01'
+  link: https://doi.org/d2fg7z
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1142/s012962649800016x
+  title: Minimum Average Time Broadcast Graphs
+  authors:
+  - Arthur L. Liestman
+  - "Nata\u0161a Pr\u017Eulj"
+  publisher: Parallel Processing Letters
+  date: '1998-06-01'
+  link: https://doi.org/cgr425
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml

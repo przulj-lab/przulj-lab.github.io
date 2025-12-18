@@ -10,20 +10,11 @@
 
 We develop novel network science methods and graphlet-based algorithms to analyze multi-omics networks at multiple scales. By utilizing local network topology, we correct for information missed by traditional random walks and enable embedding of multi-omics data into more linearly separable spaces. This allows for explainable and sustainable mining of complex biological networks to understand the molecular organization of life and disease.
 
-{%
-  include button.html
-  link="publications"
-  text="Explore our network methods"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-%}
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/Iconbi/3.png"
-  link="publications"
+  image="images/Iconbi/7.png"
   title="Multi-Omics Network Analysis"
   text=text
 %}
@@ -32,20 +23,12 @@ We develop novel network science methods and graphlet-based algorithms to analyz
 
 We develop versatile artificial intelligence frameworks for multi-omics data fusion, based on graph-regularized non-negative matrix tri-factorization (NMTF) and machine learning techniques. Our methods enable dimensionality reduction, inference, and co-clustering of heterogeneous datasets to better stratify patients into risk groups, discover new biomarkers and therapeutic targets, and re-purpose existing or discover new drugs for personalized medical treatment.
 
-{%
-  include button.html
-  link="tools"
-  text="Access our AI tools"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-%}
 
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/Iconbi/4.png"
-  link="tools"
+  image="images/Iconbi/8.png"
   title="AI for Multi-Omics Data Fusion"
   flip=true
   style="bare"
@@ -56,23 +39,18 @@ We develop versatile artificial intelligence frameworks for multi-omics data fus
 
 We apply our computational frameworks to address key challenges in precision medicine across diverse diseases. From time-series and patient-derived single-cell data, we develop consumer-facing precision medicine solutions for cancer, infectious diseases (including Covid-19 and antibiotic resistance), neurodegenerative disorders (Parkinson's), and longevity research. Our goal is to translate multi-omics insights into actionable therapeutic discoveries, including novel antibiotics and drug repurposing strategies, that improve patient outcomes.
 
-{%
-  include button.html
-  link="publications"
-  text="View our applications"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-%}
-
 {% endcapture %}
 
 {%
   include feature.html
-  image="images/Iconbi/5.png"
-  link="publications"
+  image="images/Iconbi/9.png"
   title="Precision Therapeutics Discovery"
   text=text
 %}
+<div style="text-align: center; margin-top: 3rem;">
+  <a href="publications" class="button">Explore Our Research</a>
+  <a href="tools" class="button">Access Our Tools</a>
+</div>
 
 {% include section.html %}
 
