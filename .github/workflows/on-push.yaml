@@ -2,9 +2,9 @@ name: on-push
 run-name: on push to main
 
 on:
-  # push:
-  #   branches:
-  #     - main
+  push:
+    branches:
+      - main
 
   # run if user manually requests it
   workflow_dispatch:
