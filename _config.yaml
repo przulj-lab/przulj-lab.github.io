@@ -74,6 +74,11 @@ include:
 
 # force jekyll to exclude certain files/folders
 exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
   - README.md
-  - LICENSE.md
-  - CITATION.cff
+  - node_modules
+  - package.json
+  - package-lock.json
+
