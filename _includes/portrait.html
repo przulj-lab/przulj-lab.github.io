@@ -1,58 +1,97 @@
-{% if include.lookup %}
-  {% assign member = site.members 
-    | where_exp: "member", "member.slug == include.lookup"
-    | first
-  %}
-{% else %}
-  {% assign member = include %}
-{% endif %}
+{%- comment -%}
+Portrait include (defensive): usage:
+  {% include portrait.html lookup="alice-smith" %}
+or pass a member object directly:
+  {% include portrait.html member=member %}
+{%- endcomment -%}
 
-{% assign type = site.data.types[member.role] %}
+{%- if include.lookup -%}
+  {%- assign member = site.members 
+    | where_exp: "m", "m.slug == include.lookup"
+    | first
+  -%}
+{%- elsif include.member -%}
+  {%- assign member = include.member -%}
+{%- else -%}
+  {%- assign member = include -%}
+{%- endif -%}
+
+{%- assign type = site.data.types[member.role] -%}
+
+{%- comment -%}
+Sanitize URL fields:
+ - Only call relative_url if the value is non-empty string and does not look like HTML
+ - Also allow absolute URLs (contains '://') or mailto/tel
+{%- endcomment -%}
+
+{%- assign raw_url = member.url | default: "" | to_s -%}
+{%- assign safe_url = nil -%}
+{%- if raw_url != "" -%}
+  {%- assign is_abs = raw_url contains '://' or raw_url contains 'mailto:' or raw_url contains 'tel:' -%}
+  {%- assign looks_like_html = raw_url contains '<' or raw_url contains '>' or raw_url contains '\n' -%}
+  {%- if is_abs -%}
+    {%- assign safe_url = raw_url -%}
+  {%- elsif looks_like_html == false -%}
+    {%- assign safe_url = raw_url | relative_url -%}
+  {%- endif -%}
+{%- endif -%}
+
+{%- comment -%}
+Sanitize image src similarly
+{%- endcomment -%}
+{%- assign raw_img = member.image | default: "" | to_s -%}
+{%- assign img_src = nil -%}
+{%- if raw_img != "" -%}
+  {%- if raw_img contains '://' -%}
+    {%- assign img_src = raw_img -%}
+  {%- elsif raw_img contains '<' or raw_img contains '>' or raw_img contains '\n' -%}
+    {%- assign img_src = nil -%}
+  {%- else -%}
+    {%- assign img_src = raw_img | relative_url -%}
+  {%- endif -%}
+{%- endif -%}
+{%- if img_src == nil or img_src == "" -%}
+  {%- assign img_src = "/images/fallback.svg" | relative_url -%}
+{%- endif -%}
 
 <div class="portrait-wrapper">
-  {% if page.slug != member.slug %}
-    <a
-      href="{{ member.url | relative_url | uri_escape }}"
-      class="portrait"
-      data-style="{{ include.style }}"
-      aria-label="{{ member.name | default: "member link" | regex_strip }}"
-    >
-  {% else %}
-    <div
-      class="portrait"
-      data-style="{{ include.style }}"
-      aria-label="{{ member.name | default: "member info" | regex_strip }}"
-    >
-  {% endif %}
-
+  <a
+    {% if page.slug != member.slug and safe_url %}
+      href="{{ safe_url | uri_escape }}"
+    {% endif %}
+    class="portrait"
+    data-style="{{ include.style }}"
+    aria-label="{{ member.name | default: "member link" | regex_strip }}"
+  >
+    {%- comment -%}
+    Country flag / icon
+    {%- endcomment -%}
     {% if member.country %}
       {% if member.country.size > 1 %}
         {% for country in member.country %}
-          <i class="icon">
-            <span class="fi fi-{{ country | strip | downcase }}"></span>
-          </i>
+         <i class="icon">
+          <span class="fi fi-{{ country | strip | downcase }}"></span>
+         </i>
         {% endfor %}
       {% else %}
-        <i class="icon">
-          <span class="fi fi-{{ member.country | downcase }}"></span>
-        </i>
+       <i class="icon">
+        <span class="fi fi-{{ member.country | downcase }}"></span>
+       </i>
       {% endif %}
     {% else %}
       <i class="icon fas fa-globe"></i>
     {% endif %}
 
     <img
-      src="{{ member.image | relative_url | uri_escape }}"
+      src="{{ img_src }}"
       class="portrait-image"
-      alt="member portrait"
+      alt="{{ member.name | default: 'member portrait' | regex_strip }}"
       loading="lazy"
       {% include fallback.html %}
     >
 
     {% if member.name %}
-      <span class="portrait-name">
-        {{ member.name }}
-      </span>
+      <span class="portrait-name">{{ member.name }}</span>
     {% endif %}
 
     {% if member.description or type %}
@@ -62,14 +101,7 @@
     {% endif %}
 
     {% if member.affiliation %}
-      <span class="portrait-affiliation">
-        {{ member.affiliation }}
-      </span>
+      <span class="portrait-affiliation">{{ member.affiliation }}</span>
     {% endif %}
-
-  {% if page.slug != member.slug %}
-    </a>
-  {% else %}
-    </div>
-  {% endif %}
+  </a>
 </div>

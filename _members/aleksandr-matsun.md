@@ -4,12 +4,10 @@ image: /images/team/aleksandr-matsun.jpeg
 role: research-engineer
 description: Research Engineer
 country: "ru"
-
 aliases:
   - A. Matsun
   - Aleksandr Matsun
   - A Matsun
-
 links:
   google-scholar: "w4n7nicAAAAJ"
   github: "SashaMatsun"

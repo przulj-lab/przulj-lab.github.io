@@ -4,14 +4,12 @@ image: /images/team/sam-windels.jpeg
 role: postdoc
 description: Postdoctoral Associate
 country: "be"
-
 aliases:
   - S. Windels
   - Sam F. L. Windels
   - Sam F L Windels
   - S Windels
   - Sam Windels
-
 links:
   google-scholar: PytDB7cAAAAJ
   orcid: 0000-0001-8443-5041

@@ -10,7 +10,6 @@ links:
   github: Branislava98
   email_brana: branislava.jankovic@mbzuai.ac.ae
   cv: /assets/Branislava_Jankovic_CV.pdf
-
 ---
 
 Branislava Jankovic is a PhD student in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), where she is supervised by Professor Nataša Pržulj. Her research in the ICON Lab focuses on combating antibiotic resistance through computational approaches, including identifying novel protein targets and proposing new drugs or repurposing existing drugs to address this critical global health challenge.
