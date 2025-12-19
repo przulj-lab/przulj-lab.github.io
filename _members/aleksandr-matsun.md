@@ -11,10 +11,10 @@ aliases:
   - A Matsun
 
 links:
-  google-scholar: w4n7nicAAAAJ
-  github: SashaMatsun
-  email_aleks: aleksandr.matsun@mbzuai.ac.ae
-  cv: /assets/matsun_cv.pdf
+  google-scholar: "w4n7nicAAAAJ"
+  github: "SashaMatsun"
+  email_aleks: "aleksandr.matsun@mbzuai.ac.ae"
+  cv: "/assets/matsun_cv.pdf"
 ---
 
 Aleksandr Matsun is a Research Engineer in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.
