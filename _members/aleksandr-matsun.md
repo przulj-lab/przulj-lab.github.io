@@ -15,11 +15,12 @@ links:
   cv: "/assets/matsun_cv.pdf"
 ---
 
-Aleksandr Matsun is a Research Engineer in the **Integrative Computational Network Biology Lab** at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.
+Aleksandr Matsun is a Research Engineer in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.
 
 Aleksandr's research focuses on computational drug discovery, including in-silico drug generation pipelines, molecular docking, target identification, and multi-omics-based modeling for aging-related gene and drug discovery. He has successfully discovered multiple SIRT1 allosteric activators with significantly improved binding affinity. His expertise spans computer vision applications in medical imaging, including chest X-ray analysis, surgical tool detection, and diabetic retinopathy classification. He has contributed to publications at major conferences including WACV, MICCAI, and has developed open-source tools for biomedical research.
 
-Before joining the ICON Lab, Aleksandr worked as a Researcher at Technology Innovation Institute (2024-2025) on medical imaging tasks, and completed internships at Insilico Medicine (2023) focusing on disease hypothesis extraction from bioentity knowledge graphs, and at Sberbank (2020) on agricultural ML applications. He obtained his M.S.E. in Computer Vision from MBZUAI in 2024 and his M.S.E. in Applied Mathematics from Moscow Institute of Physics and Technology (MIPT) in 2021. Aleksandr has extensive experience in software development, having worked on robotics projects at MIPT's Starkits Lab and computer vision systems at CITaS.
+Before joining the ICON Lab, Aleksandr worked as a Researcher at [Technology Innovation Institute](https://www.tii.ae/) (2024-2025) on medical imaging tasks, and completed internships at [Insilico Medicine](https://insilico.com/) (2023) focusing on disease hypothesis extraction from bioentity knowledge graphs, and at [Sberbank](https://www.sberbank.com/) (2020) on agricultural ML applications. He obtained his M.S.E. in Computer Vision from MBZUAI in 2024 and his M.S.E. in Applied Mathematics from [Moscow Institute of Physics and Technology (MIPT)](https://mipt.ru/english/) in 2021. Aleksandr has extensive experience in software development, having worked on robotics projects at MIPT's Starkits Lab and computer vision systems at CITaS.
+
 {% include section.html %}
 
 ## Education
