@@ -1,5 +1,4 @@
 <!-- third party styles -->
-<!-- https://stylishthemes.github.io/Syntax-Themes/pygments/ -->
 <link 
   href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css"
   rel="stylesheet"
@@ -10,24 +9,19 @@
   rel="stylesheet"
 />
 
-<!-- include all sass in styles folder -->
-{% assign styles = site.pages
-  | where_exp: "file", "file.url contains '/_styles'"
-%}
-{% for style in styles %}
-  {% unless style.url contains ".map" %}
+<!-- include all sass in _styles folder (compiled to .css) -->
+{% for page in site.pages %}
+  {% if page.url contains '/_styles' and page.path contains '.scss' %}
     <link
-      href="{{ style.path | replace: ".scss", ".css" | relative_url }}"
+      href="{{ page.path | replace: '.scss', '.css' | relative_url }}"
       rel="stylesheet"
     />
-  {% endunless %}
+  {% endif %}
 {% endfor %}
 
-<!-- include all css in styles folder -->
-{% assign styles = site.static_files
-  | where_exp: "file",
-    "file.path contains '/_styles' and file.path contains '.css'"
-%}
-{% for style in styles %}
-  <link href="{{ style.path | relative_url }}" rel="stylesheet" />
+<!-- include all css in _styles folder -->
+{% for file in site.static_files %}
+  {% if file.path contains '/_styles' and file.path contains '.css' %}
+    <link href="{{ file.path | relative_url }}" rel="stylesheet" />
+  {% endif %}
 {% endfor %}
