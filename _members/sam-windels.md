@@ -20,7 +20,7 @@ links:
   CV: /assets/cv_sam_windels_academic.pdf
 ---
 
-Sam F. L. Windels is a Postdoctoral Researcher in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is an expert in graphlet-based network analysis, data integration, and computational biology, specializing in developing novel methods to extract biomedical insights from large-scale molecular and clinical datasets.
+Sam F. L. Windels is a Postdoctoral Researcher in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is an expert in graphlet-based network analysis, data integration, and computational biology, specializing in developing novel methods to extract biomedical insights from large-scale molecular and clinical datasets.
 
 Dr. Windels' research focuses on building powerful graphlet-based network descriptors for network analysis and data integration. His recent work introduces the concept of graphlet orbit adjacency to characterize network topology and examine the limitations of random walks and Graph Neural Networks (GNNs) in understanding topology-function relationships. His methods have been published in top-tier journals including [Oxford Bioinformatics](https://academic.oup.com/bioinformatics) (IF 4.4), [Nature Communications](https://www.nature.com/ncomms/) (IF 14.7), and [PLOS One](https://journals.plos.org/plosone/) (IF 2.3). His research has been cited 115 times with an h-index of 5.
 

@@ -16,7 +16,7 @@ links:
 
 ---
 
-Stevan Milinkovic is a Research Scientist in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/) and Professor Emeritus at [Union University – School of Computing](https://www.raf.edu.rs/) in Belgrade, Serbia. He is an expert in artificial intelligence methods for uncovering molecular organization of life, embedded AI systems, and distributed artificial intelligence.
+Stevan Milinkovic is a Research Scientist in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/) and Professor Emeritus at [Union University – School of Computing](https://www.raf.edu.rs/) in Belgrade, Serbia. He is an expert in artificial intelligence methods for uncovering molecular organization of life, embedded AI systems, and distributed artificial intelligence.
 
 Dr. Milinkovic has made pioneering contributions across multiple domains, including early development of IoT-like sensor networks (2000-2001), decentralized time-stamping algorithms that preceded blockchain technology (2012-2013), and most recently, [Yottaanswers.com](https://yottaanswers.com/) (2022-present) – an alternative to large language models that is small, cost-effective, explainable, and incrementally expandable. His work spans smart energy systems, real-time embedded systems, and industrial AI applications, with technology transfer experience from research to industry.
 

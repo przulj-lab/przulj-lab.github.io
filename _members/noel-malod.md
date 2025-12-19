@@ -21,7 +21,7 @@ links:
 
 ---
 
-Noel Malod-Dognin is a Research Scientist in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is a leading expert in network biology, specializing in the modeling, integration, and analysis of large medical and biological networks using explainable AI for precision medicine.
+Noel Malod-Dognin is a Research Scientist in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is a leading expert in network biology, specializing in the modeling, integration, and analysis of large medical and biological networks using explainable AI for precision medicine.
 
 Dr. Malod-Dognin has made significant contributions to computational biology, including pioneering work on protein structure comparison, network alignment algorithms, and multi-omics data integration. His research has been published in high-impact journals including Science and Nature Communications. He has published 44 peer-reviewed journal articles and 13 conference papers, with over 3,400 citations and an h-index of 22.
 

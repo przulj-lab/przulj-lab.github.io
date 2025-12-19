@@ -18,7 +18,7 @@ links:
 
 ---
 
-Tarmo Nurmi is a Postdoctoral Researcher in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io//) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is an expert in multilayer network analysis, network science, and computational neuroscience, specializing in developing novel methods for analyzing complex network structures.
+Tarmo Nurmi is a Postdoctoral Researcher in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He is an expert in multilayer network analysis, network science, and computational neuroscience, specializing in developing novel methods for analyzing complex network structures.
 
 Dr. Nurmi's research focuses on multilayer networks, including the development of graphlet-based analysis tools for characterizing local structures, algorithms for subnetwork enumeration, and frameworks for handling time-changing dynamic networks in human brain data. His work bridges theoretical network science with practical applications in neuroscience and complex systems. He has created and contributed to major software tools, including [pymnet](https://github.com/bolozna/Multilayer-networks-library), a Python library for multilayer network analysis.
 

@@ -19,7 +19,7 @@ links:
   cv: /assets/NP_CV_Nov_10_2025.pdf
 ---
 
-Nataša Pržulj is a Professor of Computational Biology at [**MBZ University of Artificial Intelligence**](https://mbzuai.ac.ae/study/faculty/natasa-przulj/) and Principal Investigator of [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/). She has been a Full Professor of Computer Science at [University College London](https://www.ucl.ac.uk/) since 2016.
+Nataša Pržulj is a Professor of Computational Biology at [**MBZ University of Artificial Intelligence**](https://mbzuai.ac.ae/study/faculty/natasa-przulj/) and Principal Investigator of **Integrative Computational Network Biology Lab**. She has been a Full Professor of Computer Science at [University College London](https://www.ucl.ac.uk/) since 2016.
 
 She is a leader in biological network analysis and a pioneer in network biology geometry applied to personalized (precision) medicine. She introduced graphlets to extract biomedical knowledge from molecular networks, revolutionizing the field. Graphlets are now widely built upon and utilized to produce feature vectors capturing network topology, that are input into many AI algorithms for network data analytics in various domains.
 Her research has been supported by over €27 million in competitive research funding. Notably, she received three prestigious, single PI, European Research Council (ERC) grants: ERC Consolidator (2018-2025), ERC Proof of Concept (2020-2023) and ERC Starting (2012-2017).

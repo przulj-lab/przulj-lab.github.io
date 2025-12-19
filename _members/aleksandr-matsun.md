@@ -17,7 +17,7 @@ links:
   cv: /assets/matsun_cv.pdf
 ---
 
-Aleksandr Matsun is a Research Engineer in the [**Integrative Computational Network Biology Lab**](https://przulj-lab.github.io/) at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.
+Aleksandr Matsun is a Research Engineer in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.
 
 Aleksandr's research focuses on computational drug discovery, including in-silico drug generation pipelines, molecular docking, target identification, and multi-omics-based modeling for aging-related gene and drug discovery. He has successfully discovered multiple SIRT1 allosteric activators with significantly improved binding affinity. His expertise spans computer vision applications in medical imaging, including chest X-ray analysis, surgical tool detection, and diabetic retinopathy classification. He has contributed to publications at major conferences including WACV, MICCAI, and has developed open-source tools for biomedical research.
 
