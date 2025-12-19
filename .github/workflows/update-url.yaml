@@ -3,10 +3,10 @@ run-name: update site after url change
 
 on:
   # run when called from another workflow
-  workflow_call:
-    outputs:
-      changed:
-        value: ${{ jobs.update-url.outputs.changed }}
+  # workflow_call:
+  #   outputs:
+  #     changed:
+  #       value: ${{ jobs.update-url.outputs.changed }}
 
   # run if user manually requests it
   workflow_dispatch:
