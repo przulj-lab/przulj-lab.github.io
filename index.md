@@ -193,24 +193,18 @@ We apply our computational frameworks to address key challenges in precision med
   }
 
   @media (max-width: 768px) {
-    .team-carousel {
-      padding: 0 10px;
-    }
-
     .carousel-container {
       padding: 0 50px;
-      overflow: visible;
     }
     
     .carousel-track {
       gap: 0;
-      overflow: hidden;
     }
     
     .carousel-member {
-      min-width: calc(100vw - 120px);
-      width: calc(100vw - 120px);
-      padding: 20px 10px;
+      width: calc(100vw - 100px);
+      min-width: calc(100vw - 100px);
+      padding: 20px;
       box-sizing: border-box;
     }
     
@@ -220,7 +214,7 @@ We apply our computational frameworks to address key challenges in precision med
     }
 
     .carousel-arrow {
-      font-size: 28px;
+      font-size: 24px;
     }
 
     .carousel-arrow.left {
@@ -262,8 +256,8 @@ function moveCarousel(direction) {
 
 function updateCarousel() {
   if (window.innerWidth <= 768) {
-    // Mobile: calculate member width
-    const memberWidth = window.innerWidth - 120;
+    // Mobile: viewport width minus padding (50px each side = 100px total)
+    const memberWidth = window.innerWidth - 100;
     const offset = -currentIndex * memberWidth;
     carousel.style.transform = `translateX(${offset}px)`;
   } else {
