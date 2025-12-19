@@ -1,28 +1,21 @@
 ---
-name: "Aleksandr Matsun"
-image: "/images/team/aleksandr-matsun.jpeg"
-role: "research-engineer"
-description: "Research Engineer"
+name: Aleksandr Matsun
+image: /images/team/aleksandr-matsun.jpeg
+role: research-engineer
+description: Research Engineer
 country: "ru"
+
 aliases:
-  - "A. Matsun"
-  - "Aleksandr Matsun"
-  - "A Matsun"
+  - A. Matsun
+  - Aleksandr Matsun
+  - A Matsun
 
-# Links as a map (preferred)
 links:
-  google_scholar: "https://scholar.google.com/citations?user=w4n7nicAAAAJ"
-  github: "https://github.com/SashaMatsun"
-  email: "mailto:aleksandr.matsun@mbzuai.ac.ae"
+  google-scholar: "w4n7nicAAAAJ"
+  github: "SashaMatsun"
+  email_aleks: "aleksandr.matsun@mbzuai.ac.ae"
   cv: "/assets/matsun_cv.pdf"
-
-# Top-level fallbacks (some templates read top-level keys)
-google_scholar: "https://scholar.google.com/citations?user=w4n7nicAAAAJ"
-github_url: "https://github.com/SashaMatsun"
-email: "mailto:aleksandr.matsun@mbzuai.ac.ae"
-cv: "/assets/matsun_cv.pdf"
 ---
-
 
 Aleksandr Matsun is a Research Engineer in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/). He specializes in applying deep learning and artificial intelligence methods to drug discovery, multi-omics analysis, and biomedical image analysis.
 
