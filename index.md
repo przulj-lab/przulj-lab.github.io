@@ -193,25 +193,25 @@ We apply our computational frameworks to address key challenges in precision med
   }
 
   @media (max-width: 768px) {
+    .team-carousel {
+      padding: 0 10px;
+    }
+
     .carousel-container {
-      padding: 0;
-      margin: 0 50px;
+      padding: 0 50px;
+      overflow: visible;
     }
     
     .carousel-track {
       gap: 0;
+      overflow: hidden;
     }
     
     .carousel-member {
-      width: 100vw;
-      max-width: calc(100vw - 100px);
-      min-width: calc(100vw - 100px);
-      padding: 20px;
-      margin: 0;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      min-width: calc(100vw - 120px);
+      width: calc(100vw - 120px);
+      padding: 20px 10px;
+      box-sizing: border-box;
     }
     
     .carousel-photo {
@@ -220,15 +220,15 @@ We apply our computational frameworks to address key challenges in precision med
     }
 
     .carousel-arrow {
-      font-size: 24px;
+      font-size: 28px;
     }
 
     .carousel-arrow.left {
-      left: -40px;
+      left: 10px;
     }
 
     .carousel-arrow.right {
-      right: -40px;
+      right: 10px;
     }
   }
 </style>
@@ -262,8 +262,8 @@ function moveCarousel(direction) {
 
 function updateCarousel() {
   if (window.innerWidth <= 768) {
-    // Mobile: each member is full viewport width minus arrow space
-    const memberWidth = window.innerWidth - 100;
+    // Mobile: calculate member width
+    const memberWidth = window.innerWidth - 120;
     const offset = -currentIndex * memberWidth;
     carousel.style.transform = `translateX(${offset}px)`;
   } else {
