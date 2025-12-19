@@ -12,7 +12,7 @@ aliases:
   - N. Pržulj
   - N Pržulj 
 links:
-  google-scholar: https://scholar.google.com/citations?hl=en&user=mLIsLdAAAAAJ
+  google-scholar: mLIsLdAAAAAJ
   home-page: https://mbzuai.ac.ae/study/faculty/natasa-przulj/
   orcid: 0000-0002-1290-853X
   email: natasa.przulj@mbzuai.ac.ae

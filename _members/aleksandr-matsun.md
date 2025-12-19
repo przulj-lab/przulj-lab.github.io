@@ -11,7 +11,7 @@ aliases:
   - A Matsun
 
 links:
-  google-scholar: https://scholar.google.com/citations?hl=en&user=w4n7nicAAAAJ
+  google-scholar: w4n7nicAAAAJ
   github: SashaMatsun
   email_aleks: aleksandr.matsun@mbzuai.ac.ae
   cv: /assets/matsun_cv.pdf

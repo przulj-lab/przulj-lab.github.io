@@ -13,7 +13,7 @@ aliases:
   - Sam Windels
 
 links:
-  google-scholar: https://scholar.google.com/citations?hl=en&user=PytDB7cAAAAJ
+  google-scholar: PytDB7cAAAAJ
   orcid: 0000-0001-8443-5041
   github: samwindels
   email_sam: sam.windels@mbzuai.ac.ae

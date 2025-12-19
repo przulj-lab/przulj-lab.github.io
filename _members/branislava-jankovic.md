@@ -5,7 +5,7 @@ role: phd
 description: PhD Student
 country: "rs"
 links:
-  google-scholar: https://scholar.google.com/citations?hl=en&user=j0ZsRaYAAAAJ
+  google-scholar: j0ZsRaYAAAAJ
   orcid: 0009-0004-2147-6419
   github: Branislava98
   email_brana: branislava.jankovic@mbzuai.ac.ae

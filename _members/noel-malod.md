@@ -14,7 +14,7 @@ aliases:
   - N Malod-Dognin
 
 links:
-  google-scholar: https://scholar.google.com/citations?hl=en&user=ywFtAtMAAAAJ
+  google-scholar: ywFtAtMAAAAJ
   orcid: 0000-0002-6339-9907
   email_noel: noel.malod@mbzuai.ac.ae
   cv: /assets/CV_NMD_2025.pdf
