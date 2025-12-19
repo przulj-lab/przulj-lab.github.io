@@ -2,37 +2,33 @@
 {% assign button = button | hash_default: site.data.types[include.type] %}
 
 {% if button.link or button.icon or button.text %}
-  {% assign raw = button.link | default: "" %}
-
-  {%- if raw == "" -%}
-    {%- assign href = "" -%}
-  {%- elsif raw contains '://' or raw contains 'mailto:' -%}
-    {%- assign href = raw -%}
-  {%- else -%}
-    {%- assign href = raw | relative_url -%}
-  {%- endif -%}
-
+  {% comment %} Replace $VALUE in button.link template with actual value {% endcomment %}
+  {% assign processed_link = button.link | replace: "$VALUE", include.link %}
+  
+  {% comment %} Only use relative_url if link is not absolute or special {% endcomment %}
+  {% if processed_link contains "://" or processed_link contains "mailto:" or processed_link contains "tel:" %}
+    {% assign final_link = processed_link %}
+  {% else %}
+    {% assign final_link = processed_link | relative_url %}
+  {% endif %}
+  
   <div class="button-wrapper">
-    {% if href != "" %}
-      <a
-        class="button"
-        href="{{ href | uri_escape }}"
-        {% if button.tooltip %}
-          data-tooltip="{{ button.tooltip | xml_escape }}"
-        {% endif %}
-        data-style="{{ include.style }}"
-        {% if include.flip %}
-          data-flip
-        {% endif %}
-        aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
-      >
-    {% else %}
-      <a class="button" tabindex="-1" aria-hidden="true">
-    {% endif %}
-        {% include icon.html icon=button.icon %}
-        {% if button.text and button.text != "" %}
-          <span>{{ button.text }}</span>
-        {% endif %}
-      </a>
+    <a
+      class="button"
+      href="{{ final_link | uri_escape }}"
+      {% if button.tooltip %}
+        data-tooltip="{{ button.tooltip | xml_escape }}"
+      {% endif %}
+      data-style="{{ include.style }}"
+      {% if include.flip %}
+        data-flip
+      {% endif %}
+      aria-label="{{ button.tooltip | default: button.icon | default: "button" | regex_strip }}"
+    >
+      {% include icon.html icon=button.icon %}
+      {% if button.text and button.text != "" %}
+        <span>{{ button.text }}</span>
+      {% endif %}
+    </a>
   </div>
 {% endif %}
