@@ -136,12 +136,12 @@ We apply our computational frameworks to address key challenges in precision med
 
   .carousel-track {
     display: flex;
-    gap: 40px;  /* Space between members */
+    gap: 40px;
     transition: transform 0.5s ease;
   }
 
   .carousel-member {
-    min-width: 280px;  /* Reduced to fit 3 with gaps */
+    min-width: 280px;
     padding: 20px;
     text-align: center;
     flex-shrink: 0;
@@ -194,16 +194,20 @@ We apply our computational frameworks to address key challenges in precision med
 
   @media (max-width: 768px) {
     .carousel-container {
-      padding: 0;
+      padding: 0 50px;  /* Add equal padding for arrows */
     }
     
     .carousel-track {
-      gap: 0;  /* No gap on mobile */
+      gap: 0;
     }
     
     .carousel-member {
       min-width: 100%;
-      padding: 0 60px;
+      padding: 20px 0;  /* Remove horizontal padding, keep vertical */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
     }
     
     .carousel-photo {
@@ -253,10 +257,8 @@ function moveCarousel(direction) {
 }
 
 function updateCarousel() {
-  const visibleMembers = getVisibleMembers();
-  
   if (window.innerWidth <= 768) {
-    // Mobile: use full container width
+    // Mobile: calculate based on full width
     const containerWidth = document.querySelector('.carousel-container').offsetWidth;
     const offset = -currentIndex * containerWidth;
     carousel.style.transform = `translateX(${offset}px)`;
