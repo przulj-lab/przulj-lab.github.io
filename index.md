@@ -194,20 +194,20 @@ We apply our computational frameworks to address key challenges in precision med
 
   @media (max-width: 768px) {
     .carousel-container {
-      padding: 0 50px;
+      padding: 0; /* IMPORTANT: remove side padding */
     }
-    
+
     .carousel-track {
       gap: 0;
     }
-    
+
     .carousel-member {
+      flex: 0 0 100%; /* exactly one member per view */
       width: 100%;
-      min-width: 100%;
       padding: 20px 10px;
       box-sizing: border-box;
     }
-    
+
     .carousel-photo {
       width: 140px;
       height: 140px;
@@ -225,6 +225,7 @@ We apply our computational frameworks to address key challenges in precision med
       right: 10px;
     }
   }
+
 </style>
 
 <script>
