@@ -12,7 +12,7 @@ logo-text: true
 
 proofer: false
 url: https://przulj-lab.github.io
-baseurl:
+baseurl: ""
 
 # site social media and other links
 links:
