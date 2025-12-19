@@ -202,9 +202,9 @@ We apply our computational frameworks to address key challenges in precision med
     }
     
     .carousel-member {
-      width: calc(100vw - 100px);
-      min-width: calc(100vw - 100px);
-      padding: 20px;
+      width: 100%;
+      min-width: 100%;
+      padding: 20px 10px;
       box-sizing: border-box;
     }
     
@@ -256,9 +256,10 @@ function moveCarousel(direction) {
 
 function updateCarousel() {
   if (window.innerWidth <= 768) {
-    // Mobile: viewport width minus padding (50px each side = 100px total)
-    const memberWidth = window.innerWidth - 100;
-    const offset = -currentIndex * memberWidth;
+    // Mobile: use the actual container's inner width
+    const container = document.querySelector('.carousel-container');
+    const containerWidth = container.clientWidth;
+    const offset = -currentIndex * containerWidth;
     carousel.style.transform = `translateX(${offset}px)`;
   } else {
     // Desktop: member width + gap
