@@ -5,8 +5,7 @@
   flex-wrap: wrap;
   gap: 10px;
   max-width: 100%;
-  margin: 20px 0;
-}
+  margin: 20px 0; }
 
 .tag {
   max-width: 100%;
@@ -19,15 +18,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  transition: background var(--transition), color var(--transition);
-}
+  transition: background var(--transition), color var(--transition); }
 
 .tag:hover {
-  background: var(--light-gray);
-}
+  background: var(--light-gray); }
 
 .tag[data-active] {
-  background: var(--light-gray);
-}
-
-/*# sourceMappingURL=tags.css.map */
+  background: var(--light-gray); }

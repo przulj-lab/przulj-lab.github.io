@@ -4,22 +4,16 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  margin: 40px 0;
-}
+  margin: 40px 0; }
 
 .figure-image {
-  display: contents;
-}
+  display: contents; }
 
 .figure-image img {
   border-radius: var(--rounded);
   overflow: hidden;
-  box-shadow: var(--shadow);
-}
+  box-shadow: var(--shadow); }
 
 .figure-caption {
   font-style: italic;
-  text-align: center;
-}
-
-/*# sourceMappingURL=figure.css.map */
+  text-align: center; }

@@ -1,10 +1,8 @@
 button {
-  cursor: pointer;
-}
+  cursor: pointer; }
 
 .button-wrapper {
-  display: contents;
-}
+  display: contents; }
 
 .button {
   display: inline-flex;
@@ -25,25 +23,18 @@ button {
   text-decoration: none;
   vertical-align: middle;
   appearance: none;
-  transition: background var(--transition), color var(--transition);
-}
+  transition: background var(--transition), color var(--transition); }
 
 .button:hover {
   background: var(--text);
-  color: var(--background);
-}
+  color: var(--background); }
 
-.button[data-style=bare] {
+.button[data-style="bare"] {
   padding: 5px;
   background: none;
-  color: var(--primary);
-}
-.button[data-style=bare]:hover {
-  color: var(--text);
-}
+  color: var(--primary); }
+  .button[data-style="bare"]:hover {
+    color: var(--text); }
 
 .button[data-flip] {
-  flex-direction: row-reverse;
-}
-
-/*# sourceMappingURL=button.css.map */
+  flex-direction: row-reverse; }

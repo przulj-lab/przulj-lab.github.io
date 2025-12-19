@@ -6,19 +6,13 @@ footer {
   gap: 20px;
   padding: 40px;
   line-height: var(--spacing);
-  box-shadow: var(--shadow);
-}
+  box-shadow: var(--shadow); }
 
 footer a {
-  color: var(--text) !important;
-}
+  color: var(--text) !important; }
 
 footer a:hover {
-  color: var(--primary) !important;
-}
+  color: var(--primary) !important; }
 
 footer .icon {
-  font-size: var(--xl);
-}
-
-/*# sourceMappingURL=footer.css.map */
+  font-size: var(--xl); }

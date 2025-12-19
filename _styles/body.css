@@ -8,7 +8,4 @@ body {
   color: var(--text);
   font-family: var(--body);
   text-align: center;
-  line-height: var(--compact);
-}
-
-/*# sourceMappingURL=body.css.map */
+  line-height: var(--compact); }

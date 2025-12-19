@@ -6,8 +6,7 @@
   border-radius: 999px;
   background: var(--primary);
   appearance: none;
-  transition: background var(--transition);
-}
+  transition: background var(--transition); }
 
 .dark-toggle:after {
   content: "\f185";
@@ -19,12 +18,8 @@
   font-family: "Font Awesome 6 Free";
   font-weight: 900;
   transform: translate(-50%, -50%);
-  transition: left var(--transition);
-}
+  transition: left var(--transition); }
 
 .dark-toggle:checked:after {
   content: "\f186";
-  left: calc(100% - 12px);
-}
-
-/*# sourceMappingURL=dark-toggle.css.map */
+  left: calc(100% - 12px); }

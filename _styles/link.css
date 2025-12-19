@@ -1,15 +1,10 @@
 a {
   color: var(--primary);
   transition: color var(--transition);
-  overflow-wrap: break-word;
-}
+  overflow-wrap: break-word; }
 
 a:hover {
-  color: var(--text);
-}
+  color: var(--text); }
 
 a:not([href]) {
-  color: var(--text);
-}
-
-/*# sourceMappingURL=link.css.map */
+  color: var(--text); }
