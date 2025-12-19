@@ -77,6 +77,16 @@
     - alignment-free
 
 # Network Analysis
+- title: Drugst.One
+  subtitle: Network-based drug repurposing platform
+  group: featured
+  image: images/tools/drugst-one.png
+  link: https://drugst.one/
+  description: Network visualization plugin that integrates gene/protein interactions with drug candidate ranking algorithms for therapeutic discovery.  
+  repo: https://drugst.one/
+  tags:
+    - network-analysis
+
 - title: iCell
   subtitle: Network-based integration of multi-omics data
   group: featured

@@ -8,6 +8,9 @@ aliases:
   - N. Przulj
   - Natasa Przulj
   - N Przulj
+  - Nataša Pržulj
+  - N. Pržulj
+  - N Pržulj 
 links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=mLIsLdAAAAAJ
   home-page: https://mbzuai.ac.ae/study/faculty/natasa-przulj/

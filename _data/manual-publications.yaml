@@ -1,21 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: doi:10.3390/plants14071017
-  title: Yield Determination in Major Small Grain Crops in Response to Nitrogen Fertilization
-  authors:
-  - "Milan Mirosavljevi\u0107"
-  - "Vojislava Mom\u010Dilovi\u0107"
-  - "Vladimir A\u0107in"
-  - "Bojan Jockovi\u0107"
-  - "Novo Pr\u017Eulj"
-  - "Goran Ja\u0107imovi\u0107"
-  publisher: Plants
-  date: '2025-03-24'
-  link: https://doi.org/hbdw85
-  orcid: 0000-0002-1290-853X
-  plugin: orcid.py
-  file: orcid.yaml
-
 - id: doi:10.1093/bioinformatics/btaf122
   title: 'Clustering individuals using INMTD: a novel versatile multi-view embedding
     framework integrating omics and imaging data'
@@ -253,27 +237,6 @@
   publisher: Bioinformatics advances
   date: '2024-05-23'
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11142626/
-  orcid: 0000-0002-1290-853X
-  plugin: orcid.py
-  file: orcid.yaml
-
-- id: doi:10.1007/s10681-023-03262-6
-  title: Genetic progress in grain yield and associated changes in spikelet and grain
-    traits in historical set of Pannonian wheat cultivars
-  authors:
-  - "Milan Mirosavljevi\u0107"
-  - "Vojislava Mom\u010Dilovi\u0107"
-  - "Tanja Dra\u017Ei\u0107"
-  - "Vladimir A\u0107in"
-  - "Bojan Jockovi\u0107"
-  - "Sanja Miki\u0107"
-  - "Ljiljana Brbakli\u0107"
-  - "Dragan \u017Divan\u010Dev"
-  - "Miroslav Zori\u0107"
-  - "Novo Pr\u017Eulj"
-  publisher: Euphytica
-  date: '2023-12-16'
-  link: https://doi.org/hbdw8x
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
   file: orcid.yaml

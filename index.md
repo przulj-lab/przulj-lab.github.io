@@ -81,6 +81,11 @@ We apply our computational frameworks to address key challenges in precision med
         <p style="text-align: center">Research Scientist</p>
       </div>
       <div class="carousel-member">
+        <img src="{{ 'images/team/sam-windels.jpeg' | relative_url }}" class="carousel-photo" alt="Sam F. L. Windels">
+        <h4 style="text-align: center">Sam F. L. Windels</h4>
+        <p style="text-align: center">Postdoctoral Associate</p>
+      </div>
+      <div class="carousel-member">
         <img src="{{ 'images/team/tarmo-nurmi.jpeg' | relative_url }}" class="carousel-photo" alt="Tarmo Nurmi">
         <h4 style="text-align: center">Tarmo Nurmi</h4>
         <p style="text-align: center">Postdoctoral Associate</p>

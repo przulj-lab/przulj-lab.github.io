@@ -16,6 +16,7 @@ If you are interested in [joining us](/join/), please send your CV with a cover 
   {% include portrait.html lookup="natasa-przulj" %}
   {% include portrait.html lookup="noel-malod" %}
   {% include portrait.html lookup="stevan-milinkovic" %}
+  {% include portrait.html lookup="sam-windels" %}
   {% include portrait.html lookup="tarmo-nurmi" %}
   {% include portrait.html lookup="aleksandr-matsun" %}
   {% include portrait.html lookup="branislava-jankovic" %}

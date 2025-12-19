@@ -8,6 +8,10 @@ aliases:
   - N. Malod
   - Noel Malod
   - N Malod
+  - N. Malod-Dognin
+  - Noël Malod-Dognin
+  - Noel Malod-Dognin
+  - N Malod-Dognin
 
 links:
   google-scholar: https://scholar.google.com/citations?hl=en&user=ywFtAtMAAAAJ

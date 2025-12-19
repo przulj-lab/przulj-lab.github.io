@@ -102,6 +102,12 @@ email_brana:
   tooltip: branislava.jankovic@mbzuai.ac.ae
   link: mailto:$VALUE
 
+email_sam:
+  icon: fa-solid fa-envelope
+  text: Email
+  tooltip: sam.windels@mbzuai.ac.ae
+  link: mailto:$VALUE
+
 phone:
   icon: fa-solid fa-phone
   text: Phone Number
