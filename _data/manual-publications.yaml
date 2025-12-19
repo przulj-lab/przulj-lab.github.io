@@ -60,8 +60,46 @@
   - "Nata\u0161a Pr\u017Eulj"
   - "No\xEBl Malod-Dognin"
   publisher: Bioinformatics Advances
-  date: '2024-12-26'
+  date: '2025-02-06'
   link: https://doi.org/hbdw8w
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: doi:10.1093/bioadv/vbae164
+  title: Author Correction, Systematic protein-protein interaction mapping for clinically relevant human GPCRs
+  authors:
+  - Kate Sokolina
+  - Saranya Kittanakom
+  - Jamie Snider
+  - Max Kotlyar
+  - Pascal Maurice
+  - "Jorge Gand\xEDa"
+  - Abla Benleulmi-Chaachoua
+  - Kenjiro Tadagaki
+  - Atsuro Oishi
+  - Victoria Wong
+  - Ramy H Malty
+  - Viktor Deineko
+  - Hiroyuki Aoki
+  - Shahreen Amin
+  - Zhong Yao
+  - "Xavier Morat\xF3"
+  - David Otasek
+  - Hiroyuki Kobayashi
+  - Javier Menendez
+  - Daniel Auerbach
+  - Stephane Angers
+  - "Natasa Pr\u017Eulj"
+  - Michel Bouvier
+  - Mohan Babu
+  - Francisco Ciruela
+  - Ralf Jockers
+  - Igor Jurisica
+  - Igor Stagljar
+  publisher: Molecular systems biology
+  date: '2025-02-03'
+  link: https://doi.org/10.1038/s44320-024-00080-3
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
   file: orcid.yaml
@@ -83,8 +121,7 @@
   file: orcid.yaml
 
 - id: doi:10.1093/narmme/ugae012
-  title: "MONFIT: multi-omics factorization-based integration of time-series data\
-    \ sheds light on Parkinson\u2019s disease"
+  title: "MONFIT: Multi-omics factorization-based integration of time-series data sheds light on Parkinson's disease"
   authors:
   - "Katarina Mihajlovi\u0107"
   - "No\xEBl Malod-Dognin"
@@ -97,6 +134,20 @@
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
   file: orcid.yaml
+
+- id: doi:10.48550/arXiv.2410.01865
+  title: "Simplifying complex machine learning by linearly separable network embedding spaces"
+  authors:
+    - "Alexandros Xenos"
+    - "No\u00EBl Malod-Dognin"
+    - "Nata\u0161a Pr\u017Eulj"
+  publisher: arXiv
+  date: '2024-10-02'
+  link: https://doi.org/10.48550/arXiv.2410.01865
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
 
 - id: pmc:PMC11321866
   title: Current and future directions in network biology
@@ -141,6 +192,110 @@
   publisher: Bioinformatics advances
   date: '2024-08-14'
   link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC11321866/
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: inmtc-2024
+  title: "INMTD: integrative clustering with 2D genotypes and 3D facial images in the presence of confounders"
+  authors:
+    - "Zuqi Li"
+    - "Sam F. L. Windels"
+    - "Seth Weinberg"
+    - "Mary L. Marazita"
+    - "Susan Walsh"
+    - "Mark Shriver"
+    - "No\u00EBl Malod-Dognin"
+    - "David Fardo"
+    - "Peter Claes"
+    - "Nata\u0161a Pr\u017Eulj"
+    - "Kristel Van Steen"
+  publisher: "5th Belgrade Bioinformatics Conference"
+  date: '2024-01-01'
+  link: https://www.bg.ac.rs   # (No DOI; replace with actual link if you obtain it)
+  pages: "69–69"
+  type: conference
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: dimspace-2024
+  title: "Estimating the dimensionality of omics network embedding space"
+  authors:
+    - "Milena Stoji\u0107"
+    - "No\u00EBl Malod-Dognin"
+    - "Nata\u0161a Pr\u017Eulj"
+  publisher: "5th Belgrade Bioinformatics Conference"
+  date: '2024-01-01'
+  pages: "55–55"
+  link: https://www.bg.ac.rs   # replace with official link if available
+  type: conference
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: pcr-nanopore-2024
+  title: "PCR-based nanopore sequencing method for characterizing short tandem repeat expansions"
+  authors:
+    - "Nata\u0161a Pr\u017Eulj"
+    - "Lana Radenkovi\u0107"
+    - "Jovan Pesovi\u0107"
+    - "Vladimir Tomi\u0107"
+    - "Igor Davidovi\u0107"
+    - "Nemanja Radanovi\u0107"
+    - "Ana Popi\u0107"
+    - "Du\u0161anka Savi\u0107-Pavi\u0107evi\u0107"
+  publisher: "5th Belgrade Bioinformatics Conference"
+  date: '2024-01-01'
+  pages: "50–50"
+  link: https://www.bg.ac.rs   # replace with official link if available
+  type: conference
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: linear-embedding-2024
+  title: "Towards a linearly organised embedding space of biological networks"
+  authors:
+    - "Alexandros Xenos"
+    - "No\u00EBl Malod-Dognin"
+    - "Nata\u0161a Pr\u017Eulj"
+  publisher: "5th Belgrade Bioinformatics Conference"
+  date: '2024-01-01'
+  pages: "35–35"
+  link: https://www.bg.ac.rs   # replace with official conference link if available
+  type: conference
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: panviral-2024
+  title: "\"Pan-viral\" disease mechanisms unveil the sweet spot for therapeutic intervention"
+  authors:
+    - "Carme Zambrana"
+    - "Sam F. L. Windels"
+    - "No\u00EBl Malod-Dognin"
+    - "Nata\u0161a Pr\u017Eulj"
+  publisher: "5th Belgrade Bioinformatics Conference"
+  date: '2024-01-01'
+  pages: "16–16"
+  link: https://www.bg.ac.rs   # replace with the official conference or proceedings link if available
+  type: conference
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+- id: graphlet-higherorder-2024
+  title: "Graphlet-based higher-order network embeddings: the past, the present and the future"
+  authors:
+    - "Sam F. L. Windels"
+    - "No\u00EBl Malod-Dognin"
+    - "Nata\u0161a Pr\u017Eulj"
+  publisher: "5th Belgrade Bioinformatics Conference"
+  date: '2024-01-01'
+  pages: "27–27"
+  link: https://www.bg.ac.rs   # replace with official conference link if available
+  type: conference
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
   file: orcid.yaml
@@ -199,17 +354,19 @@
 - id: doi:10.1101/2025.06.04.657816
   title: iTissue
   authors:
-  - [Carme Zambrana, Noël Malod-Dognin, Nataša Pržulj]
-  publisher: Cold Spring Harbor Laboratory
+    - Carme Zambrana
+    - Noël Malod-Dognin
+    - Nataša Pržulj
   date: '2025-06-08'
+  publisher: Cold Spring Harbor Laboratory
   link: https://doi.org/10.1101/2025.06.04.657816
   orcid: 0000-0002-1290-853X
-  plugin: orcid.py
-  file: orcid.yaml
+  type: journal
+  img: ''
+
 
 - id: pmid:38744869
-  title: Multi-omics integration of scRNA-seq time series data predicts new intervention
-    points for Parkinson's disease.
+  title: Multi-omics integration of scRNA-seq time series data predicts new intervention points for Parkinson's disease.
   authors:
   - "Katarina Mihajlovi\u0107"
   - Gaia Ceddia
@@ -226,8 +383,7 @@
   file: orcid.yaml
 
 - id: pmc:PMC11142626
-  title: 'The axes of biology: a novel axes-based network embedding paradigm to decipher
-    the functional mechanisms of the cell'
+  title: 'The axes of biology: a novel axes-based network embedding paradigm to decipher the functional mechanisms of the cell'
   authors:
   - Sergio Doria-Belenguer
   - Alexandros Xenos
@@ -962,6 +1118,38 @@
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
   file: orcid.yaml
+
+- id: doi:10.48550/arXiv.2405.14194
+  title: "Graphlets correct for the topological information missed by random walks"
+  authors:
+    - "Sam F. L. Windels"
+    - "No\u00EBl Malod-Dognin"
+    - "Nata\u0161a Pr\u017Eulj"
+  publisher: arXiv
+  date: '2024-05-23'
+  link: https://doi.org/10.48550/arXiv.2405.14194
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
+
+- id: doi:10.3389/fmed.2024.1348148
+  title: "Bridging the Gap in Precision Medicine: TranSYS Training Programme for Next-Generation Scientists"
+  authors:
+    - "Lara Andreoli"
+    - "Catalina Berca"
+    - "Sonja Sonja Katz"
+    - "Maryna Korshevniuk"
+    - "Ritchie Head"
+    - "Kristel Van Steen"
+    - "TranSYS Consortium"
+  publisher: Frontiers in Medicine
+  date: '2024-05-24'
+  link: https://doi.org/10.3389/fmed.2024.1348148
+  orcid: 0000-0002-1290-853X
+  plugin: orcid.py
+  file: orcid.yaml
+
 
 - id: pmid:24728588
   title: Bridging the gaps in systems biology.

@@ -5,7 +5,7 @@ $page: 1000px;
 $padding: 30px;
 
 section {
-  padding: $padding max($padding, calc((100% - $page) / 2));
+  padding: $padding unquote("max(calc((100% - #{$page}) / 2), #{$padding})");
   transition: background var(--transition), color var(--transition);
 }
 

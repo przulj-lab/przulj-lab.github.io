@@ -1,109 +1,99 @@
-{% if include.lookup %}
-  {% assign citation = site.data.citations
-    | where_exp: "citation",
-      "citation.id == include.lookup or citation.title contains include.lookup"
-    | first
-  %}
+{%- comment -%}
+Lookup citation by id or title
+{%- endcomment -%}
+{%- if include.lookup -%}
+  {%- assign needle = include.lookup | to_s -%}
+  {%- assign citation = site.data.citations | where: "id", needle | first -%}
+  {%- if citation == nil -%}
+    {%- assign n = needle | downcase -%}
+    {%- for c in site.data.citations -%}
+      {%- assign t = c.title | default: "" | downcase -%}
+      {%- if t contains n -%}
+        {%- assign citation = c -%}
+        {%- break -%}
+      {%- endif %}
+    {% endfor %}
+  {% endif %}
 {% else %}
   {% assign citation = include %}
 {% endif %}
 
-<div class="citation-container">
-  <div class="citation">
-    {% if include.style == "rich" %}
-      <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | uri_escape }}"
-        {% endif %}
-        class="citation-image"
-        aria-label="{{ citation.title | default: "citation link" | regex_strip }}"
-      >
-        <img
-          src="{{ citation.image | relative_url | uri_escape }}"
-          alt="{{ citation.title | default: "citation image" | regex_strip }}"
-          loading="lazy"
-          {% include fallback.html %}
-        >
-      </a>
-    {% endif %}
+{%- comment -%}
+Safe href
+{%- endcomment -%}
+{%- assign raw_link = citation.link | to_s -%}
+{% if raw_link contains '://' or raw_link contains 'mailto:' or raw_link contains 'tel:' %}
+  {% assign href = raw_link %}
+{% elsif raw_link != "" %}
+  {% assign href = raw_link | relative_url %}
+{% endif %}
 
-    <div class="citation-text">
-      {% assign type = site.data.types[citation.type] %}
-      {% include icon.html icon=type.icon %}
+{%- comment -%}
+Safe image src
+{%- endcomment -%}
+{%- assign raw_img = citation.image | to_s -%}
+{% if raw_img contains '://' %}
+  {% assign img_src = raw_img %}
+{% elsif raw_img != "" %}
+  {% assign img_src = raw_img | relative_url %}
+{% else %}
+  {% assign img_src = "/images/fallback.svg" | relative_url %}
+{% endif %}
 
-      <a
-        {% if citation.link %}
-          href="{{ citation.link | relative_url | xml_escape }}"
-        {% endif %}
-        class="citation-title"
-      >
-        {{ citation.title | default: "[no title info]" }}
-      </a>
+<div class="citation">
+  {% if include.style == "rich" %}
+    <a {% if href %}href="{{ href }}"{% endif %} class="citation-image">
+      <img src="{{ img_src }}" alt="{{ citation.title | default: "citation image" | regex_strip }}" loading="lazy" {% include fallback.html %}>
+    </a>
+  {% endif %}
 
-      <div
-        class="citation-authors"
-        {% if citation.authors.size > 10 %}
-          data-tooltip="{{ citation.authors | join: ", " | xml_escape }}"
-        {% endif %}
-        tabindex="0"
-      >
-        {{
-          citation.authors
-          | join: ","
-          | split: ","
-          | array_carve: 5
-          | join: ", "
-          | markdownify
-          | remove: "<p>" | remove: "</p>"
-          | default: "[no author info]"
-        }}
-      </div>
+  <div class="citation-text">
+    {% assign type = site.data.types[citation.type] %}
+    {% include icon.html icon=type.icon %}
 
-      <div class="citation-details">
-        <span class="citation-publisher">
-          {{- citation.publisher | default: "[no publisher info]" -}}
-        </span>
-        &nbsp;·&nbsp;
-        <span class="citation-date">
-          {{- citation.date | default: "[no date info]" | date: "%d %b %Y" -}}
-        </span>
-        &nbsp;·&nbsp;
-        <span class="citation-id">
-          {{- citation.id | default: "[no id info]" -}}
-        </span>
-      </div>
+    <a {% if href %}href="{{ href }}"{% endif %} class="citation-title">
+      {{ citation.title | default: "[no title info]" }}
+    </a>
 
-      {% if include.style == "rich" %}
-        {% if citation.description %}
-          <div class="citation-description">
-            {{
-              citation.description
-              | markdownify
-              | remove: "<p>"
-              | remove: "</p>"
-            }}
-          </div>
-        {% endif %}
-
-        {% if citation.buttons.size > 0 %}
-          <div class="citation-buttons">
-            {% for button in citation.buttons %}
-              {%
-                include button.html
-                type=button.type
-                icon=button.icon
-                text=button.text
-                link=button.link
-                style="bare"
-              %}
-            {% endfor %}
-          </div>
-        {% endif %}
-
-        {% if citation.tags.size > 0 or citation.repo %}
-          {% include tags.html tags=citation.tags repo=citation.repo %}
-        {% endif %}
-      {% endif %}
+    <div class="citation-authors">
+      {{
+        citation.authors
+        | join: ","
+        | split: ","
+        | array_carve: 5
+        | join: ", "
+        | markdownify
+        | remove: "<p>" | remove: "</p>"
+        | default: "[no author info]"
+      }}
     </div>
+
+    <div class="citation-details">
+      <span class="citation-publisher">{{ citation.publisher }}</span>
+      &nbsp;·&nbsp;
+      <span class="citation-date">{{ citation.date | date: "%d %b %Y" }}</span>
+      &nbsp;·&nbsp;
+      <span class="citation-id">{{ citation.id }}</span>
+    </div>
+
+    {% if include.style == "rich" %}
+      {% if citation.description %}
+      <div class="citation-description">
+        {{ citation.description | markdownify | remove: "<p>" | remove: "</p>" }}
+      </div>
+      {% endif %}
+
+      {% if citation.buttons %}
+      <div class="citation-buttons">
+        {% for button in citation.buttons %}
+          {% include button.html type=button.type icon=button.icon text=button.text link=button.link style="bare" %}
+        {% endfor %}
+      </div>
+      {% endif %}
+
+      {% if citation.tags or citation.repo %}
+        {% include tags.html tags=citation.tags repo=citation.repo %}
+      {% endif %}
+    {% endif %}
   </div>
 </div>

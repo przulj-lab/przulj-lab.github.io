@@ -28,27 +28,52 @@ layout: default
   | array_filter
 %}
 
-{% capture search -%}
+{%- capture search -%}
   publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture %}
+{%- endcapture -%}
+
+{%- assign search_raw = search | strip | default: "" -%}
+{%- if search_raw == "" -%}
+  {%- assign search_href = "" -%}
+{%- elsif search_raw contains '://' or search_raw contains 'mailto:' -%}
+  {%- assign search_href = search_raw -%}
+{%- else -%}
+  {%- assign search_href = search_raw | relative_url -%}
+{%- endif -%}
 
 <p class="center">
   <hr>
-  <a href="{{ search | relative_url | uri_escape }}">
-    Search for {{ page.name | default: page.title }}'s papers on the Publications page
-  </a>
-
+  {% if search_href != "" %}
+    <a href="{{ search_href | uri_escape }}">
+      Search for {{ page.name | default: page.title }}'s papers on the Publications page
+    </a>
+  {% else %}
+    <span>Search for {{ page.name | default: page.title }}'s papers on the Publications page</span>
+  {% endif %}
 </p>
 
-
-{% capture search -%}
+{%- capture blog_search -%}
   blog/?search={{ page.name }}
-{%- endcapture %}
+{%- endcapture -%}
+
+{%- assign blog_search_raw = blog_search | strip | default: "" -%}
+{%- if blog_search_raw == "" -%}
+  {%- assign blog_search_href = "" -%}
+{%- elsif blog_search_raw contains '://' or blog_search_raw contains 'mailto:' -%}
+  {%- assign blog_search_href = blog_search_raw -%}
+{%- else -%}
+  {%- assign blog_search_href = blog_search_raw | relative_url -%}
+{%- endif -%}
 
 <!--
 <p class="center">
-  <a href="{{ search | relative_url | uri_escape }}">
-    See {{ page.name | default: page.title }}'s posts on the Blog page
-  </a>
+  {% if blog_search_href != "" %}
+    <a href="{{ blog_search_href | uri_escape }}">
+      See {{ page.name | default: page.title }}'s posts on the Blog page
+    </a>
+  {% else %}
+    <span>See {{ page.name | default: page.title }}'s posts on the Blog page</span>
+  {% endif %}
 </p>
 -->
+
