@@ -2,21 +2,18 @@
 layout: default
 ---
 
-{% capture floatcontent %}
-
-{% include portrait.html lookup=page.slug %}
-
-<div>
-  {% for link in page.links %}
-    {% assign key = link[0] %}
-    {% assign value = link[1] %}
-    {% include button.html type=key link=value style="bare" %}<br>
-  {% endfor %}
+<div class="float">
+  {% include portrait.html lookup=page.slug %}
+  
+  <div>
+    {% for link in page.links %}
+      {% assign key = link[0] %}
+      {% assign value = link[1] %}
+      {% include button.html type=key link=value style="bare" %}
+      <br>
+    {% endfor %}
+  </div>
 </div>
-
-{% endcapture %}
-
-{% include float.html content=floatcontent %}
 
 {{ content }}
 
@@ -28,52 +25,25 @@ layout: default
   | array_filter
 %}
 
-{%- capture search -%}
+{% capture search -%}
   publications/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
-{%- endcapture -%}
-
-{%- assign search_raw = search | strip | default: "" -%}
-{%- if search_raw == "" -%}
-  {%- assign search_href = "" -%}
-{%- elsif search_raw contains '://' or search_raw contains 'mailto:' -%}
-  {%- assign search_href = search_raw -%}
-{%- else -%}
-  {%- assign search_href = search_raw | relative_url -%}
-{%- endif -%}
+{%- endcapture %}
 
 <p class="center">
   <hr>
-  {% if search_href != "" %}
-    <a href="{{ search_href | uri_escape }}">
-      Search for {{ page.name | default: page.title }}'s papers on the Publications page
-    </a>
-  {% else %}
-    <span>Search for {{ page.name | default: page.title }}'s papers on the Publications page</span>
-  {% endif %}
+  <a href="{{ search | relative_url | uri_escape }}">
+    Search for {{ page.name | default: page.title }}'s papers on the Publications page
+  </a>
 </p>
 
-{%- capture blog_search -%}
+{% capture blog_search -%}
   blog/?search={{ page.name }}
-{%- endcapture -%}
-
-{%- assign blog_search_raw = blog_search | strip | default: "" -%}
-{%- if blog_search_raw == "" -%}
-  {%- assign blog_search_href = "" -%}
-{%- elsif blog_search_raw contains '://' or blog_search_raw contains 'mailto:' -%}
-  {%- assign blog_search_href = blog_search_raw -%}
-{%- else -%}
-  {%- assign blog_search_href = blog_search_raw | relative_url -%}
-{%- endif -%}
+{%- endcapture %}
 
 <!--
 <p class="center">
-  {% if blog_search_href != "" %}
-    <a href="{{ blog_search_href | uri_escape }}">
-      See {{ page.name | default: page.title }}'s posts on the Blog page
-    </a>
-  {% else %}
-    <span>See {{ page.name | default: page.title }}'s posts on the Blog page</span>
-  {% endif %}
+  <a href="{{ blog_search | relative_url | uri_escape }}">
+    See {{ page.name | default: page.title }}'s posts on the Blog page
+  </a>
 </p>
 -->
-
