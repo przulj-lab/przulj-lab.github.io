@@ -105,8 +105,7 @@
   file: orcid.yaml
 
 - id: doi:10.1093/bioinformatics/btae650
-  title: Graphlet-based hyperbolic embeddings capture evolutionary dynamics in genetic
-    networks
+  title: Graphlet-based hyperbolic embeddings capture evolutionary dynamics in genetic networks
   authors:
   - Sam F L Windels
   - Daniel Tello Velasco
@@ -212,7 +211,7 @@
     - "Kristel Van Steen"
   publisher: "5th Belgrade Bioinformatics Conference"
   date: '2024-01-01'
-  link: https://www.bg.ac.rs   # (No DOI; replace with actual link if you obtain it)
+  link: https://imagine.imgge.bg.ac.rs/handle/123456789/2743   # (No DOI; replace with actual link if you obtain it)
   pages: "69–69"
   type: conference
   orcid: 0000-0002-1290-853X
@@ -228,7 +227,7 @@
   publisher: "5th Belgrade Bioinformatics Conference"
   date: '2024-01-01'
   pages: "55–55"
-  link: https://www.bg.ac.rs   # replace with official link if available
+  link: https://imagine.imgge.bg.ac.rs/handle/123456789/2731  # replace with official link if available
   type: conference
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
@@ -248,7 +247,7 @@
   publisher: "5th Belgrade Bioinformatics Conference"
   date: '2024-01-01'
   pages: "50–50"
-  link: https://www.bg.ac.rs   # replace with official link if available
+  link: https://imagine.imgge.bg.ac.rs/handle/123456789/2727  # replace with official link if available
   type: conference
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
@@ -263,7 +262,7 @@
   publisher: "5th Belgrade Bioinformatics Conference"
   date: '2024-01-01'
   pages: "35–35"
-  link: https://www.bg.ac.rs   # replace with official conference link if available
+  link: https://imagine.imgge.bg.ac.rs/handle/123456789/2712   # replace with official conference link if available
   type: conference
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
@@ -279,7 +278,7 @@
   publisher: "5th Belgrade Bioinformatics Conference"
   date: '2024-01-01'
   pages: "16–16"
-  link: https://www.bg.ac.rs   # replace with the official conference or proceedings link if available
+  link: https://imagine.imgge.bg.ac.rs/handle/123456789/2694   # replace with the official conference or proceedings link if available
   type: conference
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
@@ -294,7 +293,7 @@
   publisher: "5th Belgrade Bioinformatics Conference"
   date: '2024-01-01'
   pages: "27–27"
-  link: https://www.bg.ac.rs   # replace with official conference link if available
+  link: https://imagine.imgge.bg.ac.rs/handle/123456789/2703  # replace with official conference link if available
   type: conference
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
