@@ -259,11 +259,21 @@ const members = carousel.children.length;
 function getVisibleMembers() {
   const width = window.innerWidth;
   if (width <= 768) {
-    return 1; // mobile
+    return 1;
   } else if (width <= 1024) {
-    return 2; // tablet
+    return 2;
   }
-  return 3; // desktop
+  return 3;
+}
+
+function getGap() {
+  const width = window.innerWidth;
+  if (width <= 768) {
+    return 0;
+  } else if (width <= 1024) {
+    return 30;
+  }
+  return 40;
 }
 
 function moveCarousel(direction) {
@@ -284,11 +294,16 @@ function moveCarousel(direction) {
 function updateCarousel() {
   const member = carousel.querySelector('.carousel-member');
   const memberWidth = member.offsetWidth;
-  const gap = parseFloat(getComputedStyle(carousel).gap) || 0;
+  const gap = getGap();
   
   const offset = -currentIndex * (memberWidth + gap);
   carousel.style.transform = `translateX(${offset}px)`;
 }
+
+// Initialize on load
+window.addEventListener('load', function() {
+  updateCarousel();
+});
 
 let resizeTimer;
 window.addEventListener('resize', function() {
