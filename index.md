@@ -256,20 +256,13 @@ function moveCarousel(direction) {
 }
 
 function updateCarousel() {
-  if (window.innerWidth <= 768) {
-    // Mobile: use the actual container's inner width
-    const container = document.querySelector('.carousel-container');
-    const containerWidth = container.clientWidth;
-    const offset = -currentIndex * containerWidth;
-    carousel.style.transform = `translateX(${offset}px)`;
-  } else {
-    // Desktop: member width + gap
-    const memberWidth = 280;
-    const gap = 40;
-    const offset = -currentIndex * (memberWidth + gap);
-    carousel.style.transform = `translateX(${offset}px)`;
-  }
+  const member = carousel.querySelector('.carousel-member');
+  const memberWidth = member.offsetWidth;
+
+  const offset = -currentIndex * memberWidth;
+  carousel.style.transform = `translateX(${offset}px)`;
 }
+
 
 let resizeTimer;
 window.addEventListener('resize', function() {
