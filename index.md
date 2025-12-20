@@ -192,9 +192,32 @@ We apply our computational frameworks to address key challenges in precision med
     right: 10px;
   }
 
+  /* Tablet - 2 members */
+  @media (max-width: 1024px) and (min-width: 769px) {
+    .carousel-container {
+      padding: 0 40px;
+    }
+
+    .carousel-track {
+      gap: 30px;
+    }
+
+    .carousel-member {
+      flex: 0 0 calc(50% - 15px);
+      width: calc(50% - 15px);
+      min-width: unset;
+    }
+
+    .carousel-photo {
+      width: 140px;
+      height: 140px;
+    }
+  }
+
+  /* Mobile - 1 member */
   @media (max-width: 768px) {
     .carousel-container {
-      padding: 0; /* IMPORTANT: remove side padding */
+      padding: 0;
     }
 
     .carousel-track {
@@ -202,8 +225,9 @@ We apply our computational frameworks to address key challenges in precision med
     }
 
     .carousel-member {
-      flex: 0 0 100%; /* exactly one member per view */
+      flex: 0 0 100%;
       width: 100%;
+      min-width: unset;
       padding: 20px 10px;
       box-sizing: border-box;
     }
@@ -225,7 +249,6 @@ We apply our computational frameworks to address key challenges in precision med
       right: 10px;
     }
   }
-
 </style>
 
 <script>
@@ -234,10 +257,13 @@ const carousel = document.getElementById('teamCarousel');
 const members = carousel.children.length;
 
 function getVisibleMembers() {
-  if (window.innerWidth <= 768) {
-    return 1;
+  const width = window.innerWidth;
+  if (width <= 768) {
+    return 1; // mobile
+  } else if (width <= 1024) {
+    return 2; // tablet
   }
-  return 3;
+  return 3; // desktop
 }
 
 function moveCarousel(direction) {
@@ -258,11 +284,11 @@ function moveCarousel(direction) {
 function updateCarousel() {
   const member = carousel.querySelector('.carousel-member');
   const memberWidth = member.offsetWidth;
-
-  const offset = -currentIndex * memberWidth;
+  const gap = parseFloat(getComputedStyle(carousel).gap) || 0;
+  
+  const offset = -currentIndex * (memberWidth + gap);
   carousel.style.transform = `translateX(${offset}px)`;
 }
-
 
 let resizeTimer;
 window.addEventListener('resize', function() {
