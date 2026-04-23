@@ -16,7 +16,7 @@ links:
   home-page: https://mbzuai.ac.ae/study/faculty/natasa-przulj/
   orcid: 0000-0002-1290-853X
   email: natasa.przulj@mbzuai.ac.ae
-  cv: /assets/NP_CV_Nov_10_2025.pdf
+  cv: /assets/NP_CV_Apr_16_2026.pdf
 ---
 
 Nataša Pržulj is a Professor of Computational Biology at [**MBZ University of Artificial Intelligence**](https://mbzuai.ac.ae/study/faculty/natasa-przulj/) and Principal Investigator of **Integrative Computational Network Biology Lab**. She has been a Full Professor of Computer Science at [University College London](https://www.ucl.ac.uk/) since 2016.
