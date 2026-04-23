@@ -201,7 +201,7 @@
   - Corrado Ameli
   - Alexander Skupin
   - "Nata\u0161a Pr\u017Eulj"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2024-06-03'
   link: https://doi.org/hbd24g
   orcid: 0000-0002-1290-853X
@@ -320,7 +320,7 @@
   - Dimitrios Kyriakis
   - Alexander Skupin
   - "Nata\u0161a Pr\u017Eulj"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-12-13'
   link: https://doi.org/gs8vpf
   orcid: 0000-0002-1290-853X
@@ -335,7 +335,7 @@
   - Mikhail Rotkevich
   - "No\xEBl Malod-Dognin"
   - "Nata\u0161a Pr\u017Eulj"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-11-01'
   link: https://doi.org/hbd24h
   orcid: 0000-0002-1290-853X
@@ -382,7 +382,7 @@
   - Gaia Ceddia
   - "No\xEBl Malod-Dognin"
   - "Nata\u0161a Pr\u017Eulj"
-  publisher: Cold Spring Harbor Laboratory
+  publisher: openRxiv
   date: '2023-08-02'
   link: https://doi.org/hbd24j
   orcid: 0000-0002-1290-853X
@@ -727,8 +727,9 @@
 - id: isbn:9781108432238
   title: 'Analyzing network data in biology and medicine: an interdisciplinary textbook
     for biological, medical and computational scientists'
-  authors: []
-  publisher: Cambridge University Press
+  authors:
+  - "Natas\u030Ca Prz\u0306ulj"
+  publisher: Cambridge university press
   date: '2019-01-01'
   link: ''
   orcid: 0000-0002-1290-853X
@@ -1357,7 +1358,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:1742-464X
-  title: ISSN 1742-464X (Print) | The FEBS journal | The ISSN Portal
+  title: ISSN 1742-464X - The FEBS journal (Print)
   authors: []
   publisher: ''
   date: ''
@@ -1752,7 +1753,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:1176-9351
-  title: ISSN 1176-9351 (Online) | Cancer informatics. | The ISSN Portal
+  title: ISSN 1176-9351 - Cancer informatics.
   authors: []
   publisher: ''
   date: ''
@@ -1844,7 +1845,7 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: issn:1535-9476
-  title: ISSN 1535-9476 (Print) | Molecular & cellular proteomics | The ISSN Portal
+  title: ISSN 1535-9476 - Molecular & cellular proteomics (Print)
   authors: []
   publisher: ''
   date: ''
