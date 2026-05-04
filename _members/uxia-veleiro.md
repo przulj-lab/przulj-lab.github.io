@@ -12,7 +12,7 @@ aliases:
 links:
   github: uxiaveleiro
   website: https://uxiaveleiro.github.io
-  email: uxia.veleiro@mbzuai.ac.ae
+  email_uxia: uxia.veleiro@mbzuai.ac.ae
   CV: /assets/UxiaVeleiro_CV_EN_042026.pdf
 ---
 
