@@ -13,7 +13,7 @@ links:
   github: uxiaveleiro
   website: https://uxiaveleiro.github.io
   email_uxia: uxia.veleiro@mbzuai.ac.ae
-  CV: /assets/UxiaVeleiro_CV_EN_042026.pdf
+  cv: /assets/UxiaVeleiro_CV_EN_042026.pdf
 ---
 
 Uxía Veleiro is a Postdoctoral Associate in the **Integrative Computational Network Biology Lab** at [Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/), under the supervision of Professor Nataša Pržulj. She specializes in machine learning and bioinformatics, with a particular focus on graph-based deep learning methods applied to drug repurposing and patient-aware therapeutic discovery.
