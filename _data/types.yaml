@@ -102,10 +102,10 @@ email_brana:
   tooltip: branislava.jankovic@mbzuai.ac.ae
   link: mailto:$VALUE
 
-email_sam:
+email_uxia:
   icon: fa-solid fa-envelope
   text: Email
-  tooltip: sam.windels@mbzuai.ac.ae
+  tooltip: uxia.veleiro@mbzuai.ac.ae
   link: mailto:$VALUE
 
 phone:
