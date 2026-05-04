@@ -20,6 +20,61 @@
 # Otherwise, leave `link` blank.
 # Please add the new entries on the top although these are sorted by date.
 
+- title: 'New member'
+  date: 2026-04-01
+  description: 'We are delighted to welcome Dr. Uxia Velerio Carril to the lab as a Postdoctoral Associate at MBZUAI!'
+  url:
+
+- title: 'New publication'
+  date: 2026-03-25
+  description: 'New paper published in Scientific Reports - Nature: "Combining graphlets and random walks for capturing complex network topology."'
+  url: https://doi.org/10.1038/s41598-026-44410-x
+
+- title: 'Invited Talk at Pediatric Research Institute'
+  date: 2026-02-16
+  description: 'Prof. Natasa delivered an invited talk on "Multi-Omics Data Fusion for Precision Medicine and Therapeutics" at the Pediatric Research Institute (IRP - Citta della Speranza), Padova, Italy.'
+  url:
+
+- title: 'Session Chair at MBZUAI Research Seminar'
+  date: 2026-02-11
+  description: 'Prof. Natasa chaired the MBZUAI Research Seminar by Prof. Miljana Radivojevic from University College London.'
+  url:
+
+- title: 'Vice-President of AAIS'
+  date: 2026-01-01
+  description: 'Prof. Natasa became Vice-President of the International Academy of Artificial Intelligence Sciences (AAIS).'
+  url:
+
+- title: 'ISCB Science in Society Committee'
+  date: 2026-01-01
+  description: 'Prof. Natasa joined the International Society for Computational Biology (ISCB) Science in Society Committee for the 2026-2029 term.'
+  url:
+
+- title: 'Tenure and Promotion Committee at MBZUAI'
+  date: 2026-01-01
+  description: 'Prof. Natasa became a member of the Tenure and Promotion Committee at MBZUAI.'
+  url:
+
+- title: 'United Al Saqer Grant Steering Committee'
+  date: 2026-01-01
+  description: 'Prof. Natasa served as a United Al Saqer Grant Steering Committee member at MBZUAI, UAE.'
+  url:
+
+- title: 'INRIA Research Evaluation'
+  date: 2026-01-01
+  description: 'Prof. Natasa participated in biomedical infrastructure, facilities and research evaluation for INRIA Research Groups in France.'
+  url:
+
+- title: 'New manuscript submission'
+  date: 2026-01-01
+  description: 'New manuscript submitted to Transactions on Machine Learning Research: "Simplifying complex machine learning by linearly separable network embedding spaces."'
+  url: https://openreview.net/pdf?id=Hl2xyw0RFA
+
+- title: 'AI Innovation Day at MBZUAI'
+  date: 2025-11-13
+  description: 'Prof. Natasa delivered a talk at MBZUAI''s AI Innovation Day during the Longevity session, discussing how AI is being used to understand aging, identify biomarkers for healthy lifespan, and personalize interventions.'
+  url: https://mbzuai.ac.ae/news/ai-innovation-day-at-mbzuai-unites-uae-leaders-to-shape-the-future-of-ai-in-healthcare/
+  
 - title: Invited Talk at MBZUAI Workshop
   date: 2025-11-10
   description: Prof. Natasa delivered an invited talk on "Predictive Patient Analytics and Precision Therapeutics from Multi-Omics Data" at the MBZUAI Workshop on Data, Learning and Biological Problems, MBZUAI, Abu Dhabi, UAE.
