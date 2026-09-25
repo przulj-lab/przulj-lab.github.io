@@ -727,9 +727,8 @@
 - id: isbn:9781108432238
   title: 'Analyzing network data in biology and medicine: an interdisciplinary textbook
     for biological, medical and computational scientists'
-  authors:
-  - "Natas\u030Ca Prz\u0306ulj"
-  publisher: Cambridge university press
+  authors: []
+  publisher: Cambridge University Press
   date: '2019-01-01'
   link: ''
   orcid: 0000-0002-1290-853X
@@ -1053,7 +1052,8 @@
   plugin: orcid.py
   file: orcid.yaml
 - id: doi:10.18637/jss.v065.i12
-  title: '<b>ergm.graphlets</b>: A Package for ERG Modeling Based on Graphlet Statistics'
+  title: "<b>ergm.graphlets</b>\n                    : A Package for ERG Modeling\
+    \ Based on Graphlet Statistics"
   authors:
   - "\xD6mer Nebil Yaveroglu"
   - Sean M. Fitzhugh
@@ -1414,15 +1414,6 @@
   authors: []
   publisher: Springer
   date: '2012-01-01'
-  link: ''
-  orcid: 0000-0002-1290-853X
-  plugin: orcid.py
-  file: orcid.yaml
-- id: isbn:9781139501613
-  title: Bioinformatics For Biologists
-  authors: []
-  publisher: Cambridge University Press
-  date: '2011-01-01'
   link: ''
   orcid: 0000-0002-1290-853X
   plugin: orcid.py
