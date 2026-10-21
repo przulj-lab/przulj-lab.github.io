@@ -8,7 +8,7 @@ title: "Higher Order Molecular Organisation as a Source of Biological Function"
 
 **Thomas Gaudelet, Noël Malod-Dognin and Nataša Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/hyper-graphlets/main/images/hypergraph.png" width="400">
 
@@ -41,4 +41,4 @@ To run:
 
 ## Citation
 
-T. Gaudelet, N. Malod-Dognin and N. Pržulj. Higher-order molecular organization as a source of biological function. *Bioinformatics* 34(17), i944–i953 (2018). https://doi.org/10.1093/bioinformatics/bty570
+T. Gaudelet, N. Malod-Dognin and N. Pržulj. Higher-order molecular organization as a source of biological function. *Bioinformatics* 34(17), i944–i953 (2018). [https://doi.org/10.1093/bioinformatics/bty570](https://doi.org/10.1093/bioinformatics/bty570)
