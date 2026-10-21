@@ -10,7 +10,7 @@ title: "C-GRAAL: Common-Neighbors-Based Global GRAph ALignment Algorithm"
 
 **Vesna Memišević and Nataša Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 </div>
 
