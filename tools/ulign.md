@@ -10,7 +10,7 @@ title: "Unified Alignment of Protein-Protein Interaction Networks"
 
 **N. Malod-Dognin, K. Ban and N. Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/ulign/main/images/Alignment_Comparison.png" width="400">
 
@@ -37,4 +37,4 @@ In alphabetical order:
 
 ## Citation
 
-N. Malod-Dognin, K. Ban and N. Pržulj. Unified alignment of protein-protein interaction networks. *Scientific Reports* 7, 953 (2017). https://doi.org/10.1038/s41598-017-01085-9
+N. Malod-Dognin, K. Ban and N. Pržulj. Unified alignment of protein-protein interaction networks. *Scientific Reports* 7, 953 (2017). [https://doi.org/10.1038/s41598-017-01085-9](https://doi.org/10.1038/s41598-017-01085-9)
