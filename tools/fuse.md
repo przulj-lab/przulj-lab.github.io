@@ -8,7 +8,7 @@ title: "Fuse: Multiple Network Alignment via Data Fusion"
 
 **Vladimir Gligorijević, Noël Malod-Dognin and Nataša Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/fuse/main/images/fuse_web.jpg" width="350">
 
@@ -70,4 +70,4 @@ Run `./FUSE.exe -h` for the full list of parameters.
 
 ## Citation
 
-V. Gligorijević, N. Malod-Dognin and N. Pržulj. Fuse: multiple network alignment via data fusion. *Bioinformatics* 32(8), 1195–1203 (2016). https://doi.org/10.1093/bioinformatics/btv731
+V. Gligorijević, N. Malod-Dognin and N. Pržulj. Fuse: multiple network alignment via data fusion. *Bioinformatics* 32(8), 1195–1203 (2016). [https://doi.org/10.1093/bioinformatics/btv731](https://doi.org/10.1093/bioinformatics/btv731)
