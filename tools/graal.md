@@ -12,7 +12,7 @@ title: "GRAAL (GRAph ALigner) Algorithm"
 
 <sub>\* These authors contributed equally to this work</sub>
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/GRAAL/main/images/largest_component.jpg" width="400">
 
@@ -55,4 +55,4 @@ Self-loops, edge directions and duplicate edges are ignored.
 
 ## Citation
 
-O. Kuchaiev, T. Milenković, V. Memišević, W. Hayes and N. Pržulj. Topological network alignment uncovers biological function and phylogeny. *Journal of the Royal Society Interface* 7(50), 1341–1354 (2010). https://doi.org/10.1098/rsif.2010.0063
+O. Kuchaiev, T. Milenković, V. Memišević, W. Hayes and N. Pržulj. Topological network alignment uncovers biological function and phylogeny. *Journal of the Royal Society Interface* 7(50), 1341–1354 (2010). [https://doi.org/10.1098/rsif.2010.0063](https://doi.org/10.1098/rsif.2010.0063)
