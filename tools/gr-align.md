@@ -8,7 +8,7 @@ title: "Aligning Protein Structures with GR-Align (GRaphlet-based Aligner)"
 
 **Noël Malod-Dognin and Nataša Pržulj**
 
-Corresponding author: Dr. N. Malod-Dognin, noel.malod@mbzuai.ac.ae
+Corresponding author: Dr. N. Malod-Dognin, [noel.malod@mbzuai.ac.ae](mailto:noel.malod@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/GR-Align/main/images/optimal_matching.jpg" width="400">
 
@@ -54,4 +54,4 @@ Align all structures of the Skolnick set, listed in `skolnick.lst`, with contact
 
 ## Citation
 
-N. Malod-Dognin and N. Pržulj. GR-Align: fast and flexible alignment of protein 3D structures using graphlet degree similarity. *Bioinformatics* 30(9), 1259–1265 (2014). https://doi.org/10.1093/bioinformatics/btu020
+N. Malod-Dognin and N. Pržulj. GR-Align: fast and flexible alignment of protein 3D structures using graphlet degree similarity. *Bioinformatics* 30(9), 1259–1265 (2014). [https://doi.org/10.1093/bioinformatics/btu020](https://doi.org/10.1093/bioinformatics/btu020)
