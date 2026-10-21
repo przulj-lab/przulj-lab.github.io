@@ -10,7 +10,7 @@ title: GraphCrunch 2
 
 **Oleksii Kuchaiev, Aleksandar Stevanovic, Wayne Hayes, Natasa Przulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 [About GraphCrunch 2](#about-graphcrunch-2) · [User Manual](#user-manual) · [Download GraphCrunch 2](#download-graphcrunch-2) · [Download MI-GRAAL](#download-mi-graal) · [Screenshots](#screenshots) · [Contact Info](#contact-information)
 
@@ -181,4 +181,4 @@ Prof. Natasa Przulj, e-mail: natasa.przulj@mbzuai.ac.ae
 
 ## Citation
 
-O. Kuchaiev, A. Stevanović, W. Hayes and N. Pržulj. GraphCrunch 2: Software tool for network modeling, alignment and clustering. *BMC Bioinformatics* 12, 24 (2011). https://doi.org/10.1186/1471-2105-12-24
+O. Kuchaiev, A. Stevanović, W. Hayes and N. Pržulj. GraphCrunch 2: Software tool for network modeling, alignment and clustering. *BMC Bioinformatics* 12, 24 (2011). [https://doi.org/10.1186/1471-2105-12-24](https://doi.org/10.1186/1471-2105-12-24)
