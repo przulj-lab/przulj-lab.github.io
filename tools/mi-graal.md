@@ -8,7 +8,7 @@ title: "MI-GRAAL (Matching-based Integrative GRAph ALigner) Algorithm"
 
 **Oleksii Kuchaiev and Nataša Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/MI-GRAAL/main/images/largest_component.jpg" width="400">
 
@@ -59,4 +59,4 @@ Self-loops, edge directions and duplicate edges are ignored.
 
 ## Citation
 
-O. Kuchaiev and N. Pržulj. Integrative network alignment reveals large regions of global network similarity in yeast and human. *Bioinformatics* 27(10), 1390–1396 (2011). https://doi.org/10.1093/bioinformatics/btr127
+O. Kuchaiev and N. Pržulj. Integrative network alignment reveals large regions of global network similarity in yeast and human. *Bioinformatics* 27(10), 1390–1396 (2011). [https://doi.org/10.1093/bioinformatics/btr127](https://doi.org/10.1093/bioinformatics/btr127)
