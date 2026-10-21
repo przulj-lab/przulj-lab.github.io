@@ -8,7 +8,7 @@ title: "Functional Geometry of Protein-Protein Interaction Networks"
 
 **Noël Malod-Dognin and Nataša Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/simplets/main/images/SC.png" width="400">
 
@@ -39,4 +39,4 @@ The output is the Simplet Degree Vector (SDV) of each node.
 
 ## Citation
 
-N. Malod-Dognin and N. Pržulj. Functional geometry of protein-protein interaction networks. *Bioinformatics* 35(19), 3727–3734 (2019). https://doi.org/10.1093/bioinformatics/btz146
+N. Malod-Dognin and N. Pržulj. Functional geometry of protein-protein interaction networks. *Bioinformatics* 35(19), 3727–3734 (2019). [https://doi.org/10.1093/bioinformatics/btz146](https://doi.org/10.1093/bioinformatics/btz146)
