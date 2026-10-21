@@ -381,7 +381,7 @@ GraphCrunch allows considerable extensibility with a little bit of scripting kno
 
 GraphCrunch is created by T. Milenković, J. Lai, and N. Pržulj at UC Irvine. Thanks to David Hubin for testing and advice.
 
-Primary contact: natasa.przulj@mbzuai.ac.ae
+Primary contact: [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 GraphCrunch is freely available for academic use only. The shell scripts in this distribution may be used for any purpose with proper attribution.
 
