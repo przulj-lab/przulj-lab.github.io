@@ -10,7 +10,7 @@ title: "Graphlet-Based Network Comparison Distances"
 
 **O. N. Yaveroğlu, N. Malod-Dognin, D. Davis, Z. Levnajić, V. Janjić, R. Karapandža, A. Stojmirović and N. Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 </div>
 
@@ -51,4 +51,4 @@ These are the Python scripts we used to compute the network distances presented 
 
 ## Citation
 
-Ö. N. Yaveroğlu, N. Malod-Dognin, D. Davis, Z. Levnajić, V. Janjić, R. Karapandža, A. Stojmirović and N. Pržulj. Revealing the hidden language of complex networks. *Scientific Reports* 4, 4547 (2014). https://doi.org/10.1038/srep04547
+Ö. N. Yaveroğlu, N. Malod-Dognin, D. Davis, Z. Levnajić, V. Janjić, R. Karapandža, A. Stojmirović and N. Pržulj. Revealing the hidden language of complex networks. *Scientific Reports* 4, 4547 (2014). [https://doi.org/10.1038/srep04547](https://doi.org/10.1038/srep04547)
