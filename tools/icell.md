@@ -3,13 +3,13 @@ title: "Towards a Data-Integrated Cell"
 ---
 
 # Towards a Data-Integrated Cell
-<div style="text-align: center;" markdown="1">
+<div align="center" markdown="1">
 
 **N. Malod-Dognin, J. Petschnigg, S.F.L. Windels, J. Povh, H. Hemmingway, R. Ketteler and N. Pržulj**
 
 Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
-<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/iCell/main/images/icell_safe_reactome.png" width="400">
+<img src="https://raw.githubusercontent.com/przulj-lab/iCell/main/images/icell_safe_reactome.png" width="450">
 
 </div>
 
