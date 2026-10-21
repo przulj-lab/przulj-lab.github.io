@@ -8,7 +8,7 @@ title: "Aligning Biological Networks with L-GRAAL (Lagrangian GRAphlet-based Net
 
 **Noël Malod-Dognin and Nataša Pržulj**
 
-Corresponding author: Dr. N. Malod-Dognin, noel.malod@mbzuai.ac.ae
+Corresponding author: Dr. N. Malod-Dognin, [noel.malod@mbzuai.ac.ae](mailto:noel.malod@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/L-GRAAL/main/images/net_align.jpg" width="450">
 
@@ -51,4 +51,4 @@ Run `./L-GRAAL.exe -h` for the full list of parameters.
 
 ## Citation
 
-N. Malod-Dognin and N. Pržulj. L-GRAAL: Lagrangian graphlet-based network aligner. *Bioinformatics* 31(13), 2182–2189 (2015). https://doi.org/10.1093/bioinformatics/btv130
+N. Malod-Dognin and N. Pržulj. L-GRAAL: Lagrangian graphlet-based network aligner. *Bioinformatics* 31(13), 2182–2189 (2015). [https://doi.org/10.1093/bioinformatics/btv130](https://doi.org/10.1093/bioinformatics/btv130)
