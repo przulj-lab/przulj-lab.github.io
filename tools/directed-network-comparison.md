@@ -10,7 +10,7 @@ title: "Graphlet-Based Network Comparison Distances for Directed Networks"
 
 **A. Sarajlić, N. Malod-Dognin, Ö. N. Yaveroğlu and N. Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
 <img src="https://raw.githubusercontent.com/przulj-lab/directed-network-comparison/main/images/Directed_Graphlets.png" width="500">
 
@@ -62,4 +62,4 @@ This is the software and Python script we used to compute the directed network d
 
 ## Citation
 
-A. Sarajlić, N. Malod-Dognin, Ö. N. Yaveroğlu and N. Pržulj. Graphlet-based characterization of directed networks. *Scientific Reports* 6, 35098 (2016). https://doi.org/10.1038/srep35098
+A. Sarajlić, N. Malod-Dognin, Ö. N. Yaveroğlu and N. Pržulj. Graphlet-based characterization of directed networks. *Scientific Reports* 6, 35098 (2016). [https://doi.org/10.1038/srep35098](https://doi.org/10.1038/srep35098)
