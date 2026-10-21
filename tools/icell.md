@@ -3,14 +3,13 @@ title: "Towards a Data-Integrated Cell"
 ---
 
 # Towards a Data-Integrated Cell
-<div align="center" markdown="1">
-
+<div style="text-align: center;" markdown="1">
 
 **N. Malod-Dognin, J. Petschnigg, S.F.L. Windels, J. Povh, H. Hemmingway, R. Ketteler and N. Pržulj**
 
-Corresponding author: Prof. N. Pržulj, natasa.przulj@mbzuai.ac.ae
+Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
-<img src="https://raw.githubusercontent.com/przulj-lab/iCell/main/images/icell_safe_reactome.png" width="400">
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/iCell/main/images/icell_safe_reactome.png" width="400">
 
 </div>
 
@@ -69,4 +68,4 @@ Each folder contains its own `Readme.txt`.
 
 ## Citation
 
-N. Malod-Dognin, J. Petschnigg, S.F.L. Windels, J. Povh, H. Hemmingway, R. Ketteler and N. Pržulj. Towards a data-integrated cell. *Nature Communications* 10, 805 (2019). https://doi.org/10.1038/s41467-019-08797-8
+N. Malod-Dognin, J. Petschnigg, S.F.L. Windels, J. Povh, H. Hemmingway, R. Ketteler and N. Pržulj. Towards a data-integrated cell. *Nature Communications* 10, 805 (2019). [https://doi.org/10.1038/s41467-019-08797-8](https://doi.org/10.1038/s41467-019-08797-8)
