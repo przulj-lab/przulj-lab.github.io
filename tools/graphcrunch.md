@@ -28,7 +28,7 @@ GraphCrunch is created by T. Milenković, J. Lai, and N. Pržulj at the [School 
 
 ## On-line GraphCrunch
 
-Online GraphCrunch is no longer supported and is not up-to-date with the latest features of GraphCrunch2. If you would like to have an online version of GraphCrunch 2, keep in touch with us by sending an [email](mailto:natasa.przulj@mbzuai.ac.ae).
+Online GraphCrunch is no longer supported and is not up-to-date with the latest features of GraphCrunch2. If you would like to have an online version of GraphCrunch 2, keep in touch with us by sending an email to [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae).
 
 ## Download
 
