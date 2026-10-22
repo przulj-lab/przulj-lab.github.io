@@ -2,16 +2,13 @@
 title: "Towards a Data-Integrated Cell"
 ---
 
-# Towards a Data-Integrated Cell
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Towards a Data-Integrated Cell</h1>
 
-**N. Malod-Dognin, J. Petschnigg, S.F.L. Windels, J. Povh, H. Hemmingway, R. Ketteler and N. Pržulj**
+<p style="text-align: center;"><b>N. Malod-Dognin, J. Petschnigg, S.F.L. Windels, J. Povh, H. Hemmingway, R. Ketteler and N. Pržulj</b></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<img src="https://raw.githubusercontent.com/przulj-lab/iCell/main/images/icell_safe_reactome.png" width="450">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/iCell/main/images/icell_safe_reactome.png" width="450">
 
 ## Downloads
 
