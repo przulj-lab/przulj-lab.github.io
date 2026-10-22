@@ -42,7 +42,7 @@ Run `./L-GRAAL.exe -h` for the full list of parameters.
 - [NetAl](http://bioinf.modares.ac.ir/software/netal/)
 - [Ghost](https://www.cs.cmu.edu/~ckingsf/software/ghost/)
 - [Natalie](https://www.mi.fu-berlin.de/w/LiSA/Natalie)
-- [MI-GRAAL](https://github.com/przulj-lab/MI-GRAAL)
+- [MI-GRAAL](/tools/mi-graal)
 - [IsoRank](https://cb.csail.mit.edu/cb/mna/)
 
 ## Citation
