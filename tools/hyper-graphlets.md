@@ -2,17 +2,13 @@
 title: "Higher Order Molecular Organisation as a Source of Biological Function"
 ---
 
-# Higher Order Molecular Organisation as a Source of Biological Function
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Higher Order Molecular Organisation as a Source of Biological Function</h1>
 
+<p style="text-align: center;"><b>Thomas Gaudelet, Noël Malod-Dognin and Nataša Pržulj</b></p>
 
-**Thomas Gaudelet, Noël Malod-Dognin and Nataša Pržulj**
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-<img src="https://raw.githubusercontent.com/przulj-lab/hyper-graphlets/main/images/hypergraph.png" width="400">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/hyper-graphlets/main/images/hypergraph.png" width="400">
 
 ## Downloads
 
