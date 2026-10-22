@@ -2,19 +2,15 @@
 title: "Aligning Protein Structures with GR-Align (GRaphlet-based Aligner)"
 ---
 
-# Aligning Protein Structures with GR-Align (GRaphlet-based Aligner)
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Aligning Protein Structures with GR-Align (GRaphlet-based Aligner)</h1>
 
+<p style="text-align: center;"><b>Noël Malod-Dognin and Nataša Pržulj</b></p>
 
-**Noël Malod-Dognin and Nataša Pržulj**
+<p style="text-align: center;">Corresponding author: Dr. N. Malod-Dognin, <a href="mailto:noel.malod@mbzuai.ac.ae">noel.malod@mbzuai.ac.ae</a></p>
 
-Corresponding author: Dr. N. Malod-Dognin, [noel.malod@mbzuai.ac.ae](mailto:noel.malod@mbzuai.ac.ae)
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/GR-Align/main/images/optimal_matching.jpg" width="400">
 
-<img src="https://raw.githubusercontent.com/przulj-lab/GR-Align/main/images/optimal_matching.jpg" width="400">
-
-*Optimal CMO alignment*
-
-</div>
+<p style="text-align: center;"><i>Optimal CMO alignment</i></p>
 
 GR-Align is a fast heuristic for aligning and comparing protein structures under the Contact Map Overlap maximization (CMO) paradigm. It uses a Needleman-Wunsch algorithm in which the cost of matching two residues is their graphlet degree similarity.
 
