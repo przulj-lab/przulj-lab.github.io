@@ -2,17 +2,13 @@
 title: "Functional Geometry of Protein-Protein Interaction Networks"
 ---
 
-# Functional Geometry of Protein-Protein Interaction Networks
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Functional Geometry of Protein-Protein Interaction Networks</h1>
 
+<p style="text-align: center;"><b>Noël Malod-Dognin and Nataša Pržulj</b></p>
 
-**Noël Malod-Dognin and Nataša Pržulj**
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-<img src="https://raw.githubusercontent.com/przulj-lab/simplets/main/images/SC.png" width="400">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/simplets/main/images/SC.png" width="400">
 
 ## Downloads
 
