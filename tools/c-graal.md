@@ -2,17 +2,13 @@
 title: "C-GRAAL: Common-Neighbors-Based Global GRAph ALignment Algorithm"
 ---
 
-# C-GRAAL: Common-Neighbors-Based Global GRAph ALignment Algorithm
-<div align="center" markdown="1">
+<h1 style="text-align: center;">C-GRAAL: Common-Neighbors-Based Global GRAph ALignment Algorithm</h1>
 
+<p style="text-align: center;"><b>Supplementary material</b></p>
 
-**Supplementary material**
+<p style="text-align: center;"><b>Vesna Memišević and Nataša Pržulj</b></p>
 
-**Vesna Memišević and Nataša Pržulj**
-
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-</div>
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
 ## Downloads
 
