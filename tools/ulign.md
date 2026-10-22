@@ -2,19 +2,15 @@
 title: "Unified Alignment of Protein-Protein Interaction Networks"
 ---
 
-<div style="text-align: center;" markdown="1">
+<h1 style="text-align: center;">Unified Alignment of Protein-Protein Interaction Networks</h1>
 
-# Unified Alignment of Protein-Protein Interaction Networks
+<p style="text-align: center;"><b>Supplementary data</b></p>
 
-**Supplementary data**
+<p style="text-align: center;"><b>N. Malod-Dognin, K. Ban and N. Pržulj</b></p>
 
-**N. Malod-Dognin, K. Ban and N. Pržulj**
-
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
 <img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/ulign/main/images/Alignment_Comparison.png" width="500">
-
-</div>
 
 We provide here the datasets and the scripts that we used in the paper.
 
