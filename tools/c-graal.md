@@ -90,7 +90,7 @@ The largest common connected component of the best alignment for each pair:
 ## Other network alignment algorithms
 
 - [GRAph ALigner (GRAAL)](https://github.com/przulj-lab/GRAAL)
-- [MI-GRAAL](https://github.com/przulj-lab/MI-GRAAL)
+- [MI-GRAAL](/tools/mi-graal)
 - [IsoRank and IsoRankN](https://cb.csail.mit.edu/cb/mna/)
 - [PathBlast](https://karlan.com/)
 - [GraphM package](https://www.minesparis.psl.eu/cbio/)
