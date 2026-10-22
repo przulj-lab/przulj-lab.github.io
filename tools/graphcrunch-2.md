@@ -2,19 +2,15 @@
 title: GraphCrunch 2
 ---
 
-# GraphCrunch 2
-<div align="center" markdown="1">
+<h1 style="text-align: center;">GraphCrunch 2</h1>
 
+<h3 style="text-align: center;">Software tool for network modeling, alignment and clustering</h3>
 
-### Software tool for network modeling, alignment and clustering
+<p style="text-align: center;"><b>Oleksii Kuchaiev, Aleksandar Stevanovic, Wayne Hayes, Natasa Przulj</b></p>
 
-**Oleksii Kuchaiev, Aleksandar Stevanovic, Wayne Hayes, Natasa Przulj**
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-[About GraphCrunch 2](#about-graphcrunch-2) · [User Manual](#user-manual) · [Download GraphCrunch 2](#download-graphcrunch-2) · [Download MI-GRAAL](#download-mi-graal) · [Screenshots](#screenshots) · [Contact Info](#contact-information)
-
-</div>
+<p style="text-align: center;"><a href="#about-graphcrunch-2">About GraphCrunch 2</a> · <a href="#user-manual">User Manual</a> · <a href="#download-graphcrunch-2">Download GraphCrunch 2</a> · <a href="#download-mi-graal">Download MI-GRAAL</a> · <a href="#screenshots">Screenshots</a> · <a href="#contact-information">Contact Info</a></p>
 
 ## About GraphCrunch 2
 
