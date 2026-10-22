@@ -8,7 +8,7 @@ title: "Aligning Protein Structures with GR-Align (GRaphlet-based Aligner)"
 
 <p style="text-align: center;">Corresponding author: Dr. N. Malod-Dognin, <a href="mailto:noel.malod@mbzuai.ac.ae">noel.malod@mbzuai.ac.ae</a></p>
 
-<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/GR-Align/main/images/optimal_matching.jpg" width="400">
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/GR-Align/main/images/optimal_matching.jpg" width="500">
 
 <p style="text-align: center;"><i>Optimal CMO alignment</i></p>
 
