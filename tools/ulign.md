@@ -5,14 +5,13 @@ title: "Unified Alignment of Protein-Protein Interaction Networks"
 # Unified Alignment of Protein-Protein Interaction Networks
 <div align="center" markdown="1">
 
-
 **Supplementary data**
 
 **N. Malod-Dognin, K. Ban and N. Pržulj**
 
 Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
-<img src="https://raw.githubusercontent.com/przulj-lab/ulign/main/images/Alignment_Comparison.png" width="400">
+<img src="https://raw.githubusercontent.com/przulj-lab/ulign/main/images/Alignment_Comparison.png" width="500">
 
 </div>
 
