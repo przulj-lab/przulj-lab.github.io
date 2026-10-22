@@ -2,21 +2,17 @@
 title: "GRAAL (GRAph ALigner) Algorithm"
 ---
 
-# GRAAL (GRAph ALigner) Algorithm
-<div align="center" markdown="1">
+<h1 style="text-align: center;">GRAAL (GRAph ALigner) Algorithm</h1>
 
+<p style="text-align: center;"><b>Supplementary information for "Topological network alignment uncovers biological function and phylogeny"</b></p>
 
-**Supplementary information for "Topological network alignment uncovers biological function and phylogeny"**
+<p style="text-align: center;"><b>Oleksii Kuchaiev*, Tijana Milenković*, Vesna Memišević, Wayne Hayes and Nataša Pržulj</b></p>
 
-**Oleksii Kuchaiev\*, Tijana Milenković\*, Vesna Memišević, Wayne Hayes and Nataša Pržulj**
+<p style="text-align: center;"><sub>* These authors contributed equally to this work</sub></p>
 
-<sub>\* These authors contributed equally to this work</sub>
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-<img src="https://raw.githubusercontent.com/przulj-lab/GRAAL/main/images/largest_component.jpg" width="400">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/GRAAL/main/images/largest_component.jpg" width="400">
 
 ## Downloads
 
