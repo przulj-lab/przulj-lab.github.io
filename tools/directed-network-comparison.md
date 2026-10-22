@@ -2,19 +2,15 @@
 title: "Graphlet-Based Network Comparison Distances for Directed Networks"
 ---
 
-# Graphlet-Based Network Comparison Distances for Directed Networks
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Graphlet-Based Network Comparison Distances for Directed Networks</h1>
 
+<p style="text-align: center;"><b>Supplementary information for "Graphlet-based Characterization of Directed Networks"</b></p>
 
-**Supplementary information for "Graphlet-based Characterization of Directed Networks"**
+<p style="text-align: center;"><b>A. Sarajlić, N. Malod-Dognin, Ö. N. Yaveroğlu and N. Pržulj</b></p>
 
-**A. Sarajlić, N. Malod-Dognin, Ö. N. Yaveroğlu and N. Pržulj**
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-<img src="https://raw.githubusercontent.com/przulj-lab/directed-network-comparison/main/images/Directed_Graphlets.png" width="500">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/directed-network-comparison/main/images/Directed_Graphlets.png" width="500">
 
 This is the software and Python script we used to compute the directed network distances presented in our paper, including the Directed Graphlet Correlation Distance (DGCD), the Directed Relative Graphlet Frequency Distribution Distance (DRGF) and the Directed Graphlet Degree Distribution Agreement (DGDDA).
 
