@@ -167,32 +167,20 @@ The command-line interface allows for specifying all of the following in a singl
 
 Network properties and models currently supported by GraphCrunch are presented in tables below.
 
-<table>
-<tr><td valign="top" markdown="1">
-
-| Global Properties: |
-|---|
-| Degree distribution |
-| Clustering coefficient |
-| Clustering spectrum |
-| Average diameter |
-| Spectrum of shortest path lengths |
-| **Local Properties:** |
-| Relative graphlet frequency distance (RGF-distance) [[6]](#references) |
-| Graphlet degree distribution agreement (GDD-agreement) [[7]](#references) |
-
-</td><td valign="top" markdown="1">
-
-| Models: |
-|---|
-| Erdös–Rényi random graphs [[1]](#references) |
-| Random graphs with the same degree distribution as the data [[2]](#references) |
-| Scale-free Barabasi-Albert model graphs [[3]](#references) |
-| N-dimensional geometric random graphs [[4]](#references) |
-| Stickiness model graphs [[5]](#references) |
-
-</td></tr>
-</table>
+| | Supported by GraphCrunch |
+|---|---|
+| **Global properties** | Degree distribution |
+| | Clustering coefficient |
+| | Clustering spectrum |
+| | Average diameter |
+| | Spectrum of shortest path lengths |
+| **Local properties** | Relative graphlet frequency distance (RGF-distance) [[6]](#references) |
+| | Graphlet degree distribution agreement (GDD-agreement) [[7]](#references) |
+| **Models** | Erdös–Rényi random graphs [[1]](#references) |
+| | Random graphs with the same degree distribution as the data [[2]](#references) |
+| | Scale-free Barabasi-Albert model graphs [[3]](#references) |
+| | N-dimensional geometric random graphs [[4]](#references) |
+| | Stickiness model graphs [[5]](#references) |
 
 Tables: Network properties and models currently supported by GraphCrunch.
 
