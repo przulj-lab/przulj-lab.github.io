@@ -2,17 +2,13 @@
 title: "Aligning Biological Networks with L-GRAAL (Lagrangian GRAphlet-based Network Aligner)"
 ---
 
-# Aligning Biological Networks with L-GRAAL (Lagrangian GRAphlet-based Network Aligner)
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Aligning Biological Networks with L-GRAAL (Lagrangian GRAphlet-based Network Aligner)</h1>
 
+<p style="text-align: center;"><b>Noël Malod-Dognin and Nataša Pržulj</b></p>
 
-**Noël Malod-Dognin and Nataša Pržulj**
+<p style="text-align: center;">Corresponding author: Dr. N. Malod-Dognin, <a href="mailto:noel.malod@mbzuai.ac.ae">noel.malod@mbzuai.ac.ae</a></p>
 
-Corresponding author: Dr. N. Malod-Dognin, [noel.malod@mbzuai.ac.ae](mailto:noel.malod@mbzuai.ac.ae)
-
-<img src="https://raw.githubusercontent.com/przulj-lab/L-GRAAL/main/images/net_align.jpg" width="450">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/L-GRAAL/main/images/net_align.jpg" width="450">
 
 L-GRAAL is a global network alignment tool that combines an efficient solver based on Lagrangian relaxation with a scoring function based on the statistics of small induced subgraphs called graphlets.
 
