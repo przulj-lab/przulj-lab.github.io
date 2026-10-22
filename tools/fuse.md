@@ -8,7 +8,7 @@ title: "Fuse: Multiple Network Alignment via Data Fusion"
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/fuse/main/images/fuse_web.jpg" width="350">
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/fuse/main/images/fuse_web.jpg" width="500">
 
 Fuse is a global multiple network aligner. First, it computes new similarity scores between proteins by fusing sequence similarities and network wiring patterns over all proteins in all PPI networks being aligned, using non-negative matrix tri-factorization (NMTF). Second, it constructs a one-to-one global multiple network alignment using an approximate maximum weight k-partite matching solver.
 
