@@ -6,7 +6,7 @@ title: "GraphCrunch"
 
 <h3 style="text-align: center;">A Tool for Large Network Analyses</h3>
 
-> **Thank you for your interest in GraphCrunch! This version of the software is no longer supported. A new version ([GraphCrunch2](https://github.com/przulj-lab/GraphCrunch-2)) is available.**
+> **Thank you for your interest in GraphCrunch! This version of the software is no longer supported. A new version ([GraphCrunch2](/tools/graphcrunch-2)) is available.**
 
 <p style="text-align: center;"><a href="#about">About</a> · <a href="#on-line-graphcrunch">On-line GraphCrunch</a> · <a href="#download">Download</a> · <a href="#documentation">Documentation</a> · <a href="mailto:natasa.przulj@mbzuai.ac.ae">Contact us</a></p>
 
