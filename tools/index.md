@@ -15,12 +15,15 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% for tool in site.data.tools %}
 {% if tool.tags contains "network-analysis" %}
+{% capture desc %}{{ tool.description }}{% if tool.repo contains "przulj-lab/" %}
+
+<a href="https://github.com/{{ tool.repo }}" target="_blank" style="display: inline-block; margin-top: 4px; font-size: 0.9em;"><i class="fa-brands fa-github"></i> GitHub</a>{% endif %}{% endcapture %}
 {% include card.html 
   title=tool.title
   subtitle=tool.subtitle
   image="images/fallback2.svg"
   link=tool.link
-  description=tool.description
+  description=desc
   tags=tool.tags
   repo=tool.repo
 %}
@@ -33,12 +36,15 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% for tool in site.data.tools %}
 {% if tool.tags contains "alignment-free" %}
+{% capture desc %}{{ tool.description }}{% if tool.repo contains "przulj-lab/" %}
+
+<a href="https://github.com/{{ tool.repo }}" target="_blank" style="display: inline-block; margin-top: 4px; font-size: 0.9em;"><i class="fa-brands fa-github"></i> GitHub</a>{% endif %}{% endcapture %}
 {% include card.html 
   title=tool.title
   subtitle=tool.subtitle
   image="images/fallback2.svg"
   link=tool.link
-  description=tool.description
+  description=desc
   tags=tool.tags
   repo=tool.repo
 %}
@@ -51,12 +57,15 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% for tool in site.data.tools %}
 {% if tool.tags contains "network-aligners" %}
+{% capture desc %}{{ tool.description }}{% if tool.repo contains "przulj-lab/" %}
+
+<a href="https://github.com/{{ tool.repo }}" target="_blank" style="display: inline-block; margin-top: 4px; font-size: 0.9em;"><i class="fa-brands fa-github"></i> GitHub</a>{% endif %}{% endcapture %}
 {% include card.html 
   title=tool.title
   subtitle=tool.subtitle
   image="images/fallback2.svg"
   link=tool.link
-  description=tool.description
+  description=desc
   tags=tool.tags
   repo=tool.repo
 %}
@@ -69,12 +78,15 @@ Our lab develops cutting-edge computational tools for network biology, graphlet 
 
 {% for tool in site.data.tools %}
 {% if tool.tags contains "protein-structure" %}
+{% capture desc %}{{ tool.description }}{% if tool.repo contains "przulj-lab/" %}
+
+<a href="https://github.com/{{ tool.repo }}" target="_blank" style="display: inline-block; margin-top: 4px; font-size: 0.9em;"><i class="fa-brands fa-github"></i> GitHub</a>{% endif %}{% endcapture %}
 {% include card.html 
   title=tool.title
   subtitle=tool.subtitle
   image="images/fallback2.svg"
   link=tool.link
-  description=tool.description
+  description=desc
   tags=tool.tags
   repo=tool.repo
 %}
