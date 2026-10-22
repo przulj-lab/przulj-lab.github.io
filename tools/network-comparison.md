@@ -2,17 +2,13 @@
 title: "Graphlet-Based Network Comparison Distances"
 ---
 
-# Graphlet-Based Network Comparison Distances
-<div align="center" markdown="1">
+<h1 style="text-align: center;">Graphlet-Based Network Comparison Distances</h1>
 
+<p style="text-align: center;"><b>Supplementary information for "Revealing the Hidden Language of Complex Networks"</b></p>
 
-**Supplementary information for "Revealing the Hidden Language of Complex Networks"**
+<p style="text-align: center;"><b>O. N. Yaveroğlu, N. Malod-Dognin, D. Davis, Z. Levnajić, V. Janjić, R. Karapandža, A. Stojmirović and N. Pržulj</b></p>
 
-**O. N. Yaveroğlu, N. Malod-Dognin, D. Davis, Z. Levnajić, V. Janjić, R. Karapandža, A. Stojmirović and N. Pržulj**
-
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-</div>
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
 These are the Python scripts we used to compute the network distances presented in our paper, including the Graphlet Correlation Distance (GCD), the Relative Graphlet Frequency Distance (RGF) and the Graphlet Degree Distribution Agreement (GDDA).
 
