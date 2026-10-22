@@ -2,8 +2,9 @@
 title: "Unified Alignment of Protein-Protein Interaction Networks"
 ---
 
+<div style="text-align: center;" markdown="1">
+
 # Unified Alignment of Protein-Protein Interaction Networks
-<div align="center" markdown="1">
 
 **Supplementary data**
 
@@ -11,7 +12,7 @@ title: "Unified Alignment of Protein-Protein Interaction Networks"
 
 Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
 
-<img src="https://raw.githubusercontent.com/przulj-lab/ulign/main/images/Alignment_Comparison.png" width="500">
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/ulign/main/images/Alignment_Comparison.png" width="500">
 
 </div>
 
