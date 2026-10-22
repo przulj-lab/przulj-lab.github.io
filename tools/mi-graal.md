@@ -2,17 +2,13 @@
 title: "MI-GRAAL (Matching-based Integrative GRAph ALigner) Algorithm"
 ---
 
-# MI-GRAAL (Matching-based Integrative GRAph ALigner) Algorithm
-<div align="center" markdown="1">
+<h1 style="text-align: center;">MI-GRAAL (Matching-based Integrative GRAph ALigner) Algorithm</h1>
 
+<p style="text-align: center;"><b>Oleksii Kuchaiev and Nataša Pržulj</b></p>
 
-**Oleksii Kuchaiev and Nataša Pržulj**
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-Corresponding author: Prof. N. Pržulj, [natasa.przulj@mbzuai.ac.ae](mailto:natasa.przulj@mbzuai.ac.ae)
-
-<img src="https://raw.githubusercontent.com/przulj-lab/MI-GRAAL/main/images/largest_component.jpg" width="400">
-
-</div>
+<img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/MI-GRAAL/main/images/largest_component.jpg" width="400">
 
 ## Downloads
 
