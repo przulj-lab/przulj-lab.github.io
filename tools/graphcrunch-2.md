@@ -182,3 +182,41 @@ Prof. Natasa Przulj, e-mail: natasa.przulj@mbzuai.ac.ae
 ## Citation
 
 O. Kuchaiev, A. Stevanović, W. Hayes and N. Pržulj. GraphCrunch 2: Software tool for network modeling, alignment and clustering. *BMC Bioinformatics* 12, 24 (2011). [https://doi.org/10.1186/1471-2105-12-24](https://doi.org/10.1186/1471-2105-12-24)
+
+<div id="lightbox" onclick="this.style.display='none'">
+  <img id="lightbox-img">
+</div>
+
+<style>
+  #lightbox {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+  }
+  #lightbox img {
+    max-width: 95vw;
+    max-height: 95vh;
+  }
+  table img {
+    cursor: zoom-in;
+  }
+</style>
+
+<script>
+  document.querySelectorAll('table img').forEach(function (img) {
+    img.addEventListener('click', function () {
+      document.getElementById('lightbox-img').src = img.src;
+      document.getElementById('lightbox').style.display = 'flex';
+    });
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape') {
+      document.getElementById('lightbox').style.display = 'none';
+    }
+  });
+</script>
