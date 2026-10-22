@@ -24,7 +24,7 @@ We provide here the datasets and the scripts that we used in the paper.
 In alphabetical order:
 
 - [HubAlign](https://home.ttic.edu/~hashemifar/#softwares)
-- [L-GRAAL](https://github.com/przulj-lab/L-GRAAL)
+- [L-GRAAL](/tools/l-graal)
 - [MAGNA++](http://www3.nd.edu/~cone/MAGNA++/)
 - [NATALIE](http://www.mi.fu-berlin.de/w/LiSA/Natalie)
 - [OptNet](https://github.com/crclark/optnetaligncpp)
