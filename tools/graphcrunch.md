@@ -399,4 +399,4 @@ This project was supported by the NSF CAREER IIS-0644424 grant.
 
 ## Citation
 
-T. Milenković, J. Lai and N. Pržulj. GraphCrunch: A tool for large network analyses. *BMC Bioinformatics* 9, 70 (2008). https://doi.org/10.1186/1471-2105-9-70
+T. Milenković, J. Lai and N. Pržulj. GraphCrunch: A tool for large network analyses. *BMC Bioinformatics* 9, 70 (2008). [https://doi.org/10.1186/1471-2105-9-70](https://doi.org/10.1186/1471-2105-9-70)
