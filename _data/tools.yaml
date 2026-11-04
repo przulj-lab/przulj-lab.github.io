@@ -77,6 +77,15 @@
     - alignment-free
 
 # Network Analysis
+- title: Thrombophilia Framework
+  subtitle: Phenotype-driven integrative framework for a rare hereditary thrombophilia
+  image: images/tools/thrombophilia.png
+  link: tools/thrombophilia_datasets
+  description: Integrative NMTF framework uncovering molecular mechanisms of antithrombin resistance
+  repo: przulj-lab/thrombophilia_datasets
+  tags:
+    - network-analysis
+    
 - title: COVID-19 iCell
   subtitle: iCell-based analysis of COVID-19 and drug repurposing
   image: images/tools/covid-icell.png
