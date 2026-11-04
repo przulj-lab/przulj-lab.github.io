@@ -104,6 +104,15 @@
   tags:
     - network-analysis
 
+- title: FMM
+  subtitle: Functional Mapping Matrix for omics network embedding spaces
+  image: images/tools/fmm.png
+  link: tools/fmm
+  description: Functional analysis of omic network embedding spaces revealing key altered functions in cancer
+  repo: przulj-lab/FMM
+  tags:
+    - network-analysis
+
 - title: Drugst.One
   subtitle: Network-based drug repurposing platform
   group: featured
