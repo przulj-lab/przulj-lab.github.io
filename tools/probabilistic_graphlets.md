@@ -8,10 +8,6 @@ title: "Probabilistic Graphlets Capture Biological Function in Probabilistic Mol
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/Probabilistic_Graphlets" text="GitHub" %}
-</div>
-
 This repository contains the Python and C++ scripts, as well as the datasets, for the paper "Probabilistic graphlets capture biological function in probabilistic molecular networks".
 
 ## Probabilistic orbit counter
