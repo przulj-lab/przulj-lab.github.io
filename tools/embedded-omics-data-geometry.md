@@ -8,11 +8,7 @@ title: "Linear Functional Organization of the Omic Embedding Space"
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/embedded-omics-data-geometry" text="GitHub" %}
-</div>
-
-This repository contains the Python scripts and datasets for the paper "Linear functional organization of the omic embedding space" (preprint title: "Embedded omics data geometry untangles biological complexity").
+This repository contains the Python scripts and datasets for the paper "Linear functional organization of the omic embedding space".
 
 ## Downloads
 
