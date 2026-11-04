@@ -8,10 +8,6 @@ title: "A Phenotype Driven Integrative Framework Uncovers Molecular Mechanisms o
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/thrombophilia_datasets" text="GitHub" %}
-</div>
-
 This repository contains all data and scripts related to the paper "A phenotype driven integrative framework uncovers molecular mechanisms of a rare hereditary thrombophilia".
 
 ## Contents
