@@ -77,6 +77,15 @@
     - alignment-free
 
 # Network Analysis
+- title: Gracoal
+  subtitle: Graphlet-based hyperbolic embeddings of genetic networks
+  image: images/tools/gracoal.png
+  link: tools/gracoal_embedding
+  description: Graphlet-based hyperbolic embeddings that capture evolutionary dynamics in genetic networks, with SAFE enrichment analysis
+  repo: przulj-lab/gracoal_embedding
+  tags:
+    - network-analysis
+    
 - title: Thrombophilia Framework
   subtitle: Phenotype-driven integrative framework for a rare hereditary thrombophilia
   image: images/tools/thrombophilia.png
