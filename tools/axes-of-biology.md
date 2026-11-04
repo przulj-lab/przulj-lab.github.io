@@ -8,10 +8,6 @@ title: "The Axes of Biology: a Novel Axes-Based Network Embedding Paradigm to De
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/axes-of-biology" text="GitHub" %}
-</div>
-
 ## Overview
 
 Common approaches for deciphering biological networks involve network embedding algorithms. These approaches strictly focus on clustering the genes' embedding vectors and interpreting such clusters to reveal the hidden information of the networks. However, the difficulty in interpreting the genes' clusters and the limitations of the functional annotations' resources hinder the identification of the currently unknown cell's functioning mechanisms.
