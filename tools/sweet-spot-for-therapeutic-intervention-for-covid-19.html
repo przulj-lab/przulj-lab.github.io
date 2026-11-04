@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates | PrzuljLab.bio</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates">
+<meta name="description" content="Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.">
+
+<meta property="og:title" content="Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates">
+<meta property="og:site_title" content="PrzuljLab.bio">
+<meta property="og:description" content="Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.">
+<meta property="og:url" content="https://przuljlab.bio">
+<meta property="og:image" content="">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates">
+<meta property="twitter:description" content="Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.">
+<meta property="twitter:url" content="https://przuljlab.bio">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates",
+    "description": "Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.",
+    "headline": "Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "https://przuljlab.bio"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://przuljlab.bio/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Fira+Code:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Open+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
+
+<!-- include all sass in _styles folder (compiled to .css) -->
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/form.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/news.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in _styles folder -->
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+<header class="background" style="--image: url('/images/campus.webp')" data-dark="true">
+  <a href="/" class="home">
+    
+      <span class="logo">
+        <img src="/images/przuljlab_logo.png" alt="logo">
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+        
+         <br>
+          <span class="subtitle">Integrative Computational Network Biology Lab @ MBZUAI</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/publications/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/tools/" data-tooltip="Software, datasets, and more">
+          Tools
+        </a>
+      
+    
+      
+        <a href="/team/" data-tooltip="Meet our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/join/" data-tooltip="Join the team">
+          Join
+        </a>
+      
+    
+      
+        <a href="/news/" data-tooltip="Lab news and updates">
+          News
+        </a>
+      
+    
+      
+        <a href="/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 style="text-align: center;">Network Neighbors of Viral Targets and Differentially Expressed Genes in COVID-19 are Drug Target Candidates</h1>
+
+<p style="text-align: center;"><b>Carme Zambrana, Alexandros Xenos, René Böttcher, Noël Malod-Dognin and Nataša Pržulj</b></p>
+
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
+
+<div style="text-align: center;">
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/https://github.com/przulj-lab/sweet-spot-for-therapeutic-intervention-for-covid-19" data-tooltip="GitHub" data-style="" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+</div>
+
+<p>This repository contains the Python scripts for the paper “Network neighbors of viral targets and differentially expressed genes in COVID-19 are drug target candidates” (preprint title: “Between viral targets and differentially expressed genes in COVID-19: the sweet spot for therapeutic intervention”).</p>
+
+<p>In this work, we adapt our GNMTF-based data fusion framework to predict candidate target genes and existing drugs that could be re-purposed for treating COVID-19. Moreover, we investigate within the human interactome the interplay between the human proteins that are directly targeted by the SARS-CoV-2 proteins and those genes that are differentially expressed after COVID-19 infection. Our study reveals that the host proteins targeted by viral proteins and the differentially expressed genes are indirectly connected by their neighbors (we termed common neighbor genes). Furthermore, we find that the common neighbors are enriched in various viral processes and hence, might be key to the infection mechanisms used by the virus. By focusing on the predicted drug-target interactions involving FDA-approved drugs and targeting the common neighbor genes, we utilize our integrative framework to predict novel drug-target interactions for genes related to the disease-affected pathways. In particular, we find NO and VEGF signaling as potential molecular pathways whose functions are very similar with several observed COVID-19 symptoms.</p>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+  <li><a href="https://github.com/przulj-lab/sweet-spot-for-therapeutic-intervention-for-covid-19">Code</a></li>
+  <li><a href="https://github.com/przulj-lab/sweet-spot-for-therapeutic-intervention-for-covid-19/releases/download/v1.0/Data.zip">Data</a></li>
+</ul>
+
+<p>Download and unzip the data in the repository folder, so that the notebooks find the <code class="language-plaintext highlighter-rouge">Data</code> folder.</p>
+
+<h2 id="workflow">Workflow</h2>
+
+<p>The steps of the analysis and the notebooks with the corresponding code:</p>
+
+<p><img style="display: block; margin: 0 auto;" src="https://raw.githubusercontent.com/przulj-lab/sweet-spot-for-therapeutic-intervention-for-covid-19/main/images/Workflow.png" width="800"></p>
+
+<h2 id="notebooks">Notebooks</h2>
+
+<p>The execution of all the scripts is detailed in the following notebooks:</p>
+
+<ul>
+  <li>
+<strong>Executing data fusion framework - Parametrization Tunning</strong>: creates/loads the matrices and executes the data fusion framework with different parametrizations, using Random Acol to initialize the matrices.</li>
+  <li>
+<strong>Executing data fusion framework - Parametrization Tunning - Dispersion Coefficient</strong>: computes the dispersion coefficient after running the data fusion with the different parameters.</li>
+  <li>
+<strong>Executing data fusion framework</strong>: creates/loads the matrices and executes the data fusion framework with SVD initialization, after choosing the parameters.</li>
+  <li>
+<strong>Enrichment Analysis of the Clusters of Genes and Drugs - MIN and PPI</strong>: computes the clusters from the cluster indicators and performs the enrichment analysis of those clusters.</li>
+  <li>
+<strong>Matrix Completion Property of the DTI matrix - Choosing the threshold - PR and ROC - MIN and PPI</strong>: reconstructs the DTI matrix through the matrix completion property, computes the PR and ROC curves, and chooses the threshold to obtain the new predicted DTIs.</li>
+  <li>
+<strong>Matrix Completion Property of the DTI matrix - Cross-Validation - MIN and PPI</strong>: runs the cross-validation experiment to validate the predictive power of the method.</li>
+  <li>
+<strong>Topological Analysis Network</strong>: identifies the different gene sets, computes the overlap between VI neighbors and DEG neighbors, and computes the network centralities and the GDVs for the different gene sets.</li>
+  <li>
+<strong>Enrichment Analysis Gene Sets in MIN</strong>: computes the enrichment analysis of the different gene sets in the MIN and of the 49 common neighbors targeted in the “common neighbors DTIs”, using g:Profiler.</li>
+  <li>
+<strong>Comparison constituent networks (PPI, GI MI) with MIN</strong>: compares the genes and edges of the constituent networks with the MIN networks and computes the GDVs for all the networks.</li>
+</ul>
+
+<h2 id="requirements">Requirements</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>numpy==1.17.3
+pandas==0.25.3
+scipy==1.3.2
+scikit-learn==0.21.3
+matplotlib==3.1.2
+matplotlib-venn==0.11.5
+seaborn==0.11.0
+statannot==0.2.3
+networkx==2.4
+statsmodels==0.10.2
+gprofiler-official==1.0.0
+rdkit
+</code></pre></div></div>
+
+<h2 id="citation">Citation</h2>
+
+<p>C. Zambrana, A. Xenos, R. Böttcher, N. Malod-Dognin and N. Pržulj. Network neighbors of viral targets and differentially expressed genes in COVID-19 are drug target candidates. <em>Scientific Reports</em> 11, 18985 (2021). <a href="https://pubmed.ncbi.nlm.nih.gov/34556735/">PMID: 34556735</a></p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/dorm.jpeg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="mailto:natasa.przulj@mbzuai.ac.ae" data-tooltip="natasa.przulj@mbzuai.ac.ae" data-style="bare" aria-label="natasa.przulj mbzuai.ac.ae">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0002-1290-853X" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=mLIsLdAAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/przulj-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+    
+  </div>
+
+  <div>
+    © 2026
+
+    PrzuljLab.bio    |   Integrative Computational Network Biology Lab @ MBZUAI
+
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">
+      LWT
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+  </body>
+</html>
