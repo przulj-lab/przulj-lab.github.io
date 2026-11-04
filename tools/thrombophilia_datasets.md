@@ -19,8 +19,8 @@ This repository contains all data and scripts related to the paper "A phenotype 
 - [Subnetworks.py](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Subnetworks.py)
 - [Compute_enrichments_alls.py](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Compute_enrichments_alls.py)
 - [Cluster_Associations_Thrombophilia.py](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Cluster_Associations_Thrombophilia.py)
-- [Gene_clusters_all.txt](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Gene_clusters_all.txt)
-- [Gene_clusters_all_P.txt](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Gene_clusters_all_P.txt)
+- [Gene_clusters_all.txt](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Gene_clusters_All.txt)
+- [Gene_clusters_all_P.txt](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/codes/Gene_clusters_All_P.txt)
 
 **[processed_dataset.zip](https://github.com/przulj-lab/thrombophilia_datasets/blob/main/processed_dataset.zip)**: the germline variant profiles of five subjects.
 
