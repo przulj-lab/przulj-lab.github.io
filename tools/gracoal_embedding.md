@@ -8,10 +8,6 @@ title: "Graphlet-Based Hyperbolic Embeddings Capture Evolutionary Dynamics in Ge
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/gracoal_embedding" text="GitHub" %}
-</div>
-
 ## Downloads
 
 - [Code and data (zip)](https://github.com/przulj-lab/gracoal_embedding/releases/download/v1.0/gracoal_embedding.zip)
