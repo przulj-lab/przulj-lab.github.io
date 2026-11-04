@@ -8,23 +8,16 @@ title: "A Functional Analysis of Omic Network Embedding Spaces Reveals Key Alter
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/FMM" text="GitHub" %}
-</div>
-
 This repository presents our work using the Functional Mapping Matrix (FMM).
 
 ## Downloads
 
-- [Code](https://github.com/przulj-lab/FMM)
-- [Data (zip)](https://github.com/przulj-lab/FMM/releases/download/v1.0/Data.zip)
+- [Code and data (zip)](https://github.com/przulj-lab/FMM/releases/download/v1.0/FMM.zip)
 
-The zip contains the following files used in this project:
+The zip contains the code and the data files used in this project, already in the `./Cleaned_version/Data` folder:
 - `Human_Biogrid_Adj_PPI_.npy`: the human PPI network
 - `Matrix_Genes_GO_BP_PPI.csv`: the GO BP annotations
 - `Semantic_Human.csv`: the semantic similarity of the GO BP terms
-
-Download and unzip it, then move the files to the `./Cleaned_version/Data` folder before running the code.
 
 ## Updates
 
