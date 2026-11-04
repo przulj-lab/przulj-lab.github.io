@@ -77,6 +77,15 @@
     - alignment-free
 
 # Network Analysis
+- title: COVID-19 iCell
+  subtitle: iCell-based analysis of COVID-19 and drug re-purposing
+  image: images/tools/covid-icell.png
+  link: tools/covid-icell
+  description: Integrated cells (iCells) of infected and control tissues reveal new COVID-19 related genes and drug repurposing candidates
+  repo: przulj-lab/covid-icell
+  tags:
+    - network-analysis
+    
 - title: COVID-19 Drug Targets
   subtitle: Network neighbors of viral targets and DEGs as drug target candidates
   image: images/tools/covid-19.png
