@@ -130,6 +130,15 @@
   repo: przulj-lab/sweet-spot-for-therapeutic-intervention-for-covid-19
   tags:
     - network-analysis
+
+- title: Probabilistic Graphlets
+  subtitle: Graphlets for probabilistic molecular networks
+  image: images/tools/probabilistic-graphlets.png
+  link: tools/probabilistic_graphlets
+  description: Probabilistic orbit counter capturing biological function in probabilistic molecular networks
+  repo: przulj-lab/Probabilistic_Graphlets
+  tags:
+    - network-analysis
     
 - title: Drugst.One
   subtitle: Network-based drug repurposing platform
