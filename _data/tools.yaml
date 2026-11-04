@@ -85,6 +85,15 @@
   repo: przulj-lab/covid-icell
   tags:
     - network-analysis
+
+- title: Omic Embedding Space
+  subtitle: Linear functional organization of the omics embedding space
+  image: images/tools/embedded-omics.png
+  link: tools/embedded-omics-data-geometry
+  description: Embeddings of molecular networks reveal a linear functional organization of genes in the embedding space
+  repo: przulj-lab/embedded-omics-data-geometry
+  tags:
+    - network-analysis
     
 - title: COVID-19 Drug Targets
   subtitle: Network neighbors of viral targets and DEGs as drug target candidates
