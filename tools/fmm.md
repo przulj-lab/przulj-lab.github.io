@@ -8,10 +8,6 @@ title: "A Functional Analysis of Omic Network Embedding Spaces Reveals Key Alter
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/FMM" text="GitHub" %}
-</div>
-
 This repository presents our work using the Functional Mapping Matrix (FMM).
 
 ## Downloads
