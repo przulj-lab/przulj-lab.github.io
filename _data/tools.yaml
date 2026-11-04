@@ -103,6 +103,16 @@
   repo: przulj-lab/thrombophilia_datasets
   tags:
     - network-analysis
+
+- title: Drugst.One
+  subtitle: Network-based drug repurposing platform
+  group: featured
+  image: images/tools/drugst-one.png
+  link: https://drugst.one/
+  description: Network visualization plugin that integrates gene/protein interactions with drug candidate ranking algorithms for therapeutic discovery.  
+  repo: https://drugst.one/
+  tags:
+    - network-analysis
     
 - title: COVID-19 iCell
   subtitle: iCell-based analysis of COVID-19 and drug repurposing
@@ -137,16 +147,6 @@
   link: tools/probabilistic_graphlets
   description: Probabilistic orbit counter capturing biological function in probabilistic molecular networks
   repo: przulj-lab/Probabilistic_Graphlets
-  tags:
-    - network-analysis
-    
-- title: Drugst.One
-  subtitle: Network-based drug repurposing platform
-  group: featured
-  image: images/tools/drugst-one.png
-  link: https://drugst.one/
-  description: Network visualization plugin that integrates gene/protein interactions with drug candidate ranking algorithms for therapeutic discovery.  
-  repo: https://drugst.one/
   tags:
     - network-analysis
 
