@@ -77,6 +77,15 @@
     - alignment-free
 
 # Network Analysis
+- title: Axes of Biology
+  subtitle: Axes-based network embedding paradigm
+  image: images/tools/axes-of-biology.png
+  link: tools/axes-of-biology
+  description: Functional exploration of the axes of PPI network embedding spaces to uncover the cell's functional organization
+  repo: przulj-lab/axes-of-biology
+  tags:
+    - network-analysis
+    
 - title: Gracoal
   subtitle: Graphlet-based hyperbolic embeddings of genetic networks
   image: images/tools/gracoal.png
