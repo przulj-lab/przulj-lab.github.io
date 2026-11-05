@@ -77,6 +77,15 @@
     - alignment-free
 
 # Network Analysis
+- title: MONFIT
+  subtitle: Multi-omics NMTF integration of time-series data
+  image: images/tools/monfit.png
+  link: tools/monfit
+  description: Integrates time-series scRNA-seq, proteomics and metabolomics data with molecular networks to identify new Parkinson's disease genes
+  repo: przulj-lab/MONFIT
+  tags:
+    - network-analysis
+    
 - title: NetSC-NMTF
   subtitle: Multi-omics integration of scRNA-seq time series for Parkinson's disease
   image: images/tools/netsc-nmtf.png
