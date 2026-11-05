@@ -8,10 +8,6 @@ title: "MONFIT: Multi-Omics Factorization-Based Integration of Time-Series Data 
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/MONFIT" text="GitHub" %}
-</div>
-
 **MONFIT** (Multi-Omics Non-negative matrix tri-Factorization Integration of Time-series) uses NMTF to integrate multi-omics time-point-specific data of scRNA-seq, bulk proteomics, and bulk metabolomics measurements of disease and control samples from a time-series experiment with prior knowledge from molecular interaction networks in terms of PPI, metabolic-interaction (MI), genetic interaction (GI), and COEX, producing gene embeddings. Then, MONFIT holistically mines these embeddings across all time points to identify new disease-associated genes, by applying a new downstream method based on the concept introduced in [Mihajlović et al.](/tools/netscnmtf-2stepmining), which states that those genes whose position changes the most between disease and control samples across all time points are disease-related.
 
 ## Downloads
