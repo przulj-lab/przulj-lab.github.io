@@ -77,6 +77,15 @@
     - alignment-free
 
 # Network Analysis
+- title: NetSC-NMTF
+  subtitle: Multi-omics integration of scRNA-seq time series for Parkinson's disease
+  image: images/tools/netsc-nmtf.png
+  link: tools/netscnmtf-2stepmining
+  description: NMTF-based integration of molecular networks with scRNA-seq data and 2-step mining of gene embeddings to predict PD-related genes
+  repo: przulj-lab/NetSCNMTF-2stepmining
+  tags:
+    - network-analysis
+    
 - title: Axes of Biology
   subtitle: Axes-based network embedding paradigm
   image: images/tools/axes-of-biology.png
