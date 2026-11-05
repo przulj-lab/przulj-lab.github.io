@@ -8,10 +8,12 @@ title: "Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Inter
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-This repository presents the work on Parkinson's disease (PD) that includes: 
-1) NetSC-NMTF - NMTF-based integration model that fuses four molecular interaction networks (protein-protein interaction (PPI), gene co-expression (COEX), metabolic interaction (MI), and genetic interaction (GI) networks) with a scRNA-seq dataset of a PD or control cell line at a specific time point (i.e., cell condition) to obtain gene embedding spaces of individual cell conditions;
-2) a 2-step procedure that mines gene embedding spaces of the cell conditions obtained with NetSC-NMTF to identify PD-related gene predictions;
-3) methods for analyzing the PD-relevance of the gene predictions.
+
+This repository presents the work on Parkinson's disease (PD) that includes:
+ 
+1. **NetSC-NMTF**: an NMTF-based integration model that fuses four molecular interaction networks (protein-protein interaction (PPI), gene co-expression (COEX), metabolic interaction (MI), and genetic interaction (GI) networks) with a scRNA-seq dataset of a PD or control cell line at a specific time point (i.e., cell condition) to obtain gene embedding spaces of individual cell conditions;
+2. a 2-step procedure that mines gene embedding spaces of the cell conditions obtained with NetSC-NMTF to identify PD-related gene predictions;
+3. methods for analyzing the PD-relevance of the gene predictions.
 
 ## Downloads
 
