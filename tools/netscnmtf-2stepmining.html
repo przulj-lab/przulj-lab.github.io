@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="false">
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!--
+  put your analytics (e.g. Google Analytics) tracking code here
+-->
+
+  <!--
+  put your search engine verification (e.g. Google Search Console) tag here
+-->
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson's Disease | PrzuljLab.bio</title>
+
+<link rel="icon" href="/images/icon.png">
+
+<meta name="title" content="Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson's Disease">
+<meta name="description" content="Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.">
+
+<meta property="og:title" content="Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson's Disease">
+<meta property="og:site_title" content="PrzuljLab.bio">
+<meta property="og:description" content="Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.">
+<meta property="og:url" content="https://przuljlab.bio">
+<meta property="og:image" content="">
+<meta property="og:locale" content="en_US">
+
+<meta property="twitter:title" content="Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson's Disease">
+<meta property="twitter:description" content="Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.">
+<meta property="twitter:url" content="https://przuljlab.bio">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:image" content="">
+
+
+  <meta property="og:type" content="website">
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "WebSite",
+    
+    "name": "Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson&apos;s Disease",
+    "description": "Integrative Computational Network Biology Lab @ MBZUAI. The ICON lab is a Leading research group in computational biology and network science applied to multi-omics precision medicine and therapeutics.",
+    "headline": "Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson&apos;s Disease",
+    "publisher": {
+      "@type": "Organization",
+      "logo": { "@type": "ImageObject", "url": "/images/icon.png" }
+    },
+    "url": "https://przuljlab.bio"
+  }
+</script>
+
+<link rel="alternate" type="application/rss+xml" href="https://przuljlab.bio/feed.xml">
+
+  <!-- Google Fonts -->
+<!-- automatically get url from fonts used in theme file -->
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?display=swap&&family=Fira+Code:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Montserrat:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600&amp;family=Open+Sans:ital,wght@0,200;0,400;0,500;0,600;1,200;1,400;1,500;1,600" rel="stylesheet">
+
+<!-- Font Awesome icons (load asynchronously due to size) -->
+
+<link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet" media="none" onload="this.removeAttribute('media'); this.onload = null;">
+<noscript>
+  <link href="https://use.fontawesome.com/releases/v6.7.0/css/all.css" rel="stylesheet">
+</noscript>
+
+  <!-- third party styles -->
+<link href="https://cdn.jsdelivr.net/gh/StylishThemes/Syntax-Themes/pygments/css-github/pygments-tomorrow-night-eighties.css" rel="stylesheet">
+
+<link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
+
+<!-- include all sass in _styles folder (compiled to .css) -->
+
+  
+    <link href="/_styles/-theme.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/alert.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/all.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/anchor.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/background.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/body.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/bold.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/button.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/card.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/checkbox.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/citation.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/code.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/cols.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/dark-toggle.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/details.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/feature.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/figure.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/float.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/font.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/footer.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/form.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/grid.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/header.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/heading.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/highlight.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/icon.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/image.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/link.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/list.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/main.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/news.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/paragraph.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/portrait.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-excerpt.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/post-nav.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/quote.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/rule.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-box.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/search-info.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/section.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+    <link href="/_styles/table.css" rel="stylesheet">
+  
+
+  
+    <link href="/_styles/tags.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/textbox.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/tooltip.css" rel="stylesheet">
+  
+
+  
+
+  
+    <link href="/_styles/util.css" rel="stylesheet">
+  
+
+  
+
+  
+
+  
+
+  
+
+
+<!-- include all css in _styles folder -->
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <!-- third party scripts -->
+<script src="https://unpkg.com/@popperjs/core@2" defer></script>
+<script src="https://unpkg.com/tippy.js@6" defer></script>
+<script src="https://unpkg.com/mark.js@8" defer></script>
+
+<!-- include all js in scripts folder -->
+
+
+  <script src="/_scripts/anchors.js"></script>
+
+  <script src="/_scripts/dark-mode.js"></script>
+
+  <script src="/_scripts/fetch-tags.js"></script>
+
+  <script src="/_scripts/search.js"></script>
+
+  <script src="/_scripts/site-search.js"></script>
+
+  <script src="/_scripts/table-wrap.js"></script>
+
+  <script src="/_scripts/tooltip.js"></script>
+
+
+</head>
+
+  <body>
+    
+
+
+
+
+<header class="background" style="--image: url('/images/campus.webp')" data-dark="true">
+  <a href="/" class="home">
+    
+      <span class="logo">
+        <img src="/images/przuljlab_logo.png" alt="logo">
+      </span>
+    
+    
+      <span class="title-text" data-tooltip="Home">
+        
+        
+         <br>
+          <span class="subtitle">Integrative Computational Network Biology Lab @ MBZUAI</span>
+        
+      </span>
+    
+  </a>
+
+  <input class="nav-toggle" type="checkbox" aria-label="show/hide nav">
+
+  <nav>
+    
+    
+      
+        <a href="/publications/" data-tooltip="Published works">
+          Publications
+        </a>
+      
+    
+      
+        <a href="/tools/" data-tooltip="Software, datasets, and more">
+          Tools
+        </a>
+      
+    
+      
+        <a href="/team/" data-tooltip="Meet our team">
+          Team
+        </a>
+      
+    
+      
+        <a href="/join/" data-tooltip="Join the team">
+          Join
+        </a>
+      
+    
+      
+        <a href="/news/" data-tooltip="Lab news and updates">
+          News
+        </a>
+      
+    
+      
+        <a href="/contact/" data-tooltip="Email, address, and location">
+          Contact
+        </a>
+      
+    
+  </nav>
+</header>
+
+    <main>
+      <!--
+  modify main content of page:
+  - add section breaks
+  - attach section properties
+  - filter out blank sections
+-->
+
+
+
+
+
+
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <h1 style="text-align: center;">Multi-Omics Integration of scRNA-seq Time Series Data Predicts New Intervention Points for Parkinson's Disease</h1>
+
+<p style="text-align: center;"><b>Katarina Mihajlović, Gaia Ceddia, Noël Malod-Dognin, Gabriela Novak, Dimitrios Kyriakis, Alexander Skupin and Nataša Pržulj</b></p>
+
+<p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
+
+<div style="text-align: center;">
+
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/przulj-lab/NetSCNMTF-2stepmining" data-tooltip="GitHub" data-style="" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+        <span>GitHub</span>
+      
+    </a>
+  </div>
+
+</div>
+
+<p>This repository presents the work on Parkinson’s disease (PD) that includes: 
+1) NetSC-NMTF - NMTF-based integration model that fuses four molecular interaction networks (protein-protein interaction (PPI), gene co-expression (COEX), metabolic interaction (MI), and genetic interaction (GI) networks) with a scRNA-seq dataset of a PD or control cell line at a specific time point (i.e., cell condition) to obtain gene embedding spaces of individual cell conditions;
+2) a 2-step procedure that mines gene embedding spaces of the cell conditions obtained with NetSC-NMTF to identify PD-related gene predictions;
+3) methods for analyzing the PD-relevance of the gene predictions.</p>
+
+<h2 id="downloads">Downloads</h2>
+
+<ul>
+  <li><a href="https://github.com/przulj-lab/NetSCNMTF-2stepmining/releases/download/v1.0/NetSCNMTF-2stepmining.zip">Code, data and results (zip)</a></li>
+</ul>
+
+<h2 id="contents">Contents</h2>
+<p>The archive contains all data, scripts and results related to our recent work.
+In particular, you will find:</p>
+<ul>
+  <li>the jupyter notebook <code class="language-plaintext highlighter-rouge">MethodologicalFramework_StepbyStep.ipynb</code> contains the complete pipeline for: integrating molecular interaction networks with individual expression matrices, mining the resulting gene embedding spaces to get PD-related gene predictions, and computational methods for analyzing the PD-relevance of the gene predictions.</li>
+  <li>one folder <code class="language-plaintext highlighter-rouge">CommonData</code> that contains commonly used data in several steps of the pipeline</li>
+  <li>
+    <p>folders for each step of the analysis (Step1 - Step11; <code class="language-plaintext highlighter-rouge">auxStep_JustifyClusteringDistanceApproach</code>) from the jupyter notebook</p>
+  </li>
+  <li>one folder <code class="language-plaintext highlighter-rouge">auxStep_Bestk1k2</code> that contains folders:
+    <ul>
+      <li>
+<code class="language-plaintext highlighter-rouge">step1_ComputeDispersionCoefficient</code> that contains the code on how to compute the dispersion coefficients for multiple combinations of cluster numbers (k<sub>1</sub> and k<sub>2</sub>) for individual cell conditions, and the corresponding results (as zip files)</li>
+      <li>
+<code class="language-plaintext highlighter-rouge">step2_IdentifyBestk1k2</code> that contains the code which visualizes 
+the dispersion coefficients of different k<sub>1</sub> and k<sub>2</sub> values, allowing us to choose k<sub>1</sub> and k<sub>2</sub> that lead to high dispersion coefficients</li>
+    </ul>
+  </li>
+  <li>one folder <code class="language-plaintext highlighter-rouge">auxStep_AdditionalExperiments</code> that contains scripts for performing robustness analyses and additional validation experiments</li>
+</ul>
+
+<p><strong>Note:</strong></p>
+<ul>
+  <li>Scripts containing “slurm” in their title are designed to run on a system that supports such batch processing.</li>
+</ul>
+
+<h2 id="how-to-run-the-notebook">How to run the notebook</h2>
+
+<p>Download and unzip the archive above, then, from the unzipped folder:</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+</code></pre></div></div>
+
+<p>Execute the jupyter notebook <code class="language-plaintext highlighter-rouge">MethodologicalFramework_StepbyStep.ipynb</code></p>
+
+<p>Note that Windows users need to have bash on their system.</p>
+
+<h2 id="citation">Citation</h2>
+
+<p>K. Mihajlović, G. Ceddia, N. Malod-Dognin, G. Novak, D. Kyriakis, A. Skupin and N. Pržulj. Multi-omics integration of scRNA-seq time series data predicts new intervention points for Parkinson’s disease. <em>Scientific Reports</em> 14, 10983 (2024). <a href="https://doi.org/10.1038/s41598-024-61844-3">https://doi.org/10.1038/s41598-024-61844-3</a></p>
+  </section>
+
+
+    </main>
+    
+
+
+<footer class="background" style="--image: url('/images/dorm.jpeg')" data-dark="true" data-size="wide">
+  <!--
+    <div>
+      Extra details like contact info or address
+    </div>
+  -->
+
+  <div>
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="mailto:natasa.przulj@mbzuai.ac.ae" data-tooltip="natasa.przulj@mbzuai.ac.ae" data-style="bare" aria-label="natasa.przulj mbzuai.ac.ae">
+      <i class="icon fa-solid fa-envelope"></i>
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://orcid.org/0000-0002-1290-853X" data-tooltip="ORCID" data-style="bare" aria-label="ORCID">
+      <i class="icon fa-brands fa-orcid"></i>
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://scholar.google.com/citations?user=mLIsLdAAAAAJ" data-tooltip="Google Scholar" data-style="bare" aria-label="Google Scholar">
+      <i class="icon fa-brands fa-google"></i>
+      
+    </a>
+  </div>
+
+    
+      
+      
+      
+
+
+
+  
+  
+  
+  
+  
+  
+  <div class="button-wrapper">
+    <a class="button" href="https://github.com/przulj-lab" data-tooltip="GitHub" data-style="bare" aria-label="GitHub">
+      <i class="icon fa-brands fa-github"></i>
+      
+    </a>
+  </div>
+
+    
+  </div>
+
+  <div>
+    © 2026
+
+    PrzuljLab.bio    |   Integrative Computational Network Biology Lab @ MBZUAI
+
+      |   Built with
+    <a href="https://github.com/greenelab/lab-website-template" target="_blank">
+      LWT
+    </a>
+  </div>
+
+  <input type="checkbox" class="dark-toggle" data-tooltip="Dark mode" aria-label="toggle dark mode" oninput="onDarkToggleChange(event)">
+</footer>
+  </body>
+</html>
