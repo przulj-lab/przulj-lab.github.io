@@ -12,7 +12,6 @@ title: "MONFIT: Multi-Omics Factorization-Based Integration of Time-Series Data 
 
 ## Downloads
 
-- [Code](https://github.com/przulj-lab/MONFIT)
 - [Code, data and results (zip)](https://github.com/przulj-lab/MONFIT/releases/download/v1.0/MONFIT.zip)
 
 ## Contents
