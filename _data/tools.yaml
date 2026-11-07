@@ -150,6 +150,15 @@
   tags:
     - network-analysis
 
+- title: Graphlet Eigencentrality
+  subtitle: Graphlet-based centralities of genes in pathways
+  image: images/tools/graphlet-eigencentrality.png
+  link: tools/graphlet_eigencentrality
+  description: Graphlet eigencentralities capture novel central roles of genes in pathways
+  repo: przulj-lab/graphlet_eigencentrality
+  tags:
+    - network-analysis
+    
 - title: Omic Embedding Space
   subtitle: Linear functional organization of the omics embedding space
   image: images/tools/embedded-omics.png
