@@ -150,6 +150,15 @@
   tags:
     - network-analysis
 
+- title: Pathway-Driven NMTF
+  subtitle: Pathway-driven data integration for cancer mechanisms
+  image: images/tools/pathway-driven-nmtf.png
+  link: tools/pathway_driven_nmtf
+  description: Pathway-driven NMTF embeddings identify cancer-related pathways and genes
+  repo: przulj-lab/pathway_driven_nmtf
+  tags:
+    - network-analysis
+
 - title: Graphlet Eigencentrality
   subtitle: Graphlet-based centralities of genes in pathways
   image: images/tools/graphlet-eigencentrality.png
