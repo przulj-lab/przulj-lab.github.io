@@ -8,10 +8,6 @@ title: "Graphlet Eigencentralities Capture Novel Central Roles of Genes in Pathw
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/graphlet_eigencentrality" text="GitHub" %}
-</div>
-
 This repository contains the data for the paper "Graphlet eigencentralities capture novel central roles of genes in pathways".
 
 ## Data
