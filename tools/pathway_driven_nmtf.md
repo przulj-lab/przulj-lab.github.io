@@ -8,10 +8,6 @@ title: "Identifying Cellular Cancer Mechanisms Through Pathway-Driven Data Integ
 
 <p style="text-align: center;">Corresponding author: Prof. N. Pržulj, <a href="mailto:natasa.przulj@mbzuai.ac.ae">natasa.przulj@mbzuai.ac.ae</a></p>
 
-<div style="text-align: center;">
-{% include button.html type="github" link="przulj-lab/pathway_driven_nmtf" text="GitHub" %}
-</div>
-
 This repository contains the data and source code for the paper "Identifying cellular cancer mechanisms through pathway-driven data integration".
 
 ## Downloads
@@ -20,13 +16,13 @@ This repository contains the data and source code for the paper "Identifying cel
 - [Code and data (zip)](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/pathway_driven_nmtf.zip)
 
 **Precomputed graphlet adjacency matrices (all 7 parts are needed):**
-- [Part 1](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.001)
-- [Part 2](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.002)
-- [Part 3](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.003)
-- [Part 4](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.004)
-- [Part 5](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.005)
-- [Part 6](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.006)
-- [Part 7](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacency_matrices.7z.007)
+- [Part 1](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.001)
+- [Part 2](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.002)
+- [Part 3](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.003)
+- [Part 4](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.004)
+- [Part 5](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.005)
+- [Part 6](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.006)
+- [Part 7](https://github.com/przulj-lab/pathway_driven_nmtf/releases/download/v1.0/adjacenzy_matrices.7z.007)
 
 Download and unzip `pathway_driven_nmtf.zip`, put all 7 parts in its `data/` folder, then extract them with [7-Zip](https://www.7-zip.org/):
 
